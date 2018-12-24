@@ -1,12 +1,12 @@
 # suricata-sample-data
 
-Repository of different output of Suricata data sets. You can download the Suricata data sets
-from the releases page of this repository. Optionally you can read below on how to create your
-own data sets.
+Repository of different outputs of Suricata run against different [pcap](https://en.wikipedia.org/wiki/Pcap)
+data sets. You can download the Suricata data sets from the releases page of this repository. Optionally you can read below
+on how to create your own data sets from your own [pcap](https://en.wikipedia.org/wiki/Pcap).
 
 # Background
 
-[Suricata](https://suricata-ids.org/) is a engine is capable of real
+[Suricata](https://suricata-ids.org/) is an engine that is capable of real
 time intrusion detection (IDS), inline intrusion prevention (IPS), network
 security monitoring (NSM) and offline pcap processing.
 
