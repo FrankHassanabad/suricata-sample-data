@@ -23,7 +23,7 @@ The pcaps I found most interesting for rich data was the
 [The Western Regional Cyber Defense 2018 (wrccdc)](http://www.wrccdc.org/). wrccdc has a rich set of
 different pcap files in their [archives](https://archive.wrccdc.org/) from various
 competitions. I used their [2018 pcap data set](https://archive.wrccdc.org/pcaps/2018/) to
-create my `even.json` files for use.
+create my `even.json` files for personal use.
 
 wrccdc 2018's [topology](https://archive.wrccdc.org/images/2018/wrccdc2018-topology.pdf) from their
 competition looks to be a close to real world scenario.
