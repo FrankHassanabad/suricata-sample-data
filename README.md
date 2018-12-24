@@ -2,8 +2,12 @@
 
 This is a project and repository of different outputs of Suricata run against different
 [pcap](https://en.wikipedia.org/wiki/Pcap) data sets. You can download the Suricata data
-sets from the releases page of this repository. Optionally you can read below on how to
-create your own data sets from your own [pcap](https://en.wikipedia.org/wiki/Pcap) files.
+sets from the releases page of this repository.
+
+[Alerts only zip](https://github.com/FrankHassanabad/suricata-sample-data/releases/download/v1.0.0/eve-alerts-only-wrccdc.zip)
+
+Optionally you can read below on how to create your own data sets from your own
+[pcap](https://en.wikipedia.org/wiki/Pcap) files just like I did.
 
 # Background
 
