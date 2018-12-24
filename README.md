@@ -26,7 +26,7 @@ competitions. I used their [2018 pcap data set](https://archive.wrccdc.org/pcaps
 create my `even.json` files for personal use.
 
 wrccdc 2018's [topology](https://archive.wrccdc.org/images/2018/wrccdc2018-topology.pdf) from their
-competition looks to be a close to real world scenario.
+competition is a close to real world scenario.
 
 ![topology](img/wrccdc2018-topology.png?raw=true)
 
