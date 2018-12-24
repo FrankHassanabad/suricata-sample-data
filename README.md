@@ -14,8 +14,8 @@ network security monitoring (NSM) and offline pcap processing.
 
 This repository contains sample eve log data sets created by Suricata from
 existing [pcap](https://en.wikipedia.org/wiki/Pcap) files as well as instructions
-on how to create them yourself. This is useful if you want to see what alerts
-_only_ data sets look like or play with the rules yourself and re-create your
+on how to create them yourself. This is useful if you want to see what _alerts only_
+data sets look like or play with the rules yourself and re-create your
 own [eve](https://suricata.readthedocs.io/en/suricata-4.1.2/output/eve/eve-json-output.html)
 files for learning purposes to write your own `eve.json` real time simulator.
 
@@ -26,8 +26,7 @@ competitions. I used their [2018 pcap data set](https://archive.wrccdc.org/pcaps
 create my `even.json` files for use.
 
 wrccdc 2018's [topology](https://archive.wrccdc.org/images/2018/wrccdc2018-topology.pdf) from their
-competition looks to be a close to real world scenario which makes the captured pcap files
-rich when during the competition where red teams attack it at the same time their blue teams are using the system.
+competition looks to be a close to real world scenario.
 
 ![topology](img/wrccdc2018-topology.png?raw=true)
 
