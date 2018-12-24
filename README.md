@@ -31,13 +31,13 @@ rich when during the competition where red teams attack it at the same time thei
 
 # How to download all the PCAPS from the competition
 
-Use wget
+Use [wget](https://www.gnu.org/software/wget/)
 
 ```sh
 wget -r -np -k https://archive.wrccdc.org/pcaps/2018/
 ```
 
-This will download over a long period of time all the files to the folder
+This will download over a long period of time all the files to the sub-folder
 
 ```sh
 archive.wrccdc.org/pcaps/2018
