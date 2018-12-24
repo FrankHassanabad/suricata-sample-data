@@ -1,8 +1,9 @@
 # suricata-sample-data
 
-Repository of different outputs of Suricata run against different [pcap](https://en.wikipedia.org/wiki/Pcap)
-data sets. You can download the Suricata data sets from the releases page of this repository. Optionally you can read below
-on how to create your own data sets from your own [pcap](https://en.wikipedia.org/wiki/Pcap).
+This is a project and repository of different outputs of Suricata run against different
+[pcap](https://en.wikipedia.org/wiki/Pcap) data sets. You can download the Suricata data
+sets from the releases page of this repository. Optionally you can read below on how to
+create your own data sets from your own [pcap](https://en.wikipedia.org/wiki/Pcap).
 
 # Background
 
