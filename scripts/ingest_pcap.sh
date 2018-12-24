@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Location of your suricata conf
-CONF_FILE=/usr/local/etc/suricata/suricata.yaml
+CONF_FILE=../conf/suricata.yaml
 
 # Directory of where all the PCAP files are
 PCAP_DIR=/Users/frankhassanabad/projects/pcaps/wrccdc/archive.wrccdc.org/pcaps/2018
