@@ -3,7 +3,7 @@
 This is a project and repository of different outputs of Suricata run against different
 [pcap](https://en.wikipedia.org/wiki/Pcap) data sets. You can download the Suricata data
 sets from the releases page of this repository. Optionally you can read below on how to
-create your own data sets from your own [pcap](https://en.wikipedia.org/wiki/Pcap).
+create your own data sets from your own [pcap](https://en.wikipedia.org/wiki/Pcap) files.
 
 # Background
 
@@ -12,7 +12,7 @@ time intrusion detection [IDS](https://en.wikipedia.org/wiki/Intrusion_detection
 inline intrusion prevention [IPS](https://en.wikipedia.org/wiki/Intrusion_detection_system),
 network security monitoring (NSM) and offline pcap processing.
 
-This repository contains sample eve log data sets created by Suricata from
+This repository contains sample `eve.json` log files created by Suricata from
 existing [pcap](https://en.wikipedia.org/wiki/Pcap) files as well as instructions
 on how to create them yourself. This is useful if you want to see what _alerts only_
 data sets look like or play with the rules yourself and re-create your
