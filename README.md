@@ -8,8 +8,9 @@ create your own data sets from your own [pcap](https://en.wikipedia.org/wiki/Pca
 # Background
 
 [Suricata](https://suricata-ids.org/) is an engine that is capable of real
-time intrusion detection (IDS), inline intrusion prevention (IPS), network
-security monitoring (NSM) and offline pcap processing.
+time intrusion detection [IDS](https://en.wikipedia.org/wiki/Intrusion_detection_system),
+inline intrusion prevention [IPS](https://en.wikipedia.org/wiki/Intrusion_detection_system),
+network security monitoring (NSM) and offline pcap processing.
 
 This repository contains sample eve log data sets created by Suricata from
 existing [pcap](https://en.wikipedia.org/wiki/Pcap) files as well as instructions
