@@ -6,6 +6,8 @@ sets from the releases page of this repository.
 
 [Alerts only zip](https://github.com/FrankHassanabad/suricata-sample-data/releases/download/v1.0.0/eve-alerts-only-wrccdc.zip)
 
+[Select samples of the alerts from the zip](samples/sample-alerts.json)
+
 Optionally you can read below on how to create your own data sets from your own
 [pcap](https://en.wikipedia.org/wiki/Pcap) files just like I did.
 
