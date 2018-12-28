@@ -107,7 +107,7 @@ stats to `enabled: false`. See [conf/suricata.yaml](conf/suricata.yaml) for my e
 # How to write a script to parse each file
 
 See [scripts/ingest_pcap.sh](scripts/ingest_pcap.sh) for a simple for loop which will run suricata
-and output your eve.json file (/usr/local/var/log/suricata/eve.json) on each pcap file in a particular folder.
+and append to your eve.json file for each pcap file in a particular folder.
 
 # SID allocations
 
