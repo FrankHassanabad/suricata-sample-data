@@ -21,8 +21,6 @@ jq '.[].alert.signature' alerts-only.json > signature-list.txt
 The mission of the Collegiate Cyber Defense Competition (CCDC) system
 http://www.wrccdc.org/
 
-first-org-conf data set comes from:
-
 Hands-on Network Forensics - Training PCAP dataset from FIRST 2015
 https://www.netresec.com/?page=PcapFiles
 https://www.first.org/conference/2015/program#phands-on-network-forensics
