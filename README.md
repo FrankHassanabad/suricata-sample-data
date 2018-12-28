@@ -8,15 +8,13 @@ sets from the releases page of this repository.
 
 # Select samples of alerts from the zip
 
-[samples/README.md](samples/README.md)
+Samples README and starting folder of the files generated from the eve files
 
-Samples and `eve.json` files are generated from:
+[samples/README.md](samples/README.md)
 
 ## Hands-on Network Forensics - Training PCAP dataset from FIRST 2015
 
-https://www.netresec.com/?page=PcapFiles
-
-https://www.first.org/conference/2015/program#phands-on-network-forensics
+[samples/first-org-conf-2015](samples/first-org-conf-2015) are generated from the downloads mirrored here https://www.netresec.com/?page=PcapFiles from the first.org conference https://www.first.org/conference/2015/program#phands-on-network-forensics
 
 [samples/first-org-conf-2015/alerts-only.txt](samples/first-org-conf-2015/alerts-only.txt)
 
