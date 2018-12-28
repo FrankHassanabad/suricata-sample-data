@@ -13,19 +13,27 @@ sets from the releases page of this repository.
 Samples and `eve.json` files are generated from:
 
 Hands-on Network Forensics - Training PCAP dataset from FIRST 2015
+
 https://www.netresec.com/?page=PcapFiles
+
 https://www.first.org/conference/2015/program#phands-on-network-forensics
 
 [samples/first-org-conf-2015/alerts-only.txt](samples/first-org-conf-2015/alerts-only.txt)
+
 [samples/first-org-conf-2015/ids-list.txt](samples/first-org-conf-2015/ids-list.txt)
+
 [samples/first-org-conf-2015/signature-list.txt](samples/first-org-conf-2015/signature-list.txt)
 
 The mission of the Collegiate Cyber Defense Competition (CCDC) system 2018
+
 http://www.wrccdc.org/
+
 https://archive.wrccdc.org/pcaps/2018/
 
 [samples/wrccdc-2018/ids-list.txt](samples/wrccdc-2018/ids-list.txt)
+
 [samples/wrccdc-2018/alerts-only.txt](samples/wrccdc-2018/alerts-only.txt)
+
 [samples/wrccdc-2018/signature-list.txt](samples/wrccdc-2018/signature-list.txt)
 
 Optionally you can read below on how to (re)create your own data sets from your own
@@ -60,7 +68,7 @@ As well as using the Hands-on Network Forensics - Training PCAP dataset from FIR
 https://www.netresec.com/?page=PcapFiles
 https://www.first.org/conference/2015/program#phands-on-network-forensics
 
-![topology](img/wrccdc2018-topology.png)
+![topology](img/pawned-se.png?raw=true)
 
 # How to download all the PCAPS from the 2018 competition
 
