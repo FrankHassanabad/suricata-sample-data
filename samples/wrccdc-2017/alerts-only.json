@@ -1,0 +1,5764 @@
+[
+  {
+    "timestamp": "2017-03-25T16:49:58.856335-0600",
+    "flow_id": 1127398650588751,
+    "pcap_cnt": 678537,
+    "event_type": "alert",
+    "src_ip": "84.92.227.177",
+    "src_port": 6668,
+    "dest_ip": "10.192.19.6",
+    "dest_port": 57966,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2000355,
+      "rev": 5,
+      "signature": "ET CHAT IRC authorization message",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "app_proto": "ftp",
+    "app_proto_tc": "failed",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 8,
+      "bytes_toserver": 708,
+      "bytes_toclient": 4091,
+      "start": "2017-03-25T16:49:58.044623-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:39:27.566904-0600",
+    "flow_id": 1755138138505886,
+    "pcap_cnt": 843198,
+    "event_type": "alert",
+    "src_ip": "10.47.1.2",
+    "src_port": 23,
+    "dest_ip": "10.192.0.158",
+    "dest_port": 36887,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001239,
+      "rev": 9,
+      "signature": "ET POLICY Cisco Device in Config Mode",
+      "category": "Not Suspicious Traffic",
+      "severity": 3
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 212,
+      "pkts_toclient": 213,
+      "bytes_toserver": 12860,
+      "bytes_toclient": 18886,
+      "start": "2017-03-25T16:37:59.656030-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:39:27.566904-0600",
+    "flow_id": 1755138138505886,
+    "pcap_cnt": 843198,
+    "event_type": "alert",
+    "src_ip": "10.47.1.2",
+    "src_port": 23,
+    "dest_ip": "10.192.0.158",
+    "dest_port": 36887,
+    "proto": "TCP",
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 212,
+      "pkts_toclient": 213,
+      "bytes_toserver": 12860,
+      "bytes_toclient": 18886,
+      "start": "2017-03-25T16:37:59.656030-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001240,
+      "rev": 9,
+      "signature": "ET POLICY Cisco Device New Config Built",
+      "category": "Not Suspicious Traffic",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:02:10.725355-0600",
+    "flow_id": 1237324163846428,
+    "pcap_cnt": 236290,
+    "event_type": "alert",
+    "src_ip": "10.192.5.200",
+    "src_port": 57304,
+    "dest_ip": "10.10.8.6",
+    "dest_port": 445,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001569,
+      "rev": 15,
+      "signature": "ET SCAN Behavioral Unusual Port 445 traffic Potential Scan or Infection",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "flow": {
+      "pkts_toserver": 2,
+      "pkts_toclient": 0,
+      "bytes_toserver": 148,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T14:02:10.725276-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:04:30.413770-0600",
+    "flow_id": 1915383544959049,
+    "pcap_cnt": 172556,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 58677,
+    "dest_ip": "10.10.1.14",
+    "dest_port": 139,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001579,
+      "rev": 15,
+      "signature": "ET SCAN Behavioral Unusual Port 139 traffic Potential Scan or Infection",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "flow": {
+      "pkts_toserver": 2,
+      "pkts_toclient": 0,
+      "bytes_toserver": 120,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T14:04:30.413769-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:29:35.130509-0600",
+    "flow_id": 741120021569431,
+    "pcap_cnt": 55149,
+    "event_type": "alert",
+    "src_ip": "10.255.255.69",
+    "src_port": 50609,
+    "dest_ip": "10.10.7.9",
+    "dest_port": 137,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001580,
+      "rev": 15,
+      "signature": "ET SCAN Behavioral Unusual Port 137 traffic Potential Scan or Infection",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "flow": {
+      "pkts_toserver": 8,
+      "pkts_toclient": 0,
+      "bytes_toserver": 624,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T13:29:35.008087-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:44.363761-0600",
+    "flow_id": 308649145699562,
+    "pcap_cnt": 254219,
+    "event_type": "alert",
+    "src_ip": "10.255.255.69",
+    "src_port": 54781,
+    "dest_ip": "10.10.3.184",
+    "dest_port": 135,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001581,
+      "rev": 15,
+      "signature": "ET SCAN Behavioral Unusual Port 135 traffic Potential Scan or Infection",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "flow": {
+      "pkts_toserver": 2,
+      "pkts_toclient": 0,
+      "bytes_toserver": 156,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T13:59:44.363754-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:00:40.935332-0600",
+    "flow_id": 197862615424754,
+    "pcap_cnt": 923819,
+    "event_type": "alert",
+    "src_ip": "10.250.250.250",
+    "src_port": 53786,
+    "dest_ip": "10.10.3.10",
+    "dest_port": 1434,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001582,
+      "rev": 15,
+      "signature": "ET SCAN Behavioral Unusual Port 1434 traffic Potential Scan or Infection",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 0,
+      "bytes_toserver": 468,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T14:00:40.859890-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:00:44.665840-0600",
+    "flow_id": 1978704232972305,
+    "pcap_cnt": 966972,
+    "event_type": "alert",
+    "src_ip": "10.250.250.250",
+    "src_port": 54232,
+    "dest_ip": "10.10.3.10",
+    "dest_port": 1433,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2001583,
+      "rev": 16,
+      "signature": "ET SCAN Behavioral Unusual Port 1433 traffic Potential Scan or Infection",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 0,
+      "bytes_toserver": 468,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T14:00:44.589841-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:50:50.149505-0600",
+    "flow_id": 1127398650588751,
+    "event_type": "alert",
+    "src_ip": "10.192.19.6",
+    "src_port": 57966,
+    "dest_ip": "84.92.227.177",
+    "dest_port": 6668,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2002023,
+      "rev": 16,
+      "signature": "ET CHAT IRC USER command",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "vars": {
+      "flowbits": {
+        "is_proto_irc": true
+      }
+    },
+    "app_proto": "ftp",
+    "app_proto_tc": "failed",
+    "flow": {
+      "pkts_toserver": 23,
+      "pkts_toclient": 20,
+      "bytes_toserver": 1957,
+      "bytes_toclient": 8045,
+      "start": "2017-03-25T16:49:58.044623-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:50:50.149505-0600",
+    "flow_id": 1127398650588751,
+    "event_type": "alert",
+    "src_ip": "10.192.19.6",
+    "src_port": 57966,
+    "dest_ip": "84.92.227.177",
+    "dest_port": 6668,
+    "proto": "TCP",
+    "vars": {
+      "flowbits": {
+        "is_proto_irc": true
+      }
+    },
+    "app_proto": "ftp",
+    "app_proto_tc": "failed",
+    "flow": {
+      "pkts_toserver": 23,
+      "pkts_toclient": 20,
+      "bytes_toserver": 1957,
+      "bytes_toclient": 8045,
+      "start": "2017-03-25T16:49:58.044623-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2002024,
+      "rev": 19,
+      "signature": "ET CHAT IRC NICK command",
+      "category": "Misc activity",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:50:50.149505-0600",
+    "flow_id": 1127398650588751,
+    "event_type": "alert",
+    "src_ip": "10.192.19.6",
+    "src_port": 57966,
+    "dest_ip": "84.92.227.177",
+    "dest_port": 6668,
+    "proto": "TCP",
+    "vars": {
+      "flowbits": {
+        "is_proto_irc": true
+      }
+    },
+    "app_proto": "ftp",
+    "app_proto_tc": "failed",
+    "flow": {
+      "pkts_toserver": 23,
+      "pkts_toclient": 20,
+      "bytes_toserver": 1957,
+      "bytes_toclient": 8045,
+      "start": "2017-03-25T16:49:58.044623-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2002025,
+      "rev": 19,
+      "signature": "ET CHAT IRC JOIN command",
+      "category": "Misc activity",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:50:50.149505-0600",
+    "flow_id": 1127398650588751,
+    "event_type": "alert",
+    "src_ip": "10.192.19.6",
+    "src_port": 57966,
+    "dest_ip": "84.92.227.177",
+    "dest_port": 6668,
+    "proto": "TCP",
+    "vars": {
+      "flowbits": {
+        "is_proto_irc": true
+      }
+    },
+    "app_proto": "ftp",
+    "app_proto_tc": "failed",
+    "flow": {
+      "pkts_toserver": 23,
+      "pkts_toclient": 20,
+      "bytes_toserver": 1957,
+      "bytes_toclient": 8045,
+      "start": "2017-03-25T16:49:58.044623-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2002026,
+      "rev": 21,
+      "signature": "ET CHAT IRC PRIVMSG command",
+      "category": "Misc activity",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:22:18.763993-0600",
+    "flow_id": 2041465235090146,
+    "event_type": "alert",
+    "src_ip": "10.192.88.98",
+    "src_port": 56782,
+    "dest_ip": "173.194.203.125",
+    "dest_port": 5222,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2002327,
+      "rev": 4,
+      "signature": "ET CHAT Google Talk (Jabber) Client Login",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 28,
+      "pkts_toclient": 26,
+      "bytes_toserver": 4023,
+      "bytes_toclient": 6760,
+      "start": "2017-03-24T17:22:16.961250-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:22:18.763993-0600",
+    "flow_id": 2041465235090146,
+    "event_type": "alert",
+    "src_ip": "10.192.88.98",
+    "src_port": 56782,
+    "dest_ip": "173.194.203.125",
+    "dest_port": 5222,
+    "proto": "TCP",
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 28,
+      "pkts_toclient": 26,
+      "bytes_toserver": 4023,
+      "bytes_toclient": 6760,
+      "start": "2017-03-24T17:22:16.961250-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2002334,
+      "rev": 5,
+      "signature": "ET CHAT Google IM traffic Jabber client sign-on",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:31:15.884387-0600",
+    "flow_id": 1115585577713315,
+    "pcap_cnt": 257488,
+    "event_type": "alert",
+    "src_ip": "10.10.3.71",
+    "src_port": 46286,
+    "dest_ip": "172.13.16.55",
+    "dest_port": 22,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2003068,
+      "rev": 7,
+      "signature": "ET SCAN Potential SSH Scan OUTBOUND",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 74,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T14:31:15.884387-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:01:29.933314-0600",
+    "flow_id": 1846490110167913,
+    "pcap_cnt": 194268,
+    "event_type": "alert",
+    "src_ip": "10.10.8.168",
+    "src_port": 1698,
+    "dest_ip": "169.55.0.224",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2006380,
+      "rev": 12,
+      "signature": "ET POLICY Outgoing Basic Auth Base64 HTTP Password detected unencrypted",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "www.internetdownloadmanager.com",
+      "url": "/data/update623.txt?v=628b1",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko",
+      "http_content_type": "text/plain",
+      "http_refer": "http://www.internetdownloadmanager.com/data/",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 4937
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 744,
+      "bytes_toclient": 5411,
+      "start": "2017-03-24T14:01:29.854889-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:44:33.906616-0600",
+    "flow_id": 2230894147288053,
+    "event_type": "alert",
+    "src_ip": "10.10.1.185",
+    "src_port": 36324,
+    "dest_ip": "23.5.251.27",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2007994,
+      "rev": 20,
+      "signature": "ET MALWARE Suspicious User-Agent (1 space)",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "s2.symcb.com",
+      "url": "/MHEwbzBNMEswSTAJBgUrDgMCGgUABBS56bKHAoUD%2BOyl%2B0LhPg9JxyQm4gQUf9Nlp8Ld7LvwMAnzQzn6Aq8zMTMCEFE%2FuXQ4cLc0QEGNMJMGmf%2BiHjAcMBoGCSsGAQUFBzABBAQNMAsGCSsGAQUFBzABAQ%3D%3D",
+      "http_user_agent": "",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 3,
+      "pkts_toclient": 2,
+      "bytes_toserver": 481,
+      "bytes_toclient": 140,
+      "start": "2017-03-24T14:44:30.867317-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:02:21.432068-0600",
+    "flow_id": 816090643797956,
+    "pcap_cnt": 4130,
+    "event_type": "alert",
+    "src_ip": "10.93.1.1",
+    "src_port": 54134,
+    "dest_ip": "255.255.255.255",
+    "dest_port": 69,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2008119,
+      "rev": 3,
+      "signature": "ET TFTP Outbound TFTP Error Message",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 65,
+      "bytes_toclient": 0,
+      "start": "2017-03-25T16:02:21.432068-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T15:41:32.719136-0600",
+    "flow_id": 1526151735212320,
+    "pcap_cnt": 613885,
+    "event_type": "alert",
+    "src_ip": "10.192.0.226",
+    "src_port": 51487,
+    "dest_ip": "46.39.238.70",
+    "dest_port": 3838,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2008581,
+      "rev": 3,
+      "signature": "ET P2P BitTorrent DHT ping request",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 100,
+      "bytes_toclient": 0,
+      "start": "2017-03-25T15:41:32.719136-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:09:27.610866-0600",
+    "flow_id": 1522694394732258,
+    "pcap_cnt": 303841,
+    "event_type": "alert",
+    "src_ip": "10.192.0.226",
+    "src_port": 51487,
+    "dest_ip": "109.251.24.8",
+    "dest_port": 37991,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2008583,
+      "rev": 4,
+      "signature": "ET P2P BitTorrent DHT nodes reply",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 5,
+      "bytes_toserver": 620,
+      "bytes_toclient": 3237,
+      "start": "2017-03-25T16:09:03.188130-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:13:48.888290-0600",
+    "flow_id": 1006297602043853,
+    "pcap_cnt": 759052,
+    "event_type": "alert",
+    "src_ip": "10.192.0.226",
+    "src_port": 51487,
+    "dest_ip": "176.98.8.113",
+    "dest_port": 51413,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2008585,
+      "rev": 4,
+      "signature": "ET P2P BitTorrent DHT announce_peers request",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 425,
+      "pkts_toclient": 255,
+      "bytes_toserver": 590326,
+      "bytes_toclient": 19053,
+      "start": "2017-03-25T16:11:39.569293-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:20:18.668789-0600",
+    "flow_id": 2232286565287223,
+    "pcap_cnt": 733681,
+    "event_type": "alert",
+    "src_ip": "10.192.88.98",
+    "src_port": 57410,
+    "dest_ip": "104.27.192.92",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2008986,
+      "rev": 7,
+      "signature": "ET POLICY IP Check Domain (whatismyip in HTTP Host)",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "www.whatismyip.com",
+      "url": "/",
+      "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 301,
+      "redirect": "https://www.whatismyip.com/",
+      "length": 185
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 639,
+      "bytes_toclient": 755,
+      "start": "2017-03-24T18:20:18.443703-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T11:23:27.653055-0600",
+    "flow_id": 608151632555552,
+    "pcap_cnt": 249871,
+    "event_type": "alert",
+    "src_ip": "10.10.1.107",
+    "src_port": 59620,
+    "dest_ip": "37.252.248.78",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2009475,
+      "rev": 11,
+      "signature": "ET POLICY TeamViewer Dyngate User-Agent",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "ping3.teamviewer.com",
+      "url": "/din.aspx?s=00000000&id=0&client=DynGate&p=10000001",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; DynGate)",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 8,
+      "pkts_toclient": 1,
+      "bytes_toserver": 1286,
+      "bytes_toclient": 66,
+      "start": "2017-03-24T11:23:19.667168-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:32.031095-0600",
+    "flow_id": 1761144807387959,
+    "pcap_cnt": 117118,
+    "event_type": "alert",
+    "src_ip": "10.10.2.9",
+    "src_port": 3306,
+    "dest_ip": "10.0.0.111",
+    "dest_port": 42786,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2010493,
+      "rev": 2,
+      "signature": "ET SCAN Non-Allowed Host Tried to Connect to MySQL Server",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 3,
+      "pkts_toclient": 3,
+      "bytes_toserver": 206,
+      "bytes_toclient": 277,
+      "start": "2017-03-24T13:59:32.029495-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T11:22:24.038302-0600",
+    "flow_id": 2141795623362105,
+    "pcap_cnt": 550840,
+    "event_type": "alert",
+    "src_ip": "10.10.1.166",
+    "src_port": 62956,
+    "dest_ip": "23.194.103.164",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2010645,
+      "rev": 8,
+      "signature": "ET POLICY User-Agent (Launcher)",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "download.microsoft.com",
+      "url": "/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller_amd64_en-US.msi",
+      "http_user_agent": "WPILauncher/1.0",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 10,
+      "bytes_toserver": 482,
+      "bytes_toclient": 12238,
+      "start": "2017-03-25T11:22:23.974393-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T12:52:48.196718-0600",
+    "flow_id": 174313042635547,
+    "pcap_cnt": 1018169,
+    "event_type": "alert",
+    "src_ip": "104.68.100.133",
+    "src_port": 80,
+    "dest_ip": "10.10.1.70",
+    "dest_port": 53000,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2011507,
+      "rev": 8,
+      "signature": "ET POLICY PDF With Embedded File",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "www.vmware.com",
+      "url": "/content/dam/digitalmarketing/vmware/en/pdf/partners/netapp/designing-secure-multi-tenancy-into-virtualized-data-center.pdf",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "http_content_type": "application/pdf",
+      "http_refer": "http://www.bing.com/search?q=secure+multi+tenant+environment&qs=n&form=QBRE&sp=-1&pq=secure+multi+tenant+environment&sc=0-28&sk=&cvid=15EADF7FAC3E4A538FD91880928DC3BB",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 42166
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 36,
+      "pkts_toclient": 41,
+      "bytes_toserver": 3146,
+      "bytes_toclient": 59172,
+      "start": "2017-03-24T12:52:44.617243-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T15:41:54.998970-0600",
+    "flow_id": 1693994762800804,
+    "event_type": "alert",
+    "src_ip": "10.192.0.226",
+    "src_port": 63265,
+    "dest_ip": "195.82.146.123",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2011699,
+      "rev": 6,
+      "signature": "ET P2P Bittorrent P2P Client User-Agent (Transmission/1.x)",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "bt4.t-ru.org",
+      "url": "/ann?info_hash=n%28%c0%7cEb%5e%d1%bcK%e0%1dT%df%27%21V%a2%d2%bf&peer_id=-TR284Z-8hxc0m7y3quo&port=51487&uploaded=0&downloaded=0&left=0&numwant=80&key=3db6a2fb&compact=1&supportcrypto=1&event=started",
+      "http_user_agent": "Transmission/2.84+",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 3,
+      "pkts_toclient": 2,
+      "bytes_toserver": 508,
+      "bytes_toclient": 120,
+      "start": "2017-03-25T15:41:42.757412-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T16:04:06.645537-0600",
+    "flow_id": 1033225649957667,
+    "pcap_cnt": 30060,
+    "event_type": "alert",
+    "src_ip": "192.187.122.131",
+    "src_port": 80,
+    "dest_ip": "10.192.0.6",
+    "dest_port": 53642,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012041,
+      "rev": 2,
+      "signature": "ET WEB_CLIENT Hex Obfuscation of String.fromCharCode % Encoding",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "www.r57c99.com",
+      "url": "/1490393041-r57txt.html",
+      "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36",
+      "http_content_type": "application/zip",
+      "http_refer": "http://www.r57c99.com/",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 14238
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 14,
+      "pkts_toclient": 13,
+      "bytes_toserver": 1491,
+      "bytes_toclient": 16739,
+      "start": "2017-03-24T16:04:06.502563-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T16:01:24.436813-0600",
+    "flow_id": 1707784612932091,
+    "pcap_cnt": 314684,
+    "event_type": "alert",
+    "src_ip": "192.187.122.131",
+    "src_port": 80,
+    "dest_ip": "10.192.0.6",
+    "dest_port": 52855,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012043,
+      "rev": 2,
+      "signature": "ET WEB_CLIENT Hex Obfuscation of charCodeAt % Encoding",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 3,
+      "pkts_toclient": 8,
+      "bytes_toserver": 674,
+      "bytes_toclient": 12066,
+      "start": "2017-03-24T16:01:24.387579-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T16:01:24.436813-0600",
+    "flow_id": 1707784612932091,
+    "pcap_cnt": 314684,
+    "event_type": "alert",
+    "src_ip": "192.187.122.131",
+    "src_port": 80,
+    "dest_ip": "10.192.0.6",
+    "dest_port": 52855,
+    "proto": "TCP",
+    "flow": {
+      "pkts_toserver": 3,
+      "pkts_toclient": 8,
+      "bytes_toserver": 674,
+      "bytes_toclient": 12066,
+      "start": "2017-03-24T16:01:24.387579-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012059,
+      "rev": 2,
+      "signature": "ET WEB_CLIENT Hex Obfuscation of document.write % Encoding",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2017-03-24T16:04:06.645537-0600",
+    "flow_id": 1033225649957667,
+    "pcap_cnt": 30060,
+    "event_type": "alert",
+    "src_ip": "192.187.122.131",
+    "src_port": 80,
+    "dest_ip": "10.192.0.6",
+    "dest_port": 53642,
+    "proto": "TCP",
+    "http": {
+      "hostname": "www.r57c99.com",
+      "url": "/1490393041-r57txt.html",
+      "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36",
+      "http_content_type": "application/zip",
+      "http_refer": "http://www.r57c99.com/",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 14238
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 14,
+      "pkts_toclient": 13,
+      "bytes_toserver": 1491,
+      "bytes_toclient": 16739,
+      "start": "2017-03-24T16:04:06.502563-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012263,
+      "rev": 4,
+      "signature": "ET WEB_CLIENT Hex Obfuscation of Script Tag % Encoding",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2017-03-24T16:04:06.645537-0600",
+    "flow_id": 1033225649957667,
+    "pcap_cnt": 30060,
+    "event_type": "alert",
+    "src_ip": "192.187.122.131",
+    "src_port": 80,
+    "dest_ip": "10.192.0.6",
+    "dest_port": 53642,
+    "proto": "TCP",
+    "http": {
+      "hostname": "www.r57c99.com",
+      "url": "/1490393041-r57txt.html",
+      "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36",
+      "http_content_type": "application/zip",
+      "http_refer": "http://www.r57c99.com/",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 14238
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 14,
+      "pkts_toclient": 13,
+      "bytes_toserver": 1491,
+      "bytes_toclient": 16739,
+      "start": "2017-03-24T16:04:06.502563-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012266,
+      "rev": 4,
+      "signature": "ET WEB_CLIENT Hex Obfuscation of unescape % Encoding",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2017-03-24T16:04:06.645537-0600",
+    "flow_id": 1033225649957667,
+    "pcap_cnt": 30060,
+    "event_type": "alert",
+    "src_ip": "192.187.122.131",
+    "src_port": 80,
+    "dest_ip": "10.192.0.6",
+    "dest_port": 53642,
+    "proto": "TCP",
+    "http": {
+      "hostname": "www.r57c99.com",
+      "url": "/1490393041-r57txt.html",
+      "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36",
+      "http_content_type": "application/zip",
+      "http_refer": "http://www.r57c99.com/",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 14238
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 14,
+      "pkts_toclient": 13,
+      "bytes_toserver": 1491,
+      "bytes_toclient": 16739,
+      "start": "2017-03-24T16:04:06.502563-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012269,
+      "rev": 3,
+      "signature": "ET WEB_CLIENT Hex Obfuscation of substr % Encoding",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2017-03-24T12:44:20.427548-0600",
+    "flow_id": 108252117632540,
+    "pcap_cnt": 79599,
+    "event_type": "alert",
+    "src_ip": "10.192.0.2",
+    "src_port": 44772,
+    "dest_ip": "10.0.0.100",
+    "dest_port": 53,
+    "proto": "UDP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012522,
+      "rev": 2,
+      "signature": "ET POLICY DNS Query For XXX Adult Site Top Level Domain",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 87,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T12:44:20.427548-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:38.769252-0600",
+    "flow_id": 555850283007204,
+    "pcap_cnt": 189193,
+    "event_type": "alert",
+    "src_ip": "10.192.0.6",
+    "src_port": 17500,
+    "dest_ip": "255.255.255.255",
+    "dest_port": 17500,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012648,
+      "rev": 3,
+      "signature": "ET POLICY Dropbox Client Broadcasting",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 265,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T13:59:38.769252-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:52:56.751599-0600",
+    "flow_id": 2167161160781922,
+    "pcap_cnt": 196023,
+    "event_type": "alert",
+    "src_ip": "10.192.0.232",
+    "src_port": 39122,
+    "dest_ip": "10.10.2.9",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012843,
+      "rev": 3,
+      "signature": "ET POLICY Cleartext WordPress Login",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "10.10.2.9",
+      "url": "/wp-login.php",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0",
+      "http_content_type": "text/html",
+      "http_refer": "http://10.10.2.9/wp-login.php",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 1055
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 9,
+      "bytes_toserver": 1556,
+      "bytes_toclient": 7432,
+      "start": "2017-03-24T14:52:56.577634-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:54:58.745516-0600",
+    "flow_id": 44987997320728,
+    "pcap_cnt": 561047,
+    "event_type": "alert",
+    "src_ip": "10.192.0.6",
+    "src_port": 51148,
+    "dest_ip": "172.16.21.51",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 13,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012886,
+      "rev": 3,
+      "signature": "ET POLICY Http Client Body contains passwd= in cleartext",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "172.16.21.51",
+      "url": "/administrator/index.php",
+      "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36",
+      "http_content_type": "text/html",
+      "http_refer": "http://172.16.21.51/administrator/",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 303,
+      "redirect": "http://172.16.21.51/administrator/index.php",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 315,
+      "pkts_toclient": 480,
+      "bytes_toserver": 35782,
+      "bytes_toclient": 695266,
+      "start": "2017-03-24T15:54:33.554520-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:28:28.873665-0600",
+    "flow_id": 617064417742445,
+    "pcap_cnt": 528818,
+    "event_type": "alert",
+    "src_ip": "10.255.0.26",
+    "src_port": 65391,
+    "dest_ip": "172.16.17.14",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012887,
+      "rev": 3,
+      "signature": "ET POLICY Http Client Body contains pass= in cleartext",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "www.farmtrax7.com",
+      "url": "/user",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+      "http_content_type": "text/html",
+      "http_refer": "http://www.farmtrax7.com/user",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2764
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 10,
+      "bytes_toserver": 1806,
+      "bytes_toclient": 7028,
+      "start": "2017-03-24T14:28:28.740973-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:52:56.751599-0600",
+    "flow_id": 2167161160781922,
+    "pcap_cnt": 196023,
+    "event_type": "alert",
+    "src_ip": "10.192.0.232",
+    "src_port": 39122,
+    "dest_ip": "10.10.2.9",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "10.10.2.9",
+      "url": "/wp-login.php",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0",
+      "http_content_type": "text/html",
+      "http_refer": "http://10.10.2.9/wp-login.php",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 1055
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 9,
+      "bytes_toserver": 1556,
+      "bytes_toclient": 7432,
+      "start": "2017-03-24T14:52:56.577634-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2012888,
+      "rev": 3,
+      "signature": "ET POLICY Http Client Body contains pwd= in cleartext",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:08:15.967745-0600",
+    "flow_id": 2014429800501484,
+    "pcap_cnt": 288290,
+    "event_type": "alert",
+    "src_ip": "10.10.1.135",
+    "src_port": 57516,
+    "dest_ip": "178.62.196.187",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013028,
+      "rev": 4,
+      "signature": "ET POLICY curl User-Agent Outbound",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "q.xfil.pw",
+      "url": "/py.py",
+      "http_user_agent": "curl/7.53.0",
+      "http_content_type": "text/x-python",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 1432
+    },
+    "vars": {
+      "flowbits": {
+        "ET.Suspicious.Domain.Fake.Browser": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 350,
+      "bytes_toclient": 1872,
+      "start": "2017-03-24T14:08:15.659692-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:37:23.211809-0600",
+    "flow_id": 2072792785913226,
+    "pcap_cnt": 795220,
+    "event_type": "alert",
+    "src_ip": "10.192.0.227",
+    "src_port": 47926,
+    "dest_ip": "185.29.16.50",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013030,
+      "rev": 4,
+      "signature": "ET POLICY libwww-perl User-Agent",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "web-center.si",
+      "url": "/joomscan/joomscandb-info.php?1490398640",
+      "http_user_agent": "libwww-perl/6.15",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 21
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 427,
+      "bytes_toclient": 422,
+      "start": "2017-03-24T17:37:22.755082-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:09:55.330106-0600",
+    "flow_id": 1499394508147464,
+    "event_type": "alert",
+    "src_ip": "172.16.33.6",
+    "src_port": 39794,
+    "dest_ip": "173.254.22.21",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013031,
+      "rev": 5,
+      "signature": "ET POLICY Python-urllib/ Suspicious User Agent",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "iredmail.org",
+      "url": "/version/check.py/ose.xml?lang=en_US&host=lana.spytellite.com&backend=pgsql&v=0.7",
+      "http_user_agent": "Python-urllib/2.7",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 3,
+      "pkts_toclient": 2,
+      "bytes_toserver": 401,
+      "bytes_toclient": 140,
+      "start": "2017-03-24T14:09:45.150280-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:22:24.149277-0600",
+    "flow_id": 603840425500782,
+    "pcap_cnt": 535760,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 53238,
+    "dest_ip": "10.10.1.115",
+    "dest_port": 21,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013263,
+      "rev": 3,
+      "signature": "ET SCAN Nessus FTP Scan detected (ftp_anonymous.nasl)",
+      "category": "Attempted Information Leak",
+      "severity": 2
+    },
+    "app_proto": "ftp",
+    "flow": {
+      "pkts_toserver": 9,
+      "pkts_toclient": 8,
+      "bytes_toserver": 666,
+      "bytes_toclient": 652,
+      "start": "2017-03-24T15:22:24.073838-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:01:17.639794-0600",
+    "flow_id": 1435966395719698,
+    "event_type": "alert",
+    "src_ip": "10.10.7.172",
+    "src_port": 36750,
+    "dest_ip": "91.189.92.150",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013504,
+      "rev": 5,
+      "signature": "ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management",
+      "category": "Not Suspicious Traffic",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "archive.canonical.com",
+      "url": "/ubuntu/dists/precise/partner/source/Sources.lzma",
+      "http_user_agent": "Debian APT-HTTP/1.3 (0.8.16~exp12ubuntu10.17)",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 10,
+      "pkts_toclient": 1,
+      "bytes_toserver": 2700,
+      "bytes_toclient": 74,
+      "start": "2017-03-24T14:00:45.794642-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:45:29.916250-0600",
+    "flow_id": 524619608240810,
+    "event_type": "alert",
+    "src_ip": "10.10.4.8",
+    "src_port": 48062,
+    "dest_ip": "152.19.134.145",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013505,
+      "rev": 3,
+      "signature": "ET POLICY GNU/Linux YUM User-Agent Outbound likely related to package management",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "download-i2.fedoraproject.org",
+      "url": "/pub/epel/7/x86_64/repodata/repomd.xml",
+      "http_user_agent": "urlgrabber/3.10 yum/3.4.3",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 8,
+      "pkts_toclient": 1,
+      "bytes_toserver": 1400,
+      "bytes_toclient": 74,
+      "start": "2017-03-24T14:45:24.930474-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:10:16.527336-0600",
+    "flow_id": 924667756465985,
+    "pcap_cnt": 247109,
+    "event_type": "alert",
+    "src_ip": "10.10.8.6",
+    "src_port": 57686,
+    "dest_ip": "178.62.196.187",
+    "dest_port": 8448,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013721,
+      "rev": 7,
+      "signature": "ET TROJAN Suspicious User-Agent (WindowsNT) With No Separating Space",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "178.62.196.187",
+      "url": "/news.php",
+      "http_user_agent": "Mozilla/5.0(WindowsNT 6.1; WOW64;Trident/7.0;rv:11.0) like Gecko",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 6,
+      "bytes_toserver": 495,
+      "bytes_toclient": 13453,
+      "start": "2017-03-24T14:10:16.118593-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:45:01.088087-0600",
+    "flow_id": 42381386504434,
+    "pcap_cnt": 1513166,
+    "event_type": "alert",
+    "src_ip": "172.16.27.74",
+    "src_port": 57997,
+    "dest_ip": "178.62.196.187",
+    "dest_port": 443,
+    "proto": "TCP",
+    "http": {
+      "hostname": "dowf4rr28ajri.cloudfront.net",
+      "url": "/news.php",
+      "http_user_agent": "Mozilla/5.0 (WindowsNT 6.1; WOW64; Trident/7.0;rv:11.0) like Gecko",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 2,
+      "bytes_toserver": 930,
+      "bytes_toclient": 126,
+      "start": "2017-03-24T17:45:00.776434-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2013926,
+      "rev": 8,
+      "signature": "ET POLICY HTTP traffic on port 443 (POST)",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2017-03-24T16:24:37.955187-0600",
+    "flow_id": 1020250634421770,
+    "pcap_cnt": 581290,
+    "event_type": "alert",
+    "src_ip": "10.192.0.153",
+    "src_port": 49249,
+    "dest_ip": "137.254.120.31",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2014297,
+      "rev": 52,
+      "signature": "ET POLICY Vulnerable Java Version 1.7.x Detected",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "dl.javafx.com",
+      "url": "/javafx-cache.jnlp",
+      "http_user_agent": "JNLP/1.7.0 javaws/10.51.2.13 (<internal>) Java/1.7.0_51",
+      "http_content_type": "application/x-java-jnlp-file",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 0
+    },
+    "vars": {
+      "flowbits": {
+        "ET.http.javaclient.vulnerable": true,
+        "ET.http.javaclient": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 544,
+      "bytes_toclient": 468,
+      "start": "2017-03-24T16:24:37.689674-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T14:36:15.745912-0600",
+    "flow_id": 1491031530805185,
+    "pcap_cnt": 694664,
+    "event_type": "alert",
+    "src_ip": "10.192.22.23",
+    "src_port": 60106,
+    "dest_ip": "198.189.255.208",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 3,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2014726,
+      "rev": 114,
+      "signature": "ET POLICY Outdated Flash Version M1",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "static-finance-wus-s-msn-com.akamaized.net",
+      "url": "/en-us/money/_h/561caba8/webcore/flash/hybridplayer_2.swf",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko",
+      "http_refer": "http://www.msn.com/en-us/money/companies/walmarts-latest-move-confirms-the-death-of-the-american-middle-class-as-we-know-it/ar-BByHwrn?li=BB",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 47,
+      "pkts_toclient": 60,
+      "bytes_toserver": 4588,
+      "bytes_toclient": 86429,
+      "start": "2017-03-25T14:36:14.137153-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:16:53.800232-0600",
+    "flow_id": 1006837185233336,
+    "pcap_cnt": 901714,
+    "event_type": "alert",
+    "src_ip": "10.192.0.83",
+    "src_port": 53121,
+    "dest_ip": "104.20.195.50",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2014799,
+      "rev": 3,
+      "signature": "ET POLICY OpenVPN Update Check",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "swupdate.openvpn.net",
+      "url": "/updates/2.1.3.110/darwin.txt",
+      "http_user_agent": "Twisted PageGetter",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.0",
+      "status": 404,
+      "length": 162
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 358,
+      "bytes_toclient": 776,
+      "start": "2017-03-24T15:16:53.770488-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T19:52:45.331401-0600",
+    "flow_id": 706564221119490,
+    "pcap_cnt": 339312,
+    "event_type": "alert",
+    "src_ip": "91.198.22.70",
+    "src_port": 80,
+    "dest_ip": "10.192.88.98",
+    "dest_port": 40027,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2014932,
+      "rev": 2,
+      "signature": "ET POLICY DynDNS CheckIp External IP Address Server Response",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "checkip.dyndns.com",
+      "url": "/",
+      "http_user_agent": "Wget",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 105
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 5,
+      "bytes_toserver": 493,
+      "bytes_toclient": 598,
+      "start": "2017-03-24T19:52:41.404482-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T14:29:11.857198-0600",
+    "flow_id": 1184821809714286,
+    "pcap_cnt": 770878,
+    "event_type": "alert",
+    "src_ip": "10.10.3.71",
+    "src_port": 39080,
+    "dest_ip": "10.0.0.100",
+    "dest_port": 53,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2014939,
+      "rev": 1,
+      "signature": "ET POLICY DNS Query for TOR Hidden Domain .onion Accessible Via TOR",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 82,
+      "bytes_toclient": 0,
+      "start": "2017-03-25T14:29:11.857198-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T20:03:28.299370-0600",
+    "flow_id": 217784100360554,
+    "pcap_cnt": 466609,
+    "event_type": "alert",
+    "src_ip": "172.16.13.14",
+    "src_port": 43866,
+    "dest_ip": "10.0.0.100",
+    "dest_port": 53,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2014941,
+      "rev": 3,
+      "signature": "ET POLICY TOR .exit Pseudo TLD DNS Query",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 64,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T20:03:28.299370-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T11:15:38.559701-0600",
+    "flow_id": 1392550069570133,
+    "pcap_cnt": 121126,
+    "event_type": "alert",
+    "src_ip": "10.192.0.159",
+    "src_port": 56056,
+    "dest_ip": "10.47.2.2",
+    "dest_port": 161,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2015856,
+      "rev": 5,
+      "signature": "ET SNMP Attempt to retrieve Cisco Config via TFTP (CISCO-CONFIG-COPY)",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 235,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T11:15:38.559701-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:31:22.082817-0600",
+    "flow_id": 1375565187090725,
+    "pcap_cnt": 159305,
+    "event_type": "alert",
+    "src_ip": "10.192.192.251",
+    "src_port": 60788,
+    "dest_ip": "172.16.22.66",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 427,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016182,
+      "rev": 6,
+      "signature": "ET WEB_SERVER ColdFusion componentutils access",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "172.16.22.66",
+      "url": "/CFIDE/componentutils/cfcexplorer.cfc",
+      "http_user_agent": "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:006819)",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 2
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 865,
+      "pkts_toclient": 884,
+      "bytes_toserver": 210593,
+      "bytes_toclient": 1269022,
+      "start": "2017-03-24T18:31:19.100645-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:19:59.410211-0600",
+    "flow_id": 2144724357998534,
+    "pcap_cnt": 664368,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 37328,
+    "dest_ip": "10.10.1.6",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016184,
+      "rev": 5,
+      "signature": "ET WEB_SERVER ColdFusion administrator access",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "10.10.1.6",
+      "url": "/CFIDE/administrator/settings/version.cfm",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 9,
+      "pkts_toclient": 6,
+      "bytes_toserver": 1290,
+      "bytes_toclient": 1882,
+      "start": "2017-03-24T15:19:59.387014-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:07:58.749355-0600",
+    "flow_id": 2149774956326699,
+    "pcap_cnt": 150766,
+    "event_type": "alert",
+    "src_ip": "10.192.0.2",
+    "src_port": 34866,
+    "dest_ip": "10.0.0.100",
+    "dest_port": 53,
+    "proto": "UDP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2016778,
+      "rev": 5,
+      "signature": "ET DNS Query to a *.pw domain - Likely Hostile",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 80,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T14:07:58.749355-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:05:58.530985-0600",
+    "flow_id": 1682285881575487,
+    "pcap_cnt": 483653,
+    "event_type": "alert",
+    "src_ip": "172.16.27.74",
+    "src_port": 80,
+    "dest_ip": "10.250.250.250",
+    "dest_port": 56040,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2017025,
+      "rev": 3,
+      "signature": "ET ATTACK_RESPONSE Net User Command Response",
+      "category": "Successful User Privilege Gain",
+      "severity": 1
+    },
+    "flow": {
+      "pkts_toserver": 12,
+      "pkts_toclient": 7,
+      "bytes_toserver": 4776,
+      "bytes_toclient": 4428,
+      "start": "2017-03-24T18:05:53.575551-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:19:33.141506-0600",
+    "flow_id": 598664978704572,
+    "pcap_cnt": 374427,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 57674,
+    "dest_ip": "10.10.1.8",
+    "dest_port": 123,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2017919,
+      "rev": 2,
+      "signature": "ET DOS Possible NTP DDoS Inbound Frequent Un-Authed MON_LIST Requests IMPL 0x03",
+      "category": "Attempted Denial of Service",
+      "severity": 2
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 2,
+      "pkts_toclient": 0,
+      "bytes_toserver": 180,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T15:19:33.141500-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T10:13:22.197110-0600",
+    "flow_id": 1005686307821921,
+    "pcap_cnt": 663587,
+    "event_type": "alert",
+    "src_ip": "10.10.1.107",
+    "src_port": 54529,
+    "dest_ip": "172.16.31.94",
+    "dest_port": 8080,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018131,
+      "rev": 5,
+      "signature": "ET WORM TheMoon.linksys.router 1",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "172.16.31.94",
+      "url": "/HNAP1/",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 500,
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 6,
+      "bytes_toserver": 1048,
+      "bytes_toclient": 740,
+      "start": "2017-03-25T10:13:22.137569-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:04:59.440317-0600",
+    "flow_id": 514712798998157,
+    "pcap_cnt": 584847,
+    "event_type": "alert",
+    "src_ip": "10.192.19.6",
+    "src_port": 56079,
+    "dest_ip": "65.55.252.71",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018170,
+      "rev": 5,
+      "signature": "ET POLICY Application Crash Report Sent to Microsoft",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "watson.microsoft.com",
+      "url": "/StageOne/Generic/AEAPPINV2/4/1/6_1_1_0/1033/37.htm?LCID=1033&OS=6.1.7601.2.00010100.1.0.4.17514&SM=innotek%20GmbH&SPN=VirtualBox&BV=VirtualBox",
+      "http_user_agent": "MSDW",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 404,
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 2,
+      "bytes_toserver": 506,
+      "bytes_toclient": 247,
+      "start": "2017-03-25T16:04:59.372365-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:22.972913-0600",
+    "flow_id": 218710381613551,
+    "pcap_cnt": 1361,
+    "event_type": "alert",
+    "src_ip": "10.192.0.83",
+    "src_port": 60530,
+    "dest_ip": "10.10.1.9",
+    "dest_port": 443,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018372,
+      "rev": 2,
+      "signature": "ET CURRENT_EVENTS Malformed HeartBeat Request",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "tls": {
+      "subject": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "issuerdn": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "serial": "45:8A",
+      "fingerprint": "b2:9b:39:19:90:c1:c4:40:a3:97:18:75:52:1f:05:16:d2:f6:66:57",
+      "version": "TLS 1.1",
+      "notbefore": "2017-03-17T17:30:33",
+      "notafter": "2018-03-17T17:30:33"
+    },
+    "vars": {
+      "flowbits": {
+        "ET.MalformedTLSHB": true,
+        "ET.HB.Request.CI": true
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 9,
+      "pkts_toclient": 6,
+      "bytes_toserver": 1076,
+      "bytes_toclient": 3012,
+      "start": "2017-03-24T13:59:22.971247-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:22.973723-0600",
+    "flow_id": 218710381613551,
+    "pcap_cnt": 1367,
+    "event_type": "alert",
+    "src_ip": "10.10.1.9",
+    "src_port": 443,
+    "dest_ip": "10.192.0.83",
+    "dest_port": 60530,
+    "proto": "TCP",
+    "tls": {
+      "subject": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "issuerdn": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "serial": "45:8A",
+      "fingerprint": "b2:9b:39:19:90:c1:c4:40:a3:97:18:75:52:1f:05:16:d2:f6:66:57",
+      "version": "TLS 1.1",
+      "notbefore": "2017-03-17T17:30:33",
+      "notafter": "2018-03-17T17:30:33"
+    },
+    "vars": {
+      "flowbits": {
+        "ET.MalformedTLSHB": true,
+        "ET.HB.Request.SI": true,
+        "ET.HB.Response.CI": true
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 10,
+      "pkts_toclient": 7,
+      "bytes_toserver": 1150,
+      "bytes_toclient": 5974,
+      "start": "2017-03-24T13:59:22.971247-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018373,
+      "rev": 3,
+      "signature": "ET CURRENT_EVENTS Malformed HeartBeat Response",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:22.973723-0600",
+    "flow_id": 218710381613551,
+    "pcap_cnt": 1367,
+    "event_type": "alert",
+    "src_ip": "10.10.1.9",
+    "src_port": 443,
+    "dest_ip": "10.192.0.83",
+    "dest_port": 60530,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018377,
+      "rev": 3,
+      "signature": "ET CURRENT_EVENTS Possible OpenSSL HeartBleed Large HeartBeat Response (Client Init Vuln Server)",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "tls": {
+      "subject": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "issuerdn": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "serial": "45:8A",
+      "fingerprint": "b2:9b:39:19:90:c1:c4:40:a3:97:18:75:52:1f:05:16:d2:f6:66:57",
+      "version": "TLS 1.1",
+      "notbefore": "2017-03-17T17:30:33",
+      "notafter": "2018-03-17T17:30:33"
+    },
+    "vars": {
+      "flowbits": {
+        "ET.MalformedTLSHB": true,
+        "ET.HB.Request.SI": true,
+        "ET.HB.Response.CI": true
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 10,
+      "pkts_toclient": 7,
+      "bytes_toserver": 1150,
+      "bytes_toclient": 5974,
+      "start": "2017-03-24T13:59:22.971247-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:02:31.577310-0600",
+    "flow_id": 398070375757516,
+    "pcap_cnt": 5548,
+    "event_type": "alert",
+    "src_ip": "10.10.1.9",
+    "src_port": 443,
+    "dest_ip": "10.192.0.83",
+    "dest_port": 62335,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018378,
+      "rev": 5,
+      "signature": "ET CURRENT_EVENTS Possible OpenSSL HeartBleed Large HeartBeat Response (Server Init Vuln Client)",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.HB.Request.CI": true,
+        "ET.HB.Response.SI": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 20,
+      "bytes_toserver": 16110,
+      "bytes_toclient": 1786,
+      "start": "2017-03-24T14:02:31.571084-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:23.015318-0600",
+    "flow_id": 218710381613551,
+    "pcap_cnt": 1794,
+    "event_type": "alert",
+    "src_ip": "10.192.0.83",
+    "src_port": 60530,
+    "dest_ip": "10.10.1.9",
+    "dest_port": 443,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018388,
+      "rev": 2,
+      "signature": "ET CURRENT_EVENTS Possible TLS HeartBleed Unencrypted Request Method 4 (Inbound to Common SSL Port)",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "tls": {
+      "subject": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "issuerdn": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "serial": "45:8A",
+      "fingerprint": "b2:9b:39:19:90:c1:c4:40:a3:97:18:75:52:1f:05:16:d2:f6:66:57",
+      "version": "TLS 1.1",
+      "notbefore": "2017-03-17T17:30:33",
+      "notafter": "2018-03-17T17:30:33"
+    },
+    "vars": {
+      "flowbits": {
+        "ET.MalformedTLSHB": true,
+        "ET.HB.Request.SI": true,
+        "ET.HB.Response.CI": true
+      },
+      "flowints": {
+        "tls.anomaly.count": 4
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 29,
+      "pkts_toclient": 18,
+      "bytes_toserver": 2404,
+      "bytes_toclient": 36582,
+      "start": "2017-03-24T13:59:22.971247-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:21:47.575968-0600",
+    "flow_id": 1770168856112536,
+    "pcap_cnt": 344385,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 36777,
+    "dest_ip": "10.10.1.2",
+    "dest_port": 443,
+    "proto": "TCP",
+    "tls": {
+      "subject": "CN=toby./serialNumber=F676E900",
+      "issuerdn": "CN=toby./serialNumber=F676E900",
+      "serial": "01",
+      "fingerprint": "61:06:45:e6:6e:b7:7c:80:6a:39:d6:a5:75:a7:10:0d:4f:07:6a:d6",
+      "version": "SSLv3",
+      "notbefore": "1993-03-02T17:08:34",
+      "notafter": "2020-01-01T00:00:00"
+    },
+    "vars": {
+      "flowbits": {
+        "ET.MalformedTLSHB": true,
+        "ET.HB.Request.CI": true
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 19,
+      "pkts_toclient": 14,
+      "bytes_toserver": 3616,
+      "bytes_toclient": 2112,
+      "start": "2017-03-24T15:21:32.552344-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018389,
+      "rev": 3,
+      "signature": "ET CURRENT_EVENTS Possible TLS HeartBleed Unencrypted Request Method 3 (Inbound to Common SSL Port)",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2017-03-25T15:53:49.965306-0600",
+    "flow_id": 673742509138007,
+    "pcap_cnt": 571220,
+    "event_type": "alert",
+    "src_ip": "178.62.196.187",
+    "src_port": 80,
+    "dest_ip": "10.192.0.83",
+    "dest_port": 65201,
+    "proto": "TCP",
+    "http": {
+      "hostname": "q.xfil.pw",
+      "url": "/exe1.exe",
+      "http_user_agent": "Wget/1.19.1 (darwin15.6.0)",
+      "http_content_type": "application/x-msdos-program",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 47476
+    },
+    "vars": {
+      "flowbits": {
+        "ET.Suspicious.Domain.Fake.Browser": true,
+        "exe.no.referer": true,
+        "ET.http.binary": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 42,
+      "pkts_toclient": 40,
+      "bytes_toserver": 3267,
+      "bytes_toclient": 57672,
+      "start": "2017-03-25T15:53:49.352343-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018572,
+      "rev": 2,
+      "signature": "ET TROJAN HTTP Executable Download from suspicious domain with direct request/fake browser (multiple families) ",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:38:35.984475-0600",
+    "flow_id": 437045198281543,
+    "pcap_cnt": 385145,
+    "event_type": "alert",
+    "src_ip": "66.111.2.20",
+    "src_port": 9001,
+    "dest_ip": "10.10.7.31",
+    "dest_port": 50797,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018789,
+      "rev": 3,
+      "signature": "ET POLICY TLS possible TOR SSL traffic",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "tls": {
+      "subject": "CN=www.2v46rgkblr35xvcqvtl.net",
+      "issuerdn": "CN=www.7wvvz5bhwexzzobr.com",
+      "serial": "00:C6:F2:DA:4B:5F:15:44:7D",
+      "fingerprint": "54:6f:9a:93:be:ec:1c:ac:6a:c9:23:a3:cd:8c:a4:c5:ec:24:9d:1a",
+      "sni": "www.lskzr4.com",
+      "version": "TLS 1.2",
+      "notbefore": "2017-01-11T00:00:00",
+      "notafter": "2017-11-23T00:00:00"
+    },
+    "vars": {
+      "flowbits": {
+        "ET.TorIP": true
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 566,
+      "bytes_toclient": 1243,
+      "start": "2017-03-24T14:38:35.744263-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:00:37.692165-0600",
+    "flow_id": 1953342450471333,
+    "pcap_cnt": 886817,
+    "event_type": "alert",
+    "src_ip": "5.135.104.98",
+    "src_port": 80,
+    "dest_ip": "10.10.5.121",
+    "dest_port": 50493,
+    "proto": "TCP",
+    "tx_id": 3,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2018959,
+      "rev": 3,
+      "signature": "ET POLICY PE EXE or DLL Windows file download HTTP",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "www.rarlab.com",
+      "url": "/rar/winrar-x64-540.exe",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "http_content_type": "application/octet-stream",
+      "http_refer": "http://www.rarlab.com/download.htm",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 49002
+    },
+    "vars": {
+      "flowbits": {
+        "ET.http.binary": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 59,
+      "pkts_toclient": 69,
+      "bytes_toserver": 5067,
+      "bytes_toclient": 92759,
+      "start": "2017-03-24T14:00:34.037285-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T17:10:07.667362-0600",
+    "flow_id": 436961262143528,
+    "pcap_cnt": 630309,
+    "event_type": "alert",
+    "src_ip": "192.240.110.42",
+    "src_port": 80,
+    "dest_ip": "10.10.4.50",
+    "dest_port": 54044,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019091,
+      "rev": 3,
+      "signature": "ET EXPLOIT Metasploit Random Base CharCode JS Encoded String",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "g-29b4.kxcdn.com",
+      "url": "/common.2.min.js",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36",
+      "http_content_type": "application/javascript",
+      "http_refer": "http://www.christianpost.com/news/rick-and-morty-season-3-rumors-jerry-could-emerge-as-an-antagonist-over-the-course-of-the-upcoming-episodes-178469/",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 50264
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 30,
+      "pkts_toclient": 43,
+      "bytes_toserver": 2708,
+      "bytes_toclient": 62214,
+      "start": "2017-03-25T17:10:07.559144-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:53:31.572359-0600",
+    "flow_id": 1637691187510212,
+    "pcap_cnt": 505807,
+    "event_type": "alert",
+    "src_ip": "10.10.7.31",
+    "src_port": 61431,
+    "dest_ip": "172.16.27.66",
+    "dest_port": 1900,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019102,
+      "rev": 1,
+      "signature": "ET DOS Possible SSDP Amplification Scan in Progress",
+      "category": "Attempted Denial of Service",
+      "severity": 2
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 2,
+      "pkts_toclient": 0,
+      "bytes_toserver": 272,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T17:53:31.572356-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:20:18.372438-0600",
+    "flow_id": 1496377571050929,
+    "pcap_cnt": 259351,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 38322,
+    "dest_ip": "10.10.1.6",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019232,
+      "rev": 4,
+      "signature": "ET WEB_SERVER Possible CVE-2014-6271 Attempt in Headers",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "10.10.1.6",
+      "url": "/",
+      "http_user_agent": "() { ignored; }; echo Content-Type: text/plain ; echo ; echo \"bash_cve_2014_6271_rce Output : $((17+88))\"",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 302,
+      "redirect": "/webmail/",
+      "length": 3
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 6,
+      "bytes_toserver": 1162,
+      "bytes_toclient": 796,
+      "start": "2017-03-24T15:20:18.361905-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T20:12:46.173284-0600",
+    "flow_id": 1758818402751343,
+    "pcap_cnt": 1260279,
+    "event_type": "alert",
+    "src_ip": "10.192.166.1",
+    "src_port": 49768,
+    "dest_ip": "172.16.22.51",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "172.16.22.51",
+      "url": "/",
+      "http_user_agent": "() { :;}; echo; echo \"FEXKRGAGSTUKGKC\"",
+      "http_content_type": "text/html",
+      "http_refer": "() { :;}; echo; echo \"FEXKRGAGSTUKGKC\"",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 339
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 4,
+      "bytes_toserver": 1050,
+      "bytes_toclient": 1316,
+      "start": "2017-03-24T20:12:46.119663-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019236,
+      "rev": 3,
+      "signature": "ET WEB_SERVER Possible CVE-2014-6271 Attempt in HTTP Version Number",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:20:18.452059-0600",
+    "flow_id": 1496377571050929,
+    "pcap_cnt": 261354,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 38322,
+    "dest_ip": "10.10.1.6",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 2,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019239,
+      "rev": 4,
+      "signature": "ET WEB_SERVER Possible CVE-2014-6271 Attempt in HTTP Cookie",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "10.10.1.6",
+      "url": "/",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 302,
+      "redirect": "/webmail/",
+      "length": 3
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 15,
+      "pkts_toclient": 10,
+      "bytes_toserver": 3354,
+      "bytes_toclient": 1828,
+      "start": "2017-03-24T15:20:18.361905-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T21:46:48.468615-0600",
+    "flow_id": 954160935108601,
+    "event_type": "alert",
+    "src_ip": "10.10.2.200",
+    "src_port": 60143,
+    "dest_ip": "172.16.32.77",
+    "dest_port": 21,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019335,
+      "rev": 1,
+      "signature": "ET EXPLOIT Possible Pure-FTPd CVE-2014-6271 attempt",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    },
+    "app_proto": "ftp",
+    "flow": {
+      "pkts_toserver": 8,
+      "pkts_toclient": 30,
+      "bytes_toserver": 730,
+      "bytes_toclient": 11178,
+      "start": "2017-03-24T21:44:24.622585-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:00:03.928247-0600",
+    "flow_id": 1603540984452599,
+    "pcap_cnt": 470307,
+    "event_type": "alert",
+    "src_ip": "10.10.1.2",
+    "src_port": 443,
+    "dest_ip": "10.192.5.200",
+    "dest_port": 40170,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019415,
+      "rev": 3,
+      "signature": "ET POLICY SSLv3 inbound connection to server vulnerable to POODLE attack",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "tls": {
+      "version": "SSLv3"
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 10,
+      "pkts_toclient": 5,
+      "bytes_toserver": 1650,
+      "bytes_toclient": 866,
+      "start": "2017-03-24T14:00:02.775671-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:40:34.946126-0600",
+    "flow_id": 2227058726055939,
+    "pcap_cnt": 626473,
+    "event_type": "alert",
+    "src_ip": "23.23.117.228",
+    "src_port": 443,
+    "dest_ip": "10.10.8.166",
+    "dest_port": 62130,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019512,
+      "rev": 3,
+      "signature": "ET POLICY Possible IP Check api.ipify.org",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "tls": {
+      "subject": "OU=Domain Control Validated, OU=EssentialSSL, CN=api.ipify.org",
+      "issuerdn": "C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Domain Validation Secure Server CA",
+      "serial": "00:E4:9E:52:65:BC:47:D3:98:38:90:1F:76:CF:89:64:40",
+      "fingerprint": "8f:6e:82:ad:b9:cd:51:85:e6:d3:7b:cd:5d:1f:57:82:be:b5:2c:66",
+      "sni": "api.ipify.org",
+      "version": "TLS 1.2",
+      "notbefore": "2016-11-21T00:00:00",
+      "notafter": "2017-11-21T23:59:59"
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 8,
+      "bytes_toserver": 678,
+      "bytes_toclient": 6370,
+      "start": "2017-03-24T14:40:34.700419-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T15:53:49.659195-0600",
+    "flow_id": 673742509138007,
+    "pcap_cnt": 568261,
+    "event_type": "alert",
+    "src_ip": "10.192.0.83",
+    "src_port": 65201,
+    "dest_ip": "178.62.196.187",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "q.xfil.pw",
+      "url": "/exe1.exe",
+      "http_user_agent": "Wget/1.19.1 (darwin15.6.0)",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "vars": {
+      "flowbits": {
+        "ET.Suspicious.Domain.Fake.Browser": true,
+        "exe.no.referer": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 435,
+      "bytes_toclient": 3168,
+      "start": "2017-03-25T15:53:49.352343-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2019714,
+      "rev": 10,
+      "signature": "ET CURRENT_EVENTS Terse alphanumeric executable downloader high likelihood of being hostile",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:16:14.635830-0600",
+    "flow_id": 374841334981709,
+    "pcap_cnt": 772669,
+    "event_type": "alert",
+    "src_ip": "10.192.91.42",
+    "src_port": 38976,
+    "dest_ip": "52.11.124.117",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2020475,
+      "rev": 4,
+      "signature": "ET POLICY Metasploit Framework Checking For Update",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "updates.metasploit.com",
+      "url": "/updateserver",
+      "http_user_agent": "MSFX/4.13.1 (r2017032301; x86_64-linux; 58d4c4b5-6ad41366-dd04b654)",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 8,
+      "pkts_toclient": 9,
+      "bytes_toserver": 6128,
+      "bytes_toclient": 5548,
+      "start": "2017-03-24T15:16:14.549965-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T12:28:31.786586-0600",
+    "flow_id": 1404269174390938,
+    "pcap_cnt": 720615,
+    "event_type": "alert",
+    "src_ip": "10.192.0.2",
+    "src_port": 49030,
+    "dest_ip": "10.0.0.100",
+    "dest_port": 53,
+    "proto": "UDP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2020565,
+      "rev": 2,
+      "signature": "ET POLICY Dropbox DNS Lookup - Possible Offsite File Backup in Use",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 92,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T12:28:31.786586-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:21:31.807460-0600",
+    "flow_id": 694236598707683,
+    "pcap_cnt": 274831,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 57725,
+    "dest_ip": "10.10.1.87",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2020912,
+      "rev": 2,
+      "signature": "ET WEB_SERVER Possible IIS Integer Overflow DoS (CVE-2015-1635)",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "10.10.1.87",
+      "url": "/",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 416,
+      "length": 362
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 4,
+      "bytes_toserver": 1154,
+      "bytes_toclient": 1564,
+      "start": "2017-03-24T15:21:31.796131-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T12:28:15.744162-0600",
+    "flow_id": 640764941636056,
+    "pcap_cnt": 506182,
+    "event_type": "alert",
+    "src_ip": "172.16.31.14",
+    "src_port": 54417,
+    "dest_ip": "104.131.144.87",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2021060,
+      "rev": 2,
+      "signature": "ET USER_AGENTS MSF Meterpreter Default User Agent",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "faxsupport.site",
+      "url": "/Aw4p",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.1; Windows NT)",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 469,
+      "bytes_toclient": 3154,
+      "start": "2017-03-25T12:28:11.725464-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:51:23.120806-0600",
+    "flow_id": 1520241003384287,
+    "pcap_cnt": 1966757,
+    "event_type": "alert",
+    "src_ip": "54.190.53.19",
+    "src_port": 443,
+    "dest_ip": "172.16.24.74",
+    "dest_port": 63147,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2021178,
+      "rev": 5,
+      "signature": "ET ATTACK_RESPONSE Metasploit Meterpreter Reverse HTTPS certificate",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "tls": {
+      "subject": "CN=whksuuhtj",
+      "issuerdn": "CN=whksuuhtj",
+      "serial": "7D:81:1E:9B:EC:8B:4C:BD",
+      "fingerprint": "ec:b6:3f:10:a1:bf:a7:37:8c:ec:cb:fb:2d:74:20:94:7e:fc:b8:dc",
+      "version": "TLS 1.2",
+      "notbefore": "2013-10-25T11:28:38",
+      "notafter": "2023-10-23T11:28:38"
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 4,
+      "bytes_toserver": 636,
+      "bytes_toclient": 1789,
+      "start": "2017-03-24T17:51:22.970207-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:20:18.372438-0600",
+    "flow_id": 1496377571050929,
+    "pcap_cnt": 259351,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 38322,
+    "dest_ip": "10.10.1.6",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "10.10.1.6",
+      "url": "/",
+      "http_user_agent": "() { ignored; }; echo Content-Type: text/plain ; echo ; echo \"bash_cve_2014_6271_rce Output : $((17+88))\"",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 302,
+      "redirect": "/webmail/",
+      "length": 3
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 6,
+      "bytes_toserver": 1162,
+      "bytes_toclient": 796,
+      "start": "2017-03-24T15:20:18.361905-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2022028,
+      "rev": 1,
+      "signature": "ET WEB_SERVER Possible CVE-2014-6271 Attempt",
+      "category": "Attempted Administrator Privilege Gain",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:49:12.917853-0600",
+    "flow_id": 1978569838565277,
+    "pcap_cnt": 402501,
+    "event_type": "alert",
+    "src_ip": "10.192.5.200",
+    "src_port": 41659,
+    "dest_ip": "172.16.14.21",
+    "dest_port": 8080,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2022114,
+      "rev": 1,
+      "signature": "ET EXPLOIT Serialized Java Object Calling Common Collection Function",
+      "category": "Misc activity",
+      "severity": 3
+    },
+    "flow": {
+      "pkts_toserver": 9,
+      "pkts_toclient": 6,
+      "bytes_toserver": 2102,
+      "bytes_toclient": 412,
+      "start": "2017-03-24T17:48:52.792477-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:26:12.399611-0600",
+    "flow_id": 928454776475694,
+    "pcap_cnt": 474744,
+    "event_type": "alert",
+    "src_ip": "172.16.27.74",
+    "src_port": 54855,
+    "dest_ip": "178.62.196.187",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2022520,
+      "rev": 4,
+      "signature": "ET POLICY Possible HTA Application Download",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "q.xfil.pw",
+      "url": "/beacon.hta",
+      "http_content_type": "application/hta",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2627
+    },
+    "vars": {
+      "flowbits": {
+        "ET.Suspicious.Domain.Fake.Browser": true,
+        "ET.HTA.Download": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 7,
+      "bytes_toserver": 309,
+      "bytes_toclient": 6932,
+      "start": "2017-03-24T18:26:12.086062-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T15:53:49.659195-0600",
+    "flow_id": 673742509138007,
+    "pcap_cnt": 568261,
+    "event_type": "alert",
+    "src_ip": "10.192.0.83",
+    "src_port": 65201,
+    "dest_ip": "178.62.196.187",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2022896,
+      "rev": 5,
+      "signature": "ET CURRENT_EVENTS SUSPICIOUS Firesale gTLD EXE DL with no Referer June 13 2016",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "q.xfil.pw",
+      "url": "/exe1.exe",
+      "http_user_agent": "Wget/1.19.1 (darwin15.6.0)",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "vars": {
+      "flowbits": {
+        "ET.Suspicious.Domain.Fake.Browser": true,
+        "exe.no.referer": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 435,
+      "bytes_toclient": 3168,
+      "start": "2017-03-25T15:53:49.352343-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T19:51:57.975581-0600",
+    "flow_id": 1950077508404327,
+    "pcap_cnt": 515467,
+    "event_type": "alert",
+    "src_ip": "0.0.0.0",
+    "src_port": 68,
+    "dest_ip": "255.255.255.255",
+    "dest_port": 67,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2022973,
+      "rev": 1,
+      "signature": "ET POLICY Possible Kali Linux hostname in DHCP Request Packet",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 26,
+      "pkts_toclient": 0,
+      "bytes_toserver": 10337,
+      "bytes_toclient": 0,
+      "start": "2017-03-24T19:51:40.541799-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:26:54.965904-0600",
+    "flow_id": 928454776475694,
+    "event_type": "alert",
+    "src_ip": "178.62.196.187",
+    "src_port": 80,
+    "dest_ip": "172.16.27.74",
+    "dest_port": 54855,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2024196,
+      "rev": 3,
+      "signature": "ET WEB_CLIENT HTA File containing Wscript.Shell Call - Potential CVE-2017-0199",
+      "category": "Attempted User Privilege Gain",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "q.xfil.pw",
+      "url": "/beacon.hta",
+      "http_content_type": "application/hta",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 6243
+    },
+    "vars": {
+      "flowbits": {
+        "ET.Suspicious.Domain.Fake.Browser": true,
+        "ET.HTA.Download": true,
+        "et.http.hta": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 7,
+      "bytes_toserver": 429,
+      "bytes_toclient": 6932,
+      "start": "2017-03-24T18:26:12.086062-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:00:04.963563-0600",
+    "flow_id": 275867809011165,
+    "pcap_cnt": 482098,
+    "event_type": "alert",
+    "src_ip": "10.192.5.200",
+    "src_port": 57428,
+    "dest_ip": "10.10.1.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2024364,
+      "rev": 3,
+      "signature": "ET SCAN Possible Nmap User-Agent Observed",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "10.10.1.2",
+      "url": "/",
+      "http_user_agent": "Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 401,
+      "length": 18
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 4,
+      "bytes_toserver": 862,
+      "bytes_toclient": 612,
+      "start": "2017-03-24T14:00:02.775645-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:34:34.757317-0600",
+    "flow_id": 775751306105345,
+    "pcap_cnt": 534677,
+    "event_type": "alert",
+    "src_ip": "10.10.7.112",
+    "src_port": 49289,
+    "dest_ip": "64.38.230.2",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 3,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2024379,
+      "rev": 22,
+      "signature": "ET POLICY Outdated Flash Version M2",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "4chan.com",
+      "url": "/static/javascript-flash-cookies/storage.swf",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36",
+      "http_content_type": "application/x-shockwave-flash",
+      "http_refer": "http://4chan.com/",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2523
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 21,
+      "pkts_toclient": 31,
+      "bytes_toserver": 3605,
+      "bytes_toclient": 30002,
+      "start": "2017-03-24T17:34:32.119297-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:01:13.996626-0600",
+    "flow_id": 514350872020640,
+    "event_type": "alert",
+    "src_ip": "178.62.196.187",
+    "src_port": 80,
+    "dest_ip": "172.16.27.74",
+    "dest_port": 49535,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2024535,
+      "rev": 2,
+      "signature": "ET CURRENT_EVENTS Possible AMSI Powershell Bypass Attempt B642",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "http": {
+      "hostname": "q.xfil.pw",
+      "url": "/WindowsDefender.sct",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C)",
+      "http_content_type": "text/scriptlet",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 3173
+    },
+    "vars": {
+      "flowbits": {
+        "ET.Suspicious.Domain.Fake.Browser": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 5,
+      "bytes_toserver": 607,
+      "bytes_toclient": 3752,
+      "start": "2017-03-24T17:00:20.280224-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:26:54.965904-0600",
+    "flow_id": 928454776475694,
+    "event_type": "alert",
+    "src_ip": "178.62.196.187",
+    "src_port": 80,
+    "dest_ip": "172.16.27.74",
+    "dest_port": 54855,
+    "proto": "TCP",
+    "http": {
+      "hostname": "q.xfil.pw",
+      "url": "/beacon.hta",
+      "http_content_type": "application/hta",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 6243
+    },
+    "vars": {
+      "flowbits": {
+        "ET.Suspicious.Domain.Fake.Browser": true,
+        "ET.HTA.Download": true,
+        "et.http.hta": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 7,
+      "bytes_toserver": 429,
+      "bytes_toclient": 6932,
+      "start": "2017-03-24T18:26:12.086062-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025061,
+      "rev": 2,
+      "signature": "ET WEB_CLIENT PowerShell call in script 1",
+      "category": "Attempted User Privilege Gain",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:26:54.965904-0600",
+    "flow_id": 928454776475694,
+    "event_type": "alert",
+    "src_ip": "178.62.196.187",
+    "src_port": 80,
+    "dest_ip": "172.16.27.74",
+    "dest_port": 54855,
+    "proto": "TCP",
+    "http": {
+      "hostname": "q.xfil.pw",
+      "url": "/beacon.hta",
+      "http_content_type": "application/hta",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 6243
+    },
+    "vars": {
+      "flowbits": {
+        "ET.Suspicious.Domain.Fake.Browser": true,
+        "ET.HTA.Download": true,
+        "et.http.hta": true
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 7,
+      "bytes_toserver": 429,
+      "bytes_toclient": 6932,
+      "start": "2017-03-24T18:26:12.086062-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025062,
+      "rev": 2,
+      "signature": "ET WEB_CLIENT PowerShell call in script 2",
+      "category": "Attempted User Privilege Gain",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2017-03-25T14:06:19.343511-0600",
+    "flow_id": 1675848150890238,
+    "pcap_cnt": 49001,
+    "event_type": "alert",
+    "src_ip": "10.192.0.158",
+    "src_port": 45602,
+    "dest_ip": "10.10.4.2",
+    "dest_port": 4786,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025521,
+      "rev": 1,
+      "signature": "ET EXPLOIT Cisco Smart Install Exploitation Tool - ChangeConfig",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 2,
+      "bytes_toserver": 634,
+      "bytes_toclient": 120,
+      "start": "2017-03-25T14:06:19.341758-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T14:02:58.160490-0600",
+    "flow_id": 1274831336269823,
+    "pcap_cnt": 476879,
+    "event_type": "alert",
+    "src_ip": "10.192.0.158",
+    "src_port": 45592,
+    "dest_ip": "10.10.4.2",
+    "dest_port": 4786,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025522,
+      "rev": 1,
+      "signature": "ET EXPLOIT Cisco Smart Install Exploitation Tool - GetConfig",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 2,
+      "bytes_toserver": 858,
+      "bytes_toclient": 120,
+      "start": "2017-03-25T14:02:58.157695-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:15:31.748130-0600",
+    "flow_id": 188509178812310,
+    "pcap_cnt": 180921,
+    "event_type": "alert",
+    "src_ip": "10.192.0.153",
+    "src_port": 54598,
+    "dest_ip": "10.10.3.8",
+    "dest_port": 445,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025699,
+      "rev": 2,
+      "signature": "ET POLICY SMB Executable File Transfer",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.smb.binary": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 29,
+      "pkts_toclient": 24,
+      "bytes_toserver": 6548,
+      "bytes_toclient": 4584,
+      "start": "2017-03-24T18:15:31.448406-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:24:58.915872-0600",
+    "flow_id": 225608435641764,
+    "pcap_cnt": 1590247,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 35693,
+    "dest_ip": "10.10.1.8",
+    "dest_port": 445,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025701,
+      "rev": 2,
+      "signature": "ET POLICY SMB2 NT Create AndX Request For an Executable File",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "app_proto": "smb",
+    "app_proto_tc": "smb2",
+    "flow": {
+      "pkts_toserver": 15,
+      "pkts_toclient": 12,
+      "bytes_toserver": 2442,
+      "bytes_toclient": 2092,
+      "start": "2017-03-24T15:24:58.863652-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:34:02.746472-0600",
+    "flow_id": 1898644969762635,
+    "pcap_cnt": 577502,
+    "event_type": "alert",
+    "src_ip": "10.192.0.153",
+    "src_port": 54598,
+    "dest_ip": "10.10.3.8",
+    "dest_port": 445,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025705,
+      "rev": 2,
+      "signature": "ET POLICY SMB2 NT Create AndX Request For a Powershell .ps1 File",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 35,
+      "pkts_toclient": 32,
+      "bytes_toserver": 7178,
+      "bytes_toclient": 6572,
+      "start": "2017-03-24T18:34:02.536395-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:06:56.045315-0600",
+    "flow_id": 120756035805583,
+    "pcap_cnt": 396241,
+    "event_type": "alert",
+    "src_ip": "10.192.0.153",
+    "src_port": 54657,
+    "dest_ip": "10.10.3.8",
+    "dest_port": 445,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025707,
+      "rev": 2,
+      "signature": "ET POLICY SMB2 NT Create AndX Request For a .bat File",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "app_proto": "smb",
+    "app_proto_tc": "smb2",
+    "flow": {
+      "pkts_toserver": 23,
+      "pkts_toclient": 20,
+      "bytes_toserver": 8834,
+      "bytes_toclient": 4622,
+      "start": "2017-03-24T18:06:54.090511-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:15:33.846380-0600",
+    "flow_id": 188509178812310,
+    "pcap_cnt": 241904,
+    "event_type": "alert",
+    "src_ip": "10.192.0.153",
+    "src_port": 54598,
+    "dest_ip": "10.10.3.8",
+    "dest_port": 445,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025709,
+      "rev": 2,
+      "signature": "ET POLICY SMB2 NT Create AndX Request For a DLL File - Possible Lateral Movement",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.smb.binary": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 25893,
+      "pkts_toclient": 1494,
+      "bytes_toserver": 38880588,
+      "bytes_toclient": 225636,
+      "start": "2017-03-24T18:15:31.448406-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T14:25:49.988005-0600",
+    "flow_id": 1385590042781714,
+    "pcap_cnt": 619942,
+    "event_type": "alert",
+    "src_ip": "10.255.255.69",
+    "src_port": 52123,
+    "dest_ip": "172.16.31.14",
+    "dest_port": 445,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025713,
+      "rev": 2,
+      "signature": "ET POLICY SMB2 Remote AT Scheduled Job Create Request",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "app_proto": "smb",
+    "app_proto_tc": "smb2",
+    "flow": {
+      "pkts_toserver": 25,
+      "pkts_toclient": 12,
+      "bytes_toserver": 3478,
+      "bytes_toclient": 2352,
+      "start": "2017-03-25T14:25:49.976914-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T14:25:49.992283-0600",
+    "flow_id": 1385590042781714,
+    "pcap_cnt": 619972,
+    "event_type": "alert",
+    "src_ip": "172.16.31.14",
+    "src_port": 445,
+    "dest_ip": "10.255.255.69",
+    "dest_port": 52123,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025714,
+      "rev": 2,
+      "signature": "ET POLICY SMB Remote AT Scheduled Job Pipe Creation",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "app_proto": "smb",
+    "app_proto_tc": "smb2",
+    "flow": {
+      "pkts_toserver": 34,
+      "pkts_toclient": 17,
+      "bytes_toserver": 4896,
+      "bytes_toclient": 3470,
+      "start": "2017-03-25T14:25:49.976914-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:36:10.340649-0600",
+    "flow_id": 1857633230940890,
+    "pcap_cnt": 881195,
+    "event_type": "alert",
+    "src_ip": "10.192.0.209",
+    "src_port": 60672,
+    "dest_ip": "172.16.35.14",
+    "dest_port": 445,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025719,
+      "rev": 2,
+      "signature": "ET POLICY Powershell Activity Over SMB - Likely Lateral Movement",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "app_proto": "smb",
+    "flow": {
+      "pkts_toserver": 43,
+      "pkts_toclient": 34,
+      "bytes_toserver": 8216,
+      "bytes_toclient": 5698,
+      "start": "2017-03-25T16:36:10.223962-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:36:10.340649-0600",
+    "flow_id": 1857633230940890,
+    "pcap_cnt": 881195,
+    "event_type": "alert",
+    "src_ip": "10.192.0.209",
+    "src_port": 60672,
+    "dest_ip": "172.16.35.14",
+    "dest_port": 445,
+    "proto": "TCP",
+    "app_proto": "smb",
+    "flow": {
+      "pkts_toserver": 43,
+      "pkts_toclient": 34,
+      "bytes_toserver": 8216,
+      "bytes_toclient": 5698,
+      "start": "2017-03-25T16:36:10.223962-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025720,
+      "rev": 3,
+      "signature": "ET POLICY Powershell Command With Hidden Window Argument Over SMB - Likely Lateral Movement",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:36:10.340649-0600",
+    "flow_id": 1857633230940890,
+    "pcap_cnt": 881195,
+    "event_type": "alert",
+    "src_ip": "10.192.0.209",
+    "src_port": 60672,
+    "dest_ip": "172.16.35.14",
+    "dest_port": 445,
+    "proto": "TCP",
+    "app_proto": "smb",
+    "flow": {
+      "pkts_toserver": 43,
+      "pkts_toclient": 34,
+      "bytes_toserver": 8216,
+      "bytes_toclient": 5698,
+      "start": "2017-03-25T16:36:10.223962-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2025722,
+      "rev": 2,
+      "signature": "ET POLICY Powershell Command With No Profile Argument Over SMB - Likely Lateral Movement",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:22:18.763993-0600",
+    "flow_id": 2041465235090146,
+    "event_type": "alert",
+    "src_ip": "10.192.88.98",
+    "src_port": 56782,
+    "dest_ip": "173.194.203.125",
+    "dest_port": 5222,
+    "proto": "TCP",
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 28,
+      "pkts_toclient": 26,
+      "bytes_toserver": 4023,
+      "bytes_toclient": 6760,
+      "start": "2017-03-24T17:22:16.961250-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2100230,
+      "rev": 3,
+      "signature": "GPL CHAT Jabber/Google Talk Outgoing Traffic",
+      "category": "Not Suspicious Traffic",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T17:22:18.763993-0600",
+    "flow_id": 2041465235090146,
+    "event_type": "alert",
+    "src_ip": "10.192.88.98",
+    "src_port": 56782,
+    "dest_ip": "173.194.203.125",
+    "dest_port": 5222,
+    "proto": "TCP",
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 28,
+      "pkts_toclient": 26,
+      "bytes_toserver": 4023,
+      "bytes_toclient": 6760,
+      "start": "2017-03-24T17:22:16.961250-0600"
+    },
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2100232,
+      "rev": 4,
+      "signature": "GPL CHAT Google Talk Logon",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:23:38.771383-0600",
+    "flow_id": 944942438078545,
+    "pcap_cnt": 159818,
+    "event_type": "alert",
+    "src_ip": "104.219.248.117",
+    "src_port": 80,
+    "dest_ip": "10.255.255.69",
+    "dest_port": 56807,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2100498,
+      "rev": 7,
+      "signature": "GPL ATTACK_RESPONSE id check returned root",
+      "category": "Potentially Bad Traffic",
+      "severity": 2
+    },
+    "http": {
+      "hostname": "godlikesecurity.com",
+      "url": "/index.php/2016/01/07/exploiting-machines-using-metasploit/",
+      "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36",
+      "http_content_type": "text/html",
+      "http_refer": "https://www.google.com/",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 34334
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 20,
+      "pkts_toclient": 28,
+      "bytes_toserver": 1820,
+      "bytes_toclient": 37937,
+      "start": "2017-03-24T15:23:38.383057-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T20:35:35.326417-0600",
+    "flow_id": 383784712335097,
+    "event_type": "alert",
+    "src_ip": "10.192.0.83",
+    "src_port": 57119,
+    "dest_ip": "108.177.98.125",
+    "dest_port": 5222,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2100877,
+      "rev": 3,
+      "signature": "GPL CHAT Google Talk Startup",
+      "category": "Potential Corporate Privacy Violation",
+      "severity": 1
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 29,
+      "pkts_toclient": 27,
+      "bytes_toserver": 4616,
+      "bytes_toclient": 7656,
+      "start": "2017-03-24T20:35:30.192249-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:10:51.718233-0600",
+    "flow_id": 656369741069053,
+    "event_type": "alert",
+    "src_ip": "10.10.6.6",
+    "src_port": 110,
+    "dest_ip": "10.234.121.24",
+    "dest_port": 54729,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2220000,
+      "rev": 1,
+      "signature": "SURICATA SMTP invalid reply",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "smtp": {},
+    "vars": {
+      "flowints": {
+        "smtp.anomaly.count": 2
+      }
+    },
+    "app_proto": "smtp",
+    "flow": {
+      "pkts_toserver": 8,
+      "pkts_toclient": 4,
+      "bytes_toserver": 556,
+      "bytes_toclient": 320,
+      "start": "2017-03-24T14:10:41.391933-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:17:47.665565-0600",
+    "flow_id": 1545647042097496,
+    "pcap_cnt": 358484,
+    "event_type": "alert",
+    "src_ip": "10.206.220.211",
+    "src_port": 51045,
+    "dest_ip": "10.10.1.6",
+    "dest_port": 25,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2220004,
+      "rev": 1,
+      "signature": "SURICATA SMTP invalid pipelined sequence",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "smtp": {
+      "helo": "debian.localdomain",
+      "mail_from": "<wrandolph@mee1.seeks>",
+      "rcpt_to": [
+        "<tkauffman@mee1.seeks>"
+      ]
+    },
+    "email": {
+      "status": "HEADER_READY"
+    },
+    "vars": {
+      "flowints": {
+        "smtp.anomaly.count": 1
+      }
+    },
+    "app_proto": "smtp",
+    "app_proto_tc": "failed",
+    "flow": {
+      "pkts_toserver": 17,
+      "pkts_toclient": 20,
+      "bytes_toserver": 1710,
+      "bytes_toclient": 1798,
+      "start": "2017-03-24T14:17:40.815448-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:41.307581-0600",
+    "flow_id": 1305652788824503,
+    "pcap_cnt": 215965,
+    "event_type": "alert",
+    "src_ip": "172.16.37.6",
+    "src_port": 110,
+    "dest_ip": "10.232.122.175",
+    "dest_port": 34677,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2220006,
+      "rev": 1,
+      "signature": "SURICATA SMTP no server welcome message",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "smtp": {},
+    "vars": {
+      "flowints": {
+        "smtp.anomaly.count": 1
+      }
+    },
+    "app_proto": "smtp",
+    "flow": {
+      "pkts_toserver": 8,
+      "pkts_toclient": 5,
+      "bytes_toserver": 556,
+      "bytes_toclient": 386,
+      "start": "2017-03-24T13:59:41.297399-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:20:37.243022-0600",
+    "flow_id": 528717145427371,
+    "pcap_cnt": 494172,
+    "event_type": "alert",
+    "src_ip": "10.192.5.200",
+    "src_port": 43680,
+    "dest_ip": "10.10.7.6",
+    "dest_port": 25,
+    "proto": "TCP",
+    "smtp": {
+      "helo": "example.com"
+    },
+    "vars": {
+      "flowints": {
+        "smtp.anomaly.count": 3
+      }
+    },
+    "app_proto": "smtp",
+    "app_proto_tc": "failed",
+    "flow": {
+      "pkts_toserver": 15,
+      "pkts_toclient": 14,
+      "bytes_toserver": 2222,
+      "bytes_toclient": 5448,
+      "start": "2017-03-24T15:20:35.839083-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2220007,
+      "rev": 1,
+      "signature": "SURICATA SMTP tls rejected",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:21:33.540982-0600",
+    "flow_id": 770117697261194,
+    "pcap_cnt": 290361,
+    "event_type": "alert",
+    "src_ip": "172.16.37.6",
+    "src_port": 25,
+    "dest_ip": "10.229.126.185",
+    "dest_port": 32807,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2220008,
+      "rev": 1,
+      "signature": "SURICATA SMTP data command rejected",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "smtp": {
+      "helo": "sseclone5.wrccdc.secure",
+      "mail_from": "<cparnell@spytellite7.com>",
+      "rcpt_to": [
+        "<cparnell@spytellite7.com>"
+      ]
+    },
+    "email": {
+      "status": "HEADER_READY"
+    },
+    "vars": {
+      "flowints": {
+        "smtp.anomaly.count": 2
+      }
+    },
+    "app_proto": "smtp",
+    "app_proto_tc": "failed",
+    "flow": {
+      "pkts_toserver": 20,
+      "pkts_toclient": 27,
+      "bytes_toserver": 2260,
+      "bytes_toclient": 2210,
+      "start": "2017-03-24T14:21:27.249482-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:11:36.401300-0600",
+    "flow_id": 408730520042678,
+    "event_type": "alert",
+    "src_ip": "104.68.124.188",
+    "src_port": 80,
+    "dest_ip": "10.10.5.170",
+    "dest_port": 59021,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221001,
+      "rev": 1,
+      "signature": "SURICATA HTTP gzip decompression failed",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "tags.tiqcdn.com",
+      "url": "/utag/cisco/cdc/prod/utag.2316.js?utv=ut4.42.201703021838",
+      "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "http_content_type": "application/x-javascript",
+      "http_refer": "http://www.cisco.com/c/en/us/about/security-center/access-control-list-logging.html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 2521
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 24,
+      "pkts_toclient": 10,
+      "bytes_toserver": 2302,
+      "bytes_toclient": 28611,
+      "start": "2017-03-24T14:11:32.310454-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T19:24:13.995857-0600",
+    "flow_id": 1220688874383460,
+    "pcap_cnt": 493471,
+    "event_type": "alert",
+    "src_ip": "10.10.2.148",
+    "src_port": 51903,
+    "dest_ip": "172.16.22.65",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221002,
+      "rev": 1,
+      "signature": "SURICATA HTTP request field missing colon",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "172.16.22.65",
+      "url": "/LogRover/login.asp",
+      "http_content_type": "text/html",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 339
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 4,
+      "bytes_toserver": 830,
+      "bytes_toclient": 1316,
+      "start": "2017-03-24T19:24:13.993380-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:21:35.929846-0600",
+    "flow_id": 2035842648312602,
+    "pcap_cnt": 289115,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 57956,
+    "dest_ip": "10.10.1.87",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221003,
+      "rev": 1,
+      "signature": "SURICATA HTTP invalid request chunk len",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "10.10.1.87",
+      "url": "/_vti_bin/_vti_aut/fp30reg.dll",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 4,
+      "bytes_toserver": 1262,
+      "bytes_toclient": 1386,
+      "start": "2017-03-24T15:21:35.920346-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T12:11:47.801189-0600",
+    "flow_id": 2203704255992478,
+    "pcap_cnt": 283518,
+    "event_type": "alert",
+    "src_ip": "104.16.91.188",
+    "src_port": 80,
+    "dest_ip": "10.10.4.125",
+    "dest_port": 51202,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221004,
+      "rev": 1,
+      "signature": "SURICATA HTTP invalid response chunk len",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "crl.comodoca.com",
+      "url": "/COMODORSACertificationAuthority.crl",
+      "http_user_agent": "Microsoft-CryptoAPI/6.1",
+      "http_content_type": "application/x-pkcs7-crl",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 25738
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 13,
+      "pkts_toclient": 21,
+      "bytes_toserver": 1126,
+      "bytes_toclient": 28892,
+      "start": "2017-03-24T12:11:42.742046-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T11:54:52.603345-0600",
+    "flow_id": 833432748577737,
+    "pcap_cnt": 752459,
+    "event_type": "alert",
+    "src_ip": "10.10.1.107",
+    "src_port": 49328,
+    "dest_ip": "172.16.21.51",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "url": "/_vti_bin/_vti_aut/fp30reg.dll",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_method": "POST",
+      "protocol": "HTTP/1.0",
+      "length": 0
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 2
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 6,
+      "bytes_toserver": 1168,
+      "bytes_toclient": 3174,
+      "start": "2017-03-25T11:54:52.545737-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221005,
+      "rev": 1,
+      "signature": "SURICATA HTTP invalid transfer encoding value in request",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T16:18:46.625524-0600",
+    "flow_id": 252014106112667,
+    "pcap_cnt": 1097304,
+    "event_type": "alert",
+    "src_ip": "10.192.5.200",
+    "src_port": 41446,
+    "dest_ip": "10.10.8.9",
+    "dest_port": 443,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221007,
+      "rev": 1,
+      "signature": "SURICATA HTTP invalid content length field in request",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "nancy.mee.seeks",
+      "url": "/IPHTTPS",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "length": 0
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 8,
+      "bytes_toserver": 652,
+      "bytes_toclient": 1632,
+      "start": "2017-03-24T16:18:45.717467-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T18:52:21.018636-0600",
+    "flow_id": 2109819993768321,
+    "pcap_cnt": 814384,
+    "event_type": "alert",
+    "src_ip": "54.193.54.54",
+    "src_port": 80,
+    "dest_ip": "10.10.4.8",
+    "dest_port": 44505,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221009,
+      "rev": 1,
+      "signature": "SURICATA HTTP status 100-Continue already seen",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "bug-report.itos.redhat.com",
+      "url": "/reports/new/",
+      "http_user_agent": "ABRT/2.1.11",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 100,
+      "length": 0
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 9,
+      "pkts_toclient": 7,
+      "bytes_toserver": 5715,
+      "bytes_toclient": 725,
+      "start": "2017-03-24T18:52:20.770433-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:00:30.944235-0600",
+    "flow_id": 916251728898165,
+    "pcap_cnt": 816773,
+    "event_type": "alert",
+    "src_ip": "52.24.219.132",
+    "src_port": 80,
+    "dest_ip": "10.10.1.166",
+    "dest_port": 64584,
+    "proto": "TCP",
+    "tx_id": 1,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221010,
+      "rev": 1,
+      "signature": "SURICATA HTTP unable to match response to request",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "url": "/libhtp::request_uri_not_seen",
+      "http_content_type": "application/javascript",
+      "status": 200,
+      "length": 635
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 7,
+      "bytes_toserver": 3842,
+      "bytes_toclient": 4725,
+      "start": "2017-03-24T14:00:19.551029-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T19:12:29.997123-0600",
+    "flow_id": 812271798125117,
+    "pcap_cnt": 1247988,
+    "event_type": "alert",
+    "src_ip": "10.10.8.168",
+    "src_port": 51703,
+    "dest_ip": "172.16.28.74",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221013,
+      "rev": 1,
+      "signature": "SURICATA HTTP request header invalid",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "172.16.28.74",
+      "url": "/admin/view/javascript/jquery/jquery-ui/index.php?op=disp&filedata=c3lzdGVtKCdpcGNvbmZpZyAvYWxsJyk7",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 339
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 4,
+      "bytes_toserver": 1260,
+      "bytes_toclient": 1276,
+      "start": "2017-03-24T19:12:29.983613-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:20:26.818335-0600",
+    "flow_id": 1679635236154478,
+    "pcap_cnt": 459407,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 38922,
+    "dest_ip": "10.10.1.6",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221014,
+      "rev": 1,
+      "signature": "SURICATA HTTP missing Host header",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "url": "/password",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 166
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 8,
+      "bytes_toserver": 530,
+      "bytes_toclient": 1166,
+      "start": "2017-03-24T15:20:26.814190-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:19:48.560996-0600",
+    "flow_id": 2149178238350726,
+    "pcap_cnt": 523005,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 36218,
+    "dest_ip": "10.10.1.6",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 7,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221015,
+      "rev": 1,
+      "signature": "SURICATA HTTP Host header ambiguous",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "/gpsoqmpo.htm",
+      "url": "/gpSoQmpo.htm",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_method": "CONNECT",
+      "protocol": "HTTP/1.1",
+      "status": 405,
+      "length": 568
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 2
+      }
+    },
+    "app_proto": "http",
+    "app_proto_ts": "failed",
+    "flow": {
+      "pkts_toserver": 23,
+      "pkts_toclient": 20,
+      "bytes_toserver": 7230,
+      "bytes_toclient": 12824,
+      "start": "2017-03-24T15:19:48.439686-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:29:12.765365-0600",
+    "flow_id": 1759680340202951,
+    "pcap_cnt": 229700,
+    "event_type": "alert",
+    "src_ip": "10.10.3.9",
+    "src_port": 80,
+    "dest_ip": "10.255.255.69",
+    "dest_port": 60024,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221017,
+      "rev": 1,
+      "signature": "SURICATA HTTP invalid response field folding",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "10.10.3.9",
+      "url": "/",
+      "http_user_agent": "Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)",
+      "http_method": "OPTIONS",
+      "protocol": "HTTP/1.1",
+      "status": 0,
+      "length": 2470
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 3
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 12,
+      "pkts_toclient": 13,
+      "bytes_toserver": 1236,
+      "bytes_toclient": 19652,
+      "start": "2017-03-24T14:29:12.497095-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:29:12.765365-0600",
+    "flow_id": 1759680340202951,
+    "pcap_cnt": 229700,
+    "event_type": "alert",
+    "src_ip": "10.10.3.9",
+    "src_port": 80,
+    "dest_ip": "10.255.255.69",
+    "dest_port": 60024,
+    "proto": "TCP",
+    "http": {
+      "hostname": "10.10.3.9",
+      "url": "/",
+      "http_user_agent": "Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)",
+      "http_method": "OPTIONS",
+      "protocol": "HTTP/1.1",
+      "status": 0,
+      "length": 2470
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 3
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 12,
+      "pkts_toclient": 13,
+      "bytes_toserver": 1236,
+      "bytes_toclient": 19652,
+      "start": "2017-03-24T14:29:12.497095-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221020,
+      "rev": 1,
+      "signature": "SURICATA HTTP response field missing colon",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:29:12.765365-0600",
+    "flow_id": 1759680340202951,
+    "pcap_cnt": 229700,
+    "event_type": "alert",
+    "src_ip": "10.10.3.9",
+    "src_port": 80,
+    "dest_ip": "10.255.255.69",
+    "dest_port": 60024,
+    "proto": "TCP",
+    "http": {
+      "hostname": "10.10.3.9",
+      "url": "/",
+      "http_user_agent": "Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)",
+      "http_method": "OPTIONS",
+      "protocol": "HTTP/1.1",
+      "status": 0,
+      "length": 2470
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 3
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 12,
+      "pkts_toclient": 13,
+      "bytes_toserver": 1236,
+      "bytes_toclient": 19652,
+      "start": "2017-03-24T14:29:12.497095-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221021,
+      "rev": 1,
+      "signature": "SURICATA HTTP response header invalid",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T21:27:52.261354-0600",
+    "flow_id": 240788277043052,
+    "pcap_cnt": 423706,
+    "event_type": "alert",
+    "src_ip": "10.192.0.209",
+    "src_port": 54582,
+    "dest_ip": "172.16.22.74",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221022,
+      "rev": 1,
+      "signature": "SURICATA HTTP multipart generic error",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "172.16.22.74",
+      "url": "/image/cache.php",
+      "http_user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36",
+      "http_content_type": "text/html",
+      "http_refer": "http://172.16.22.74/image/cache.php",
+      "http_method": "POST",
+      "protocol": "HTTP/1.1",
+      "status": 503,
+      "length": 326
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 11,
+      "pkts_toclient": 8,
+      "bytes_toserver": 6710,
+      "bytes_toclient": 1570,
+      "start": "2017-03-24T21:27:52.204652-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:19:48.560996-0600",
+    "flow_id": 2149178238350726,
+    "pcap_cnt": 523005,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 36218,
+    "dest_ip": "10.10.1.6",
+    "dest_port": 80,
+    "proto": "TCP",
+    "http": {
+      "hostname": "/gpsoqmpo.htm",
+      "url": "/gpSoQmpo.htm",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_method": "CONNECT",
+      "protocol": "HTTP/1.1",
+      "status": 405,
+      "length": 568
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 2
+      }
+    },
+    "app_proto": "http",
+    "app_proto_ts": "failed",
+    "flow": {
+      "pkts_toserver": 23,
+      "pkts_toclient": 20,
+      "bytes_toserver": 7230,
+      "bytes_toclient": 12824,
+      "start": "2017-03-24T15:19:48.439686-0600"
+    },
+    "tx_id": 7,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221027,
+      "rev": 1,
+      "signature": "SURICATA HTTP Host part of URI is invalid",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:19:51.489215-0600",
+    "flow_id": 1177660931155140,
+    "pcap_cnt": 550968,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 36420,
+    "dest_ip": "10.10.1.6",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 1,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221028,
+      "rev": 1,
+      "signature": "SURICATA HTTP Host header invalid",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "10.10.1.6/..",
+      "url": "/",
+      "http_user_agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "http_content_type": "text/html",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 400,
+      "length": 166
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 11,
+      "pkts_toclient": 10,
+      "bytes_toserver": 1948,
+      "bytes_toclient": 1682,
+      "start": "2017-03-24T15:19:51.435396-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T16:44:28.690055-0600",
+    "flow_id": 439167407033011,
+    "pcap_cnt": 274274,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 305,
+    "dest_ip": "172.16.22.52",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221030,
+      "rev": 1,
+      "signature": "SURICATA HTTP METHOD terminated by non-compliant character",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "http_content_type": "text/html",
+      "status": 400,
+      "length": 326
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "app_proto_ts": "failed",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 4,
+      "bytes_toserver": 566,
+      "bytes_toclient": 1290,
+      "start": "2017-03-24T16:44:27.330419-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:07:06.715988-0600",
+    "flow_id": 841549625336539,
+    "pcap_cnt": 256325,
+    "event_type": "alert",
+    "src_ip": "10.192.19.6",
+    "src_port": 65533,
+    "dest_ip": "192.33.31.70",
+    "dest_port": 80,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2221033,
+      "rev": 1,
+      "signature": "SURICATA HTTP Request abnormal Content-Encoding header",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "http": {
+      "hostname": "tu9srvbirvvtnyrtzwrpys5pz25pbwdzlmnvbq00.g00.ign.com",
+      "url": "/g00/2_d3d3Lmlnbi5jb20%3D_/TU9SRVBIRVVTNyRodHRwOi8vbWVkaWEuaWduaW1ncy5jb20vbWVkaWEvaWduL3N0cC9pbWcvYWRkLXRvLW15LWlnbl9idXR0b24vZm9sbG93X2J0bi5wbmc%2FaTEwYy5tYXJrLm5vdEhUTUwudHlwZQ%3D%3D_$/$/$/$/$/$/$",
+      "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+      "http_content_type": "image/png",
+      "http_refer": "http://www.ign.com/wikis/minecraft/Admin_and_Server_Commands",
+      "http_method": "GET",
+      "protocol": "HTTP/1.1",
+      "status": 200,
+      "length": 774
+    },
+    "vars": {
+      "flowints": {
+        "http.anomaly.count": 1
+      }
+    },
+    "app_proto": "http",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 1577,
+      "bytes_toclient": 2609,
+      "start": "2017-03-24T15:07:06.697051-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T19:25:30.028215-0600",
+    "flow_id": 2161900897337875,
+    "pcap_cnt": 283146,
+    "event_type": "alert",
+    "src_ip": "10.10.3.67",
+    "src_port": 34333,
+    "dest_ip": "50.31.164.173",
+    "dest_port": 443,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230002,
+      "rev": 1,
+      "signature": "SURICATA TLS invalid record type",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "tls": {
+      "sni": "bam.nr-data.net",
+      "version": "SSLv3"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 2
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 5,
+      "pkts_toclient": 3,
+      "bytes_toserver": 500,
+      "bytes_toclient": 1639,
+      "start": "2017-03-24T19:25:26.557587-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:01:18.479010-0600",
+    "flow_id": 1304583348348490,
+    "pcap_cnt": 13654,
+    "event_type": "alert",
+    "src_ip": "10.10.2.148",
+    "src_port": 58156,
+    "dest_ip": "23.194.101.23",
+    "dest_port": 443,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230003,
+      "rev": 1,
+      "signature": "SURICATA TLS invalid handshake message",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "tls": {
+      "subject": "CN=*.moatads.com",
+      "issuerdn": "C=US, O=GeoTrust Inc., CN=RapidSSL SHA256 CA",
+      "serial": "16:6C:BC:92:B0:ED:FE:D3:C9:14:80:E1:F6:E4:2C:4E",
+      "fingerprint": "15:7f:ca:4c:e0:2b:89:54:11:d4:08:c8:87:20:a4:6c:b2:47:66:c9",
+      "sni": "z.moatads.com",
+      "version": "TLS 1.2",
+      "notbefore": "2016-04-13T00:00:00",
+      "notafter": "2017-07-13T23:59:59"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 2
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 6,
+      "pkts_toclient": 4,
+      "bytes_toserver": 598,
+      "bytes_toclient": 4479,
+      "start": "2017-03-24T14:01:18.255562-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T11:16:31.189021-0600",
+    "flow_id": 2178838325847399,
+    "pcap_cnt": 226688,
+    "event_type": "alert",
+    "src_ip": "10.193.90.236",
+    "src_port": 50110,
+    "dest_ip": "10.130.0.10",
+    "dest_port": 443,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230004,
+      "rev": 1,
+      "signature": "SURICATA TLS invalid certificate",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "tls": {
+      "subject": "CN=traphouse.net",
+      "issuerdn": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+      "serial": "03:47:EB:3D:5E:7F:8D:D5:5D:B3:FD:61:9A:A2:77:54:56:1D",
+      "fingerprint": "dc:bc:30:fe:3a:09:c2:d8:a6:c7:6f:b4:e0:89:5b:36:c8:ca:93:76",
+      "version": "SSLv2",
+      "notbefore": "2017-03-19T06:23:00",
+      "notafter": "2017-06-17T06:23:00"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 1
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 10,
+      "pkts_toclient": 7,
+      "bytes_toserver": 1264,
+      "bytes_toclient": 3569,
+      "start": "2017-03-24T11:16:31.091495-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T14:51:18.943006-0600",
+    "flow_id": 55082289084050,
+    "pcap_cnt": 1738404,
+    "event_type": "alert",
+    "src_ip": "10.10.4.50",
+    "src_port": 37842,
+    "dest_ip": "107.154.105.19",
+    "dest_port": 443,
+    "proto": "TCP",
+    "tls": {
+      "subject": "C=US, ST=California, L=Palo Alto, O=VMware, Inc, CN=vcsa.vmware.com",
+      "issuerdn": "C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2012 Entrust, Inc. - for authorized use only, CN=Entrust Certification Authority - L1K",
+      "serial": "6D:DF:4C:79:A1:AF:9B:21:00:00:00:00:50:DB:58:C8",
+      "fingerprint": "09:fc:4b:92:a0:2f:7c:07:22:cd:ac:e2:53:55:c7:8e:70:17:70:60",
+      "version": "SSLv2",
+      "notbefore": "2017-02-03T22:31:39",
+      "notafter": "2020-02-03T23:01:36"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 2
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 14,
+      "pkts_toclient": 10,
+      "bytes_toserver": 2648,
+      "bytes_toclient": 11282,
+      "start": "2017-03-25T14:51:18.931474-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230007,
+      "rev": 1,
+      "signature": "SURICATA TLS certificate invalid length",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:39.015245-0600",
+    "flow_id": 273615097037709,
+    "pcap_cnt": 191811,
+    "event_type": "alert",
+    "src_ip": "10.10.4.28",
+    "src_port": 57042,
+    "dest_ip": "52.52.192.52",
+    "dest_port": 443,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230009,
+      "rev": 1,
+      "signature": "SURICATA TLS error message encountered",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "tls": {
+      "sni": "sync.adaptv.advertising.com",
+      "version": "0x1d4d"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 3
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 4,
+      "bytes_toserver": 452,
+      "bytes_toclient": 4665,
+      "start": "2017-03-24T13:59:38.983949-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:22.973888-0600",
+    "flow_id": 218710381613551,
+    "pcap_cnt": 1372,
+    "event_type": "alert",
+    "src_ip": "10.10.1.9",
+    "src_port": 443,
+    "dest_ip": "10.192.0.83",
+    "dest_port": 60530,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230010,
+      "rev": 1,
+      "signature": "SURICATA TLS invalid record/traffic",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "tls": {
+      "subject": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "issuerdn": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "serial": "45:8A",
+      "fingerprint": "b2:9b:39:19:90:c1:c4:40:a3:97:18:75:52:1f:05:16:d2:f6:66:57",
+      "version": "TLS 1.1",
+      "notbefore": "2017-03-17T17:30:33",
+      "notafter": "2018-03-17T17:30:33"
+    },
+    "vars": {
+      "flowbits": {
+        "ET.MalformedTLSHB": true,
+        "ET.HB.Request.SI": true,
+        "ET.HB.Response.CI": true
+      },
+      "flowints": {
+        "tls.anomaly.count": 2
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 10,
+      "pkts_toclient": 9,
+      "bytes_toserver": 1150,
+      "bytes_toclient": 10450,
+      "start": "2017-03-24T13:59:22.971247-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:22.973888-0600",
+    "flow_id": 218710381613551,
+    "pcap_cnt": 1372,
+    "event_type": "alert",
+    "src_ip": "10.10.1.9",
+    "src_port": 443,
+    "dest_ip": "10.192.0.83",
+    "dest_port": 60530,
+    "proto": "TCP",
+    "tls": {
+      "subject": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "issuerdn": "C=--, ST=SomeState, L=SomeCity, O=SomeOrganization, OU=SomeOrganizationalUnit, CN=nancy.mee.seeks/emailAddress=root@nancy.mee.seeks",
+      "serial": "45:8A",
+      "fingerprint": "b2:9b:39:19:90:c1:c4:40:a3:97:18:75:52:1f:05:16:d2:f6:66:57",
+      "version": "TLS 1.1",
+      "notbefore": "2017-03-17T17:30:33",
+      "notafter": "2018-03-17T17:30:33"
+    },
+    "vars": {
+      "flowbits": {
+        "ET.MalformedTLSHB": true,
+        "ET.HB.Request.SI": true,
+        "ET.HB.Response.CI": true
+      },
+      "flowints": {
+        "tls.anomaly.count": 2
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 10,
+      "pkts_toclient": 9,
+      "bytes_toserver": 1150,
+      "bytes_toclient": 10450,
+      "start": "2017-03-24T13:59:22.971247-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230012,
+      "rev": 1,
+      "signature": "SURICATA TLS overflow heartbeat encountered, possible exploit attempt (heartbleed)",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:59:23.349488-0600",
+    "flow_id": 854745646053914,
+    "pcap_cnt": 6833,
+    "event_type": "alert",
+    "src_ip": "10.255.255.69",
+    "src_port": 50803,
+    "dest_ip": "151.101.24.133",
+    "dest_port": 443,
+    "proto": "TCP",
+    "tls": {
+      "sni": "assets-cdn.github.com",
+      "version": "0x9e8e"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 2
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 4,
+      "pkts_toclient": 3,
+      "bytes_toserver": 485,
+      "bytes_toclient": 3808,
+      "start": "2017-03-24T13:59:23.342554-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230015,
+      "rev": 1,
+      "signature": "SURICATA TLS invalid record version",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:22:23.367430-0600",
+    "flow_id": 1219652836357899,
+    "pcap_cnt": 531162,
+    "event_type": "alert",
+    "src_ip": "10.192.91.91",
+    "src_port": 53120,
+    "dest_ip": "10.10.1.6",
+    "dest_port": 993,
+    "proto": "TCP",
+    "tls": {
+      "version": "UNDETERMINED"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 5
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 7,
+      "pkts_toclient": 8,
+      "bytes_toserver": 1188,
+      "bytes_toclient": 558,
+      "start": "2017-03-24T15:22:23.358155-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230018,
+      "rev": 1,
+      "signature": "SURICATA TLS invalid SNI length",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-24T19:02:12.491374-0600",
+    "flow_id": 895495339038656,
+    "pcap_cnt": 859804,
+    "event_type": "alert",
+    "src_ip": "172.16.22.74",
+    "src_port": 443,
+    "dest_ip": "10.192.88.88",
+    "dest_port": 52118,
+    "proto": "TCP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2230019,
+      "rev": 1,
+      "signature": "SURICATA TLS handshake invalid length",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "tls": {
+      "version": "UNDETERMINED"
+    },
+    "vars": {
+      "flowints": {
+        "tls.anomaly.count": 1
+      }
+    },
+    "app_proto": "tls",
+    "flow": {
+      "pkts_toserver": 10,
+      "pkts_toclient": 5,
+      "bytes_toserver": 1452,
+      "bytes_toclient": 2075,
+      "start": "2017-03-24T19:02:12.448448-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:09:52.813219-0600",
+    "flow_id": 225150726333860,
+    "pcap_cnt": 226371,
+    "event_type": "alert",
+    "src_ip": "10.0.0.100",
+    "src_port": 53,
+    "dest_ip": "172.16.32.6",
+    "dest_port": 57544,
+    "proto": "UDP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2240001,
+      "rev": 2,
+      "signature": "SURICATA DNS Unsolicited response",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 86,
+      "bytes_toclient": 132,
+      "start": "2017-03-24T14:09:52.812452-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T20:17:17.866290-0600",
+    "flow_id": 1631472640145178,
+    "pcap_cnt": 356002,
+    "event_type": "alert",
+    "src_ip": "172.16.36.48",
+    "src_port": 53,
+    "dest_ip": "10.10.6.87",
+    "dest_port": 64457,
+    "proto": "UDP",
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2240003,
+      "rev": 2,
+      "signature": "SURICATA DNS malformed response data",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    },
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 2,
+      "pkts_toclient": 1,
+      "bytes_toserver": 134,
+      "bytes_toclient": 113,
+      "start": "2017-03-24T20:17:17.866074-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T20:17:17.866290-0600",
+    "flow_id": 1631472640145178,
+    "pcap_cnt": 356002,
+    "event_type": "alert",
+    "src_ip": "172.16.36.48",
+    "src_port": 53,
+    "dest_ip": "10.10.6.87",
+    "dest_port": 64457,
+    "proto": "UDP",
+    "app_proto": "dns",
+    "flow": {
+      "pkts_toserver": 2,
+      "pkts_toclient": 1,
+      "bytes_toserver": 134,
+      "bytes_toclient": 113,
+      "start": "2017-03-24T20:17:17.866074-0600"
+    },
+    "tx_id": 0,
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2240005,
+      "rev": 2,
+      "signature": "SURICATA DNS Not a response",
+      "category": "Generic Protocol Command Decode",
+      "severity": 3
+    }
+  },
+  {
+    "timestamp": "2017-03-25T16:49:24.141284-0600",
+    "flow_id": 1431795865420532,
+    "pcap_cnt": 504378,
+    "event_type": "alert",
+    "src_ip": "46.242.4.196",
+    "src_port": 10762,
+    "dest_ip": "10.192.19.6",
+    "dest_port": 55087,
+    "proto": "UDP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2403343,
+      "rev": 43922,
+      "signature": "ET CINS Active Threat Intelligence Poor Reputation IP group 44",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "app_proto": "failed",
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 60,
+      "bytes_toclient": 504,
+      "start": "2017-03-25T16:49:23.852724-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T15:54:19.247545-0600",
+    "flow_id": 1682458530268921,
+    "pcap_cnt": 837917,
+    "event_type": "alert",
+    "src_ip": "10.10.3.73",
+    "src_port": 59532,
+    "dest_ip": "77.73.66.227",
+    "dest_port": 80,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2404500,
+      "rev": 5137,
+      "signature": "ET CNC Ransomware Tracker Reported CnC Server group 101",
+      "category": "A Network Trojan was detected",
+      "severity": 1
+    },
+    "vars": {
+      "flowbits": {
+        "ET.Evil": true,
+        "ET.BotccIP": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 0,
+      "bytes_toserver": 66,
+      "bytes_toclient": 0,
+      "start": "2017-03-25T15:54:19.247545-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T20:37:50.872424-0600",
+    "flow_id": 2145790759670678,
+    "pcap_cnt": 257600,
+    "event_type": "alert",
+    "src_ip": "163.172.61.28",
+    "src_port": 9001,
+    "dest_ip": "10.255.255.69",
+    "dest_port": 49377,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2500016,
+      "rev": 4843,
+      "signature": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 9",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 78,
+      "bytes_toclient": 74,
+      "start": "2017-03-24T20:37:50.725910-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T20:35:50.898452-0600",
+    "flow_id": 2104855418506277,
+    "pcap_cnt": 75689,
+    "event_type": "alert",
+    "src_ip": "138.201.169.12",
+    "src_port": 443,
+    "dest_ip": "10.255.255.69",
+    "dest_port": 63793,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2522254,
+      "rev": 3468,
+      "signature": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 128",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.TorIP": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 78,
+      "bytes_toclient": 74,
+      "start": "2017-03-24T20:35:50.724005-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:39:33.860688-0600",
+    "flow_id": 1519853702041346,
+    "pcap_cnt": 489489,
+    "event_type": "alert",
+    "src_ip": "154.35.175.225",
+    "src_port": 443,
+    "dest_ip": "10.10.7.31",
+    "dest_port": 50867,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2522308,
+      "rev": 3468,
+      "signature": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 155",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.TorIP": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 66,
+      "bytes_toclient": 60,
+      "start": "2017-03-24T14:39:33.806658-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T15:52:47.971434-0600",
+    "flow_id": 1359389716852036,
+    "pcap_cnt": 355619,
+    "event_type": "alert",
+    "src_ip": "193.224.163.43",
+    "src_port": 11371,
+    "dest_ip": "10.10.6.200",
+    "dest_port": 58142,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2522540,
+      "rev": 3468,
+      "signature": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 271",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.TorIP": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 74,
+      "bytes_toclient": 74,
+      "start": "2017-03-24T15:52:47.798020-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T13:27:28.613926-0600",
+    "flow_id": 758929095138210,
+    "pcap_cnt": 563089,
+    "event_type": "alert",
+    "src_ip": "198.27.69.201",
+    "src_port": 443,
+    "dest_ip": "10.192.5.200",
+    "dest_port": 47090,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2522568,
+      "rev": 3468,
+      "signature": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 285",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.TorIP": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 74,
+      "bytes_toclient": 74,
+      "start": "2017-03-24T13:27:28.531362-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T21:29:10.284481-0600",
+    "flow_id": 1281742325822605,
+    "pcap_cnt": 378920,
+    "event_type": "alert",
+    "src_ip": "209.240.109.238",
+    "src_port": 80,
+    "dest_ip": "10.10.3.38",
+    "dest_port": 52834,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2522654,
+      "rev": 3468,
+      "signature": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 328",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.TorIP": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 2,
+      "pkts_toclient": 1,
+      "bytes_toserver": 126,
+      "bytes_toclient": 66,
+      "start": "2017-03-24T21:29:10.210061-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:38:35.813496-0600",
+    "flow_id": 437045198281543,
+    "pcap_cnt": 379067,
+    "event_type": "alert",
+    "src_ip": "66.111.2.20",
+    "src_port": 9001,
+    "dest_ip": "10.10.7.31",
+    "dest_port": 50797,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2523036,
+      "rev": 3468,
+      "signature": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 519",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.TorIP": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 66,
+      "bytes_toclient": 66,
+      "start": "2017-03-24T14:38:35.744263-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T16:01:55.351773-0600",
+    "flow_id": 34783183981757,
+    "pcap_cnt": 729159,
+    "event_type": "alert",
+    "src_ip": "83.228.93.76",
+    "src_port": 80,
+    "dest_ip": "10.10.5.39",
+    "dest_port": 38624,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2523188,
+      "rev": 3468,
+      "signature": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 595",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.TorIP": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 74,
+      "bytes_toclient": 74,
+      "start": "2017-03-24T16:01:55.150717-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-24T14:38:38.905004-0600",
+    "flow_id": 2109303600076953,
+    "pcap_cnt": 489417,
+    "event_type": "alert",
+    "src_ip": "86.59.119.88",
+    "src_port": 443,
+    "dest_ip": "10.10.7.31",
+    "dest_port": 50798,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2523228,
+      "rev": 3468,
+      "signature": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 615",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.TorIP": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 66,
+      "bytes_toclient": 66,
+      "start": "2017-03-24T14:38:38.743577-0600"
+    }
+  },
+  {
+    "timestamp": "2017-03-25T15:06:10.280807-0600",
+    "flow_id": 916253355185602,
+    "pcap_cnt": 503957,
+    "event_type": "alert",
+    "src_ip": "95.208.52.79",
+    "src_port": 443,
+    "dest_ip": "10.10.4.152",
+    "dest_port": 40262,
+    "proto": "TCP",
+    "alert": {
+      "action": "allowed",
+      "gid": 1,
+      "signature_id": 2523366,
+      "rev": 3468,
+      "signature": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 684",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "vars": {
+      "flowbits": {
+        "ET.TorIP": true
+      }
+    },
+    "flow": {
+      "pkts_toserver": 1,
+      "pkts_toclient": 1,
+      "bytes_toserver": 74,
+      "bytes_toclient": 74,
+      "start": "2017-03-25T15:06:10.103874-0600"
+    }
+  }
+]
