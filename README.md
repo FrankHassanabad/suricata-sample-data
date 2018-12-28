@@ -70,7 +70,7 @@ wrccdc 2018's [topology](https://archive.wrccdc.org/images/2018/wrccdc2018-topol
 competition is a close to real world scenario.
 
 I also used the [Hands-on Network Forensics - Training PCAP dataset 2015](https://www.netresec.com/?page=PcapFiles)
-[from the mirror](https://www.first.org/conference/2015/program#phands-on-network-forensics) and followed along with their [PDF guide](https://download.netresec.com/pcap/FIRST-2015/Hands-on_Network_forensics.pdf)
+from this [mirror](https://www.first.org/conference/2015/program#phands-on-network-forensics) and followed along with their [PDF guide](https://download.netresec.com/pcap/FIRST-2015/Hands-on_Network_forensics.pdf)
 
 # How to download all the PCAPS from the 2018 competition
 
