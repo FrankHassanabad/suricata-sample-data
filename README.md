@@ -46,7 +46,7 @@ A list of signatures that map 1-1 with the ids-list
 
 ## The mission of the Collegiate Cyber Defense Competition (CCDC) system 2017
 
-[samples/wrccdc-2018](samples/wrccdc-2018) are generated from http://www.wrccdc.org/
+[samples/wrccdc-2017](samples/wrccdc-2017) are generated from http://www.wrccdc.org/
 mirrored [here](https://archive.wrccdc.org/pcaps/2017/)
 
 A sampling of 1 of each alert from its eve.json  
