@@ -16,10 +16,13 @@ Samples README and starting folder of the files generated from the eve files
 
 [samples/first-org-conf-2015](samples/first-org-conf-2015) are generated from the downloads mirrored here https://www.netresec.com/?page=PcapFiles from the first.org conference https://www.first.org/conference/2015/program#phands-on-network-forensics
 
-[samples/first-org-conf-2015/alerts-only.txt](samples/first-org-conf-2015/alerts-only.txt)
+A sampling of 1 unique alert from its eve.json
+[samples/first-org-conf-2015/alerts-only.json](samples/first-org-conf-2015/alerts-only.json)
 
+A ids-list.txt which is a unique list of ids
 [samples/first-org-conf-2015/ids-list.txt](samples/first-org-conf-2015/ids-list.txt)
 
+A list of signatures that map 1-1 with the ids-list
 [samples/first-org-conf-2015/signature-list.txt](samples/first-org-conf-2015/signature-list.txt)
 
 ## The mission of the Collegiate Cyber Defense Competition (CCDC) system 2018
@@ -28,7 +31,7 @@ http://www.wrccdc.org/
 
 https://archive.wrccdc.org/pcaps/2018/
 
-[samples/wrccdc-2018/ids-list.txt](samples/wrccdc-2018/ids-list.txt)
+[samples/wrccdc-2018/ids-list.json](samples/wrccdc-2018/ids-list.json)
 
 [samples/wrccdc-2018/alerts-only.txt](samples/wrccdc-2018/alerts-only.txt)
 
