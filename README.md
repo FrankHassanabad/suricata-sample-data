@@ -37,7 +37,7 @@ A sampling of 1 of each alert from its eve.json
 [samples/wrccdc-2018/alerts-only.json](samples/wrccdc-2018/alerts-only.json)
 
 A ids-list.txt which is a unique list of ids  
-[samples/wrccdc-2018/ids-list.json](samples/wrccdc-2018/ids-list.json)
+[samples/wrccdc-2018/ids-list.txt](samples/wrccdc-2018/ids-list.txt)
 
 A list of signatures that map 1-1 with the ids-list  
 [samples/wrccdc-2018/signature-list.txt](samples/wrccdc-2018/signature-list.txt)
@@ -53,7 +53,7 @@ A sampling of 1 of each alert from its eve.json
 [samples/wrccdc-2017/alerts-only.json](samples/wrccdc-2018/alerts-only.json)
 
 A ids-list.txt which is a unique list of ids  
-[samples/wrccdc-2017/ids-list.json](samples/wrccdc-2018/ids-list.json)
+[samples/wrccdc-2017/ids-list.txt](samples/wrccdc-2018/ids-list.txt)
 
 A list of signatures that map 1-1 with the ids-list  
 [samples/wrccdc-2017/signature-list.txt](samples/wrccdc-2018/signature-list.txt)
