@@ -169,7 +169,7 @@ Dynamicly Updated Rules
 2522000-2525999 Tor Relay Nodes List (NOT Exit nodes) Updated Daily -- TorRules
 ```
 
-# Simple command line tips and tricks with a eve.json
+# Command line jq tips and tricks with a eve.json
 
 Install [jq](https://stedolan.github.io/jq/) and go to a working directory that contains
 an eve file.
