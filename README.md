@@ -10,7 +10,7 @@ sets from the releases page of this repository.
 
 Samples README and starting folder of the files generated from the eve files
 
-[samples/README.md](samples/README.md)
+[samples](samples)
 
 ## Hands-on Network Forensics - Training PCAP dataset from FIRST 2015
 
