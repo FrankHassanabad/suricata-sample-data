@@ -11,23 +11,6 @@ sets from the releases page of this repository.
 Samples README and starting folder of the files generated from the eve files  
 [samples](samples)
 
-## Hands-on Network Forensics - Training PCAP dataset from FIRST 2015
-
-[samples/first-org-conf-2015](samples/first-org-conf-2015) are generated from
-the pcaps [mirrored here](https://www.netresec.com/?page=PcapFiles) from
-the [first.org conference](https://www.first.org/conference/2015/program#phands-on-network-forensics)
-
-A sampling of 1 of each alert from its eve.json  
-[samples/first-org-conf-2015/alerts-only.json](samples/first-org-conf-2015/alerts-only.json)
-
-A ids-list.txt which is a unique list of ids  
-[samples/first-org-conf-2015/ids-list.txt](samples/first-org-conf-2015/ids-list.txt)
-
-A list of signatures that map 1-1 with the ids-list  
-[samples/first-org-conf-2015/signature-list.txt](samples/first-org-conf-2015/signature-list.txt)
-
-![topology](img/pawned-se.png?raw=true)
-
 ## The mission of the Collegiate Cyber Defense Competition (CCDC) system 2018
 
 [samples/wrccdc-2018](samples/wrccdc-2018) are generated from http://www.wrccdc.org/
@@ -59,6 +42,23 @@ A list of signatures that map 1-1 with the ids-list
 [samples/wrccdc-2017/signature-list.txt](samples/wrccdc-2017/signature-list.txt)
 
 ![topology](img/wrccdc2017-topology.png?raw=true)
+
+## Hands-on Network Forensics - Training PCAP dataset from FIRST 2015
+
+[samples/first-org-conf-2015](samples/first-org-conf-2015) are generated from
+the pcaps [mirrored here](https://www.netresec.com/?page=PcapFiles) from
+the [first.org conference](https://www.first.org/conference/2015/program#phands-on-network-forensics)
+
+A sampling of 1 of each alert from its eve.json  
+[samples/first-org-conf-2015/alerts-only.json](samples/first-org-conf-2015/alerts-only.json)
+
+A ids-list.txt which is a unique list of ids  
+[samples/first-org-conf-2015/ids-list.txt](samples/first-org-conf-2015/ids-list.txt)
+
+A list of signatures that map 1-1 with the ids-list  
+[samples/first-org-conf-2015/signature-list.txt](samples/first-org-conf-2015/signature-list.txt)
+
+![topology](img/pawned-se.png?raw=true)
 
 Optionally you can read below on how to (re)create your own data sets from your own
 [pcap](https://en.wikipedia.org/wiki/Pcap) files and Suricata rules.
