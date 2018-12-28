@@ -13,7 +13,7 @@ Samples README and starting folder of the files generated from the eve files
 
 ## Hands-on Network Forensics - Training PCAP dataset from FIRST 2015
 
-[samples/first-org-conf-2015](samples/first-org-conf-2015) are generated from the downloads mirrored here https://www.netresec.com/?page=PcapFiles from the first.org conference https://www.first.org/conference/2015/program#phands-on-network-forensics
+[samples/first-org-conf-2015](samples/first-org-conf-2015) are generated from the pcaps mirrored here https://www.netresec.com/?page=PcapFiles from the [first.org conference](https://www.first.org/conference/2015/program#phands-on-network-forensics)
 
 A sampling of 1 unique alert from its eve.json  
 [samples/first-org-conf-2015/alerts-only.json](samples/first-org-conf-2015/alerts-only.json)
