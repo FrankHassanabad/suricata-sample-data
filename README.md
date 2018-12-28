@@ -26,6 +26,8 @@ A ids-list.txt which is a unique list of ids
 A list of signatures that map 1-1 with the ids-list  
 [samples/first-org-conf-2015/signature-list.txt](samples/first-org-conf-2015/signature-list.txt)
 
+![topology](img/pawned-se.png?raw=true)
+
 ## The mission of the Collegiate Cyber Defense Competition (CCDC) system 2018
 
 [samples/wrccdc-2018](samples/wrccdc-2018) are generated from http://www.wrccdc.org/ mirrored here https://archive.wrccdc.org/pcaps/2018/
@@ -38,6 +40,8 @@ A ids-list.txt which is a unique list of ids
 
 A list of signatures that map 1-1 with the ids-list  
 [samples/wrccdc-2018/signature-list.txt](samples/wrccdc-2018/signature-list.txt)
+
+![topology](img/wrccdc2018-topology.png?raw=true)
 
 Optionally you can read below on how to (re)create your own data sets from your own
 [pcap](https://en.wikipedia.org/wiki/Pcap) files and Suricata rules.
@@ -56,7 +60,7 @@ data sets look like or play with the rules yourself and re-create your
 own [eve](https://suricata.readthedocs.io/en/suricata-4.1.2/output/eve/eve-json-output.html)
 files for learning purposes to write your own `eve.json` real time simulator.
 
-The pcaps I found most interesting for rich data was the
+The pcaps I found interesting for rich data was the
 [The Western Regional Cyber Defense 2018 (wrccdc)](http://www.wrccdc.org/). wrccdc has a rich set of
 different pcap files in their [archives](https://archive.wrccdc.org/) from various
 competitions. I used their [2018 pcap data set](https://archive.wrccdc.org/pcaps/2018/) to
@@ -65,13 +69,12 @@ create my `even.json` files for personal use.
 wrccdc 2018's [topology](https://archive.wrccdc.org/images/2018/wrccdc2018-topology.pdf) from their
 competition is a close to real world scenario.
 
-![topology](img/wrccdc2018-topology.png?raw=true)
-
-As well as using the Hands-on Network Forensics - Training PCAP dataset from FIRST 2015
+I also used the Hands-on Network Forensics - Training PCAP dataset from FIRST 2015
 https://www.netresec.com/?page=PcapFiles
 https://www.first.org/conference/2015/program#phands-on-network-forensics
 
-![topology](img/pawned-se.png?raw=true)
+And followed along with their PDF guide
+https://download.netresec.com/pcap/FIRST-2015/Hands-on_Network_forensics.pdf
 
 # How to download all the PCAPS from the 2018 competition
 
