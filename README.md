@@ -152,7 +152,7 @@ Dynamicly Updated Rules
 2522000-2525999 Tor Relay Nodes List (NOT Exit nodes) Updated Daily -- TorRules
 ```
 
-# Simple command line tips and tricks with a `eve.json`
+# Simple command line tips and tricks with a eve.json
 
 Install [jq](https://stedolan.github.io/jq/) and go to a working directory that contains
 an eve file.
@@ -171,7 +171,7 @@ To get all signatures from a eve.json
 jq '.alert.signature' eve.json
 ```
 
-This will return a list like so
+This will return a list
 
 ```sh
 "ET WEB_SERVER allow_url_include PHP config option in uri"
@@ -193,7 +193,7 @@ To get a list of all uniq and sorted signature id's
 jq 'select(.alert.signature_id)|.alert.signature_id' eve.json | sort | uniq
 ```
 
-It will return sids like so sorted asc by number:
+It will return sids sorted asc by number:
 
 ```sh
 2001219
@@ -223,26 +223,26 @@ done
 echo "${file_list[@]}" | jq -s '.'
 ```
 
-To sort a eve.json object of alerts by timestamp in ascending order would be:
+To sort a eve.json object of alerts by timestamp in ascending order:
 
 ```sh
 jq -s 'sort_by(.timestamp)' eve.json
 ```
 
-To get an ad-hoc timeline of signature strings from an eve.json file of all alerts would be:
+To get an ad-hoc timeline of signature strings from an eve.json file of all alerts:
 
 ```sh
 jq -s 'sort_by(.timestamp)|.[].alert.signature' eve.json
 ```
 
-To get an array of alerts in one of the sample sub-folders sorted by timestamp in ascending order would be:
+To get an array of alerts in one of the sample sub-folders sorted by timestamp in ascending order:
 
 ```sh
 cd ${ROOT_OF_THIS_PROJECT}
 jq 'sort_by(.timestamp)' samples/first-org-conf-2015/alerts-only.json
 ```
 
-To get an ad-hoc timeline of signature strings from one of the samples by timestamp would be:
+To get an ad-hoc timeline of signature strings from one of the samples by timestamp:
 
 ```sh
 cd ${ROOT_OF_THIS_PROJECT}
