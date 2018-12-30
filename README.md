@@ -19,7 +19,7 @@ mirrored [here](https://archive.wrccdc.org/pcaps/2018/)
 A sampling of 1 of each alert from its eve.json  
 [samples/wrccdc-2018/alerts-only.json](samples/wrccdc-2018/alerts-only.json)
 
-A list of id's, signature names, and hyperlinks from the rules references section
+A list of id's, signature names, and hyperlinks from the rules references section  
 [samples/wrccdc-2018/references.md](samples/wrccdc-2018/references.md)
 
 A list of id's, sampling of 1 of each alert from its eve.json  
@@ -41,7 +41,7 @@ mirrored [here](https://archive.wrccdc.org/pcaps/2017/)
 A sampling of 1 of each alert from its eve.json  
 [samples/wrccdc-2017/alerts-only.json](samples/wrccdc-2017/alerts-only.json)
 
-A list of id's, signature names, and hyperlinks from the rules references section
+A list of id's, signature names, and hyperlinks from the rules references section  
 [samples/wrccdc-2018/references.md](samples/wrccdc-2018/references.md)
 
 A unique list of sids (Suricata Id's)  
@@ -61,7 +61,7 @@ the [first.org conference](https://www.first.org/conference/2015/program#phands-
 A sampling of 1 of each alert from its eve.json  
 [samples/first-org-conf-2015/alerts-only.json](samples/first-org-conf-2015/alerts-only.json)
 
-A list of id's, signature names, and hyperlinks from the rules references section
+A list of id's, signature names, and hyperlinks from the rules references section  
 [samples/wrccdc-2018/references.md](samples/wrccdc-2018/references.md)
 
 A unique list of sids (Suricata Id's)  
