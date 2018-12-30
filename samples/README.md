@@ -18,6 +18,12 @@ A list of signatures that map 1-1 with the ids-list created through
 jq '.[].alert.signature' alerts-only.json > signature-list.txt
 ```
 
+A list of id's, signature names, and hyperlinks from the rules references section
+
+```sh
+scripts/get_references.sh
+```
+
 The mission of the Collegiate Cyber Defense Competition (CCDC) system
 
 http://www.wrccdc.org/
