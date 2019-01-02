@@ -42,7 +42,7 @@ A sampling of 1 of each alert from its eve.json
 [samples/wrccdc-2017/alerts-only.json](samples/wrccdc-2017/alerts-only.json)
 
 A list of id's, signature names, and hyperlinks from the rules references section  
-[samples/wrccdc-2018/references.md](samples/wrccdc-2018/references.md)
+[samples/wrccdc-2017/references.md](samples/wrccdc-2017/references.md)
 
 A unique list of sids (Suricata Id's)  
 [samples/wrccdc-2017/ids-list.txt](samples/wrccdc-2017/ids-list.txt)
@@ -62,7 +62,7 @@ A sampling of 1 of each alert from its eve.json
 [samples/first-org-conf-2015/alerts-only.json](samples/first-org-conf-2015/alerts-only.json)
 
 A list of id's, signature names, and hyperlinks from the rules references section  
-[samples/wrccdc-2018/references.md](samples/wrccdc-2018/references.md)
+[samples/first-org-conf-2015/references.md](samples/first-org-conf-2015/references.md)
 
 A unique list of sids (Suricata Id's)  
 [samples/first-org-conf-2015/ids-list.txt](samples/first-org-conf-2015/ids-list.txt)
@@ -71,6 +71,26 @@ A list of signatures that map 1-1 with the ids-list
 [samples/first-org-conf-2015/signature-list.txt](samples/first-org-conf-2015/signature-list.txt)
 
 ![topology](img/pawned-se.png?raw=true)
+
+## Honey Pot with Modern HoneyPot Network
+
+[samples/first-org-conf-2015](samples/samples/honeypot-2018) was generated from
+using modern honey pot on digital ocean  
+https://threatstream.github.io/mhn/
+
+A sampling of 1 of each alert from its eve.json  
+[samples/honeypot-2018/alerts-only.json](samples/honeypot-2018/alerts-only.json)
+
+A list of id's, signature names, and hyperlinks from the rules references section  
+[samples/honeypot-2018/references.md](samples/honeypot-2018/references.md)
+
+A unique list of sids (Suricata Id's)  
+[samples/honeypot-2018/ids-list.txt](samples/honeypot-2018/ids-list.txt)
+
+A list of signatures that map 1-1 with the ids-list  
+[samples/honeypot-2018/signature-list.txt](samples/honeypot-2018/signature-list.txt)
+
+![topology](img/suricata-sensor.png)
 
 Optionally you can read below on how to (re)create your own data sets from your own
 [pcap](https://en.wikipedia.org/wiki/Pcap) files and Suricata rules.

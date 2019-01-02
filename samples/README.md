@@ -21,7 +21,7 @@ jq '.[].alert.signature' alerts-only.json > signature-list.txt
 A list of id's, signature names, and hyperlinks from the rules references section
 
 ```sh
-scripts/get_references.sh
+scripts/get_references.sh > references.md
 ```
 
 The mission of the Collegiate Cyber Defense Competition (CCDC) system
@@ -33,3 +33,7 @@ Hands-on Network Forensics - Training PCAP dataset from FIRST 2015
 https://www.netresec.com/?page=PcapFiles
 
 https://www.first.org/conference/2015/program#phands-on-network-forensics
+
+honeypot-2018 - That was a small honey pot I stood up on digital ocean using
+Modern HoneyPot Network  
+https://threatstream.github.io/mhn/
