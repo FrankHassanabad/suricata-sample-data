@@ -12,6 +12,7 @@ curl https://raw.githubusercontent.com/FrankHassanabad/suricata-sid-database/mas
 # uncomment which eve file to get the references from
 # EVE_FILE=../samples/first-org-conf-2015/alerts-only.json
 # EVE_FILE=../samples/wrccdc-2017/alerts-only.json
+# EVE_FILE=../samples/honeypot-2018/alerts-only.json
 EVE_FILE=../samples/wrccdc-2018/alerts-only.json
 
 # Get all unique sorted signature id's as an array
