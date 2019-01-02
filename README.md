@@ -74,7 +74,7 @@ A list of signatures that map 1-1 with the ids-list
 
 ## Honey Pot with Modern HoneyPot Network
 
-[samples/first-org-conf-2015](samples/samples/honeypot-2018) was generated from
+[samples/honeypot-2018](samples/honeypot-2018) was generated from
 using modern honey pot on digital ocean  
 https://threatstream.github.io/mhn/
 
