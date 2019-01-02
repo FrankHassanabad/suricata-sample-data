@@ -72,7 +72,7 @@ A list of signatures that map 1-1 with the ids-list
 
 ![topology](img/pawned-se.png?raw=true)
 
-## Honey Pot with Modern HoneyPot Network
+## Honey Pot with Modern Honeypot Network
 
 [samples/honeypot-2018](samples/honeypot-2018) was generated from
 using modern honey pot on digital ocean  
