@@ -4,7 +4,7 @@ This is a project and repository of different outputs of Suricata run against di
 [pcap](https://en.wikipedia.org/wiki/Pcap) data sets. You can download the Suricata data
 sets from the releases page of this repository.
 
-[eve.json files](https://github.com/FrankHassanabad/suricata-sample-data/releases/download/v3.0.0/release.zip)
+[eve.json files](https://github.com/FrankHassanabad/suricata-sample-data/releases/download/v4.0.0/release.zip)
 
 # Select samples of alerts from the zip
 
